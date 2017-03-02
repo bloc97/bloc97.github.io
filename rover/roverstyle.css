@@ -13,9 +13,7 @@ ul.topnav {
     background-color: #333;
 	border-top: 2px solid #F90409;
 }
-
 /* Style pour items dans liste item */
-
 ul.topnav li a {
     display: inline-block;
     color: #f2f2f2;
@@ -28,12 +26,29 @@ ul.topnav li a {
 
 /* Change background color of links on hover */
 ul.topnav li a:hover {background-color: #555;}
-
-
-
 div.page {
 	margin-right: auto;
 	margin-left: auto;
 	margin: 15%;
 	margin-top: 0px;	
+}
+
+/* CSS for Content */
+
+table.mission_description th {
+	padding-left: 2em;
+	text-align: left;
+}
+table.probe_description {
+	border-collapse: collapse;
+	margin-left: 2em;
+}
+table.probe_description th {
+	text-align: left;
+	border: 1px solid black;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+}
+table.probe_image th {
+	border: 1px solid black;
 }
