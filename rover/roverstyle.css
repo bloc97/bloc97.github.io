@@ -38,6 +38,7 @@ div.page {
 table.mission_description th {
 	padding-left: 2em;
 	text-align: left;
+	vertical-align: top;
 }
 table.probe_description {
 	border-collapse: collapse;
@@ -51,4 +52,6 @@ table.probe_description th {
 }
 table.probe_image th {
 	border: 1px solid black;
+	text-align: left;
+	vertical-align: top;
 }
