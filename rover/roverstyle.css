@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	border-top: 2px solid #F90409;
+}
+
+/* Style pour items dans liste item */
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+
+
+div.page {
+	margin-right: auto;
+	margin-left: auto;
+	margin: 15%;
+	margin-top: 0px;	
+}
