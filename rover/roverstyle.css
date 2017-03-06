@@ -1,5 +1,6 @@
 @charset "utf-8";
-/* CSS Document */
+/* IFT 1005, Projet 1, Bowen Peng, David Drapeau-Garon */
+
 body {
 	background-image: url("img/background.jpg");
 	background-color: #000000;
@@ -13,6 +14,11 @@ header {
 }
 h2 {
 	margin-top: 0px;
+}
+footer {
+	padding-top: 40px;
+	color: white;
+	text-align: center;
 }
 
 /* Float the list items side by side */
@@ -65,15 +71,33 @@ div.page {
 	margin-left: auto;
 	padding: 15%;
 	padding-top: 5px;
+	padding-bottom: 0px;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom: 2px solid black;
 }
 
 /* CSS for Content */
 img.roverimg {
-	float:right;
+	width: 40%;
+	float: right;
+	padding: 1em;
+	padding-top: 0px;
 	padding-left: 2em;
 	padding-right: 2em;
+	margin-left: 10px;
+}
+table.rover_instruments {
+	border-collapse: collapse;
+	margin-left: 0px;
+}
+table.rover_instruments th {
+	text-align: left;
+	border: 1px solid white;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
 }
 div.mission_intro {
 	float:left;
@@ -96,8 +120,11 @@ table.probe_description th {
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
 }
+table.probe_image{
+	padding-top: 15px;
+}
 table.probe_image th {
-	border: 1px solid black;
+	border: 0px solid black;
 	text-align: left;
 	vertical-align: top;
 }
@@ -109,5 +136,5 @@ table.rover_description th {
 table.image_cap {
 	border: 1px solid white;
 	float: left;
-	margin: 4px;
+	margin: 3px;
 }
