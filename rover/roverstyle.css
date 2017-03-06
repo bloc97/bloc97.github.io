@@ -8,6 +8,9 @@ body {
     background-position: center; 
 	margin: 0px;
 }
+header {
+	background-color: black;
+}
 
 /* Float the list items side by side */
 ul.topnav li {float: left;}
