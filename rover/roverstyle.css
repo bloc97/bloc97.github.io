@@ -11,6 +11,9 @@ body {
 header {
 	background-color: black;
 }
+h2 {
+	margin-top: 0px;
+}
 
 /* Float the list items side by side */
 ul.topnav li {float: left;}
@@ -51,11 +54,17 @@ a:visited {
 	color: #D08BAF;
 }
 
+div.top {
+	padding-left: 15%;
+	padding-right: 15%;
+	background-color: #000000;
+}
+
 div.page {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 15%;
-	padding-top: 0px;
+	padding-top: 5px;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);
 }
@@ -96,4 +105,9 @@ table.rover_description th {
 	padding-left: 2em;
 	text-align: left;
 	vertical-align: top;
+}
+table.image_cap {
+	border: 1px solid white;
+	float: left;
+	margin: 4px;
 }
