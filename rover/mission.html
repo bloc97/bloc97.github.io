@@ -16,11 +16,11 @@
 
 		<nav>
 			<ul class="topnav" id="myTopnav">
-			  <li><a href="#home">Home</a></li>
-			  <li><a href="#rover1">Rover 1</a></li>
-			  <li><a href="#rover2">Rover 2</a></li>
-			  <li><a href="#rover3">Rover 3</a></li>
-			  <li><a href="#about">About</a></li>
+			  <li><a href="index.html">Acceuil</a></li>
+			  <li><a href="mission.html" class="current">La Mission</a></li>
+			  <li><a href="rover.html">Le Rover</a></li>
+			  <li><a href="gallery.html">Gallerie</a></li>
+			  <li><a href="about.html">À Propos</a></li>
 			  <li class="icon">
 				<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
 			  </li>
@@ -30,90 +30,96 @@
 		<main>
 			<div class="box1_left_big">
 			
-				<h2>La Mission <i>Laboratoire scientifique pour Mars</i></h2>
-				<h3>Détails de la mission:</h3>
-				<table class="mission_description">
-				<tr>
-					<th>Organisation</th>
-					<th>NASA</th>
-				</tr>
-				<tr>
-					<th>Lanceur</th>
-					<th><a href="http://mars.jpl.nasa.gov/msl/mission/launchvehicle/">Atlas V 541</a></th>
-				</tr>
-				<tr>
-					<th>Rover</th>
-					<th><a href="rover.html">Curiosity</a></th>
-				</tr>
-				<tr>
-					<th>Lancement</th>
-					<th>26 novembre 2011</th>
-				</tr>
-				<tr>
-					<th>Début de la mission</th>
-					<th>6 août 2012</th>
-				</tr>
-				<tr>
-					<th>Identifiant SATCAT</th>
-					<th>37936</th>
-				</tr>
-				<tr>
-					<th>Identifiant COSPAR</th>
-					<th><a href="http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2011-070A">2011-070A</a></th>
-				</tr>
-				<tr>
-					<th></th>
-					<th></th>
-				</tr>
-				</table>
-				<h3>Objectifs:</h3>
-				<ol>
-				<li>Determiner la quantité et les types de composé organiques présents sur la planète.</li>
-				<li>Examiner les composés chimiques permettant la vie.</li>
-				<li>Indentifier les biosignatures.</li>
-				<li>Examiner la composition chimique de la surface martienne.</li>
-				<li>Examiner les processus geologiques.</li>
-				<li>Évaluer l'évolution de l'atmosphere.</li>
-				<li>Déterminer la présence de cycles d'eau et de dioxyde de carbone.</li>
-				<li>Analyser la composition du rayonnement de surface.</li>
-				</ol>
+				<h2>La Mission <b>Laboratoire scientifique pour Mars</b></h2>
 				
-				<h3>Caractéristiques techniques de la sonde spatiale MSL: </h3>
-				<table class="probe_description">
-				<tr>
-					<th>Composant</th>
-					<th>Masse (kg)</th>
-					<th>#</th>
-					<th rowspan="10"><a href="img/MSL-spacecraft-exploded-view.png"><img class="probe_image" src="img/MSL-spacecraft-exploded-view-thumb.png" height="200px" alt="Vue éclatée de la sonde spatiale MSL"></img></a></th>
-				<tr>
-					<th>Étage de croisière</th>
-					<th>539</th>
-					<th>1</th>
-				</tr>
-				<tr>
-					<th>Véhicule de rentrée</th>
-					<th>731</th>
-					<th>2, 5</th>
-				</tr>
-				<tr>
-					<th>Étage de descente</th>
-					<th>1219</th>
-					<th>3</th>
-				</tr>
-				<tr>
-					<th>Rover <i>Curiosity</i></th>
-					<th>899</th>
-					<th>4</th>
-				</tr>
-				<tr>
-					<th>Parachute</th>
-					<th></th>
-					<th>6</th>
-				</tr>
-				</table>
+				<div class="mission_intro">
+					<h3>Détails de la mission:</h3>
+					<table class="mission_description">
+					<tr>
+						<th>Organisation</th>
+						<th>NASA</th>
+					</tr>
+					<tr>
+						<th>Lanceur</th>
+						<th><a href="http://mars.jpl.nasa.gov/msl/mission/launchvehicle/">Atlas V 541</a></th>
+					</tr>
+					<tr>
+						<th>Rover</th>
+						<th><a href="rover.html">Curiosity</a></th>
+					</tr>
+					<tr>
+						<th>Lancement</th>
+						<th>26 novembre 2011</th>
+					</tr>
+					<tr>
+						<th>Début de la mission</th>
+						<th>6 août 2012</th>
+					</tr>
+					<tr>
+						<th>Identifiant SATCAT</th>
+						<th>37936</th>
+					</tr>
+					<tr>
+						<th>Identifiant COSPAR</th>
+						<th><a href="http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2011-070A">2011-070A</a></th>
+					</tr>
+					<tr>
+						<th></th>
+						<th></th>
+					</tr>
+					</table>
+					<h3>Objectifs:</h3>
+					<ol>
+					<li>Determiner la quantité et les types de composé organiques présents sur la planète.</li>
+					<li>Examiner les composés chimiques permettant la vie.</li>
+					<li>Indentifier les biosignatures.</li>
+					<li>Examiner la composition chimique de la surface martienne.</li>
+					<li>Examiner les processus geologiques.</li>
+					<li>Évaluer l'évolution de l'atmosphere.</li>
+					<li>Déterminer la présence de cycles d'eau et de dioxyde de carbone.</li>
+					<li>Analyser la composition du rayonnement de surface.</li>
+					</ol>
+					
+					<h3>Caractéristiques techniques de la sonde spatiale MSL: </h3>
+					<table class="probe_description">
+					<tr>
+						<th>Composant</th>
+						<th>Masse (kg)</th>
+						<th>#</th>
+						<th rowspan="10"><a href="img/MSL-spacecraft-exploded-view.png"><img class="probe_image" src="img/MSL-spacecraft-exploded-view-thumb.png" height="200px" alt="Vue éclatée de la sonde spatiale MSL"></img></a></th>
+					<tr>
+						<th>Étage de croisière</th>
+						<th>539</th>
+						<th>1</th>
+					</tr>
+					<tr>
+						<th>Véhicule de rentrée</th>
+						<th>731</th>
+						<th>2, 5</th>
+					</tr>
+					<tr>
+						<th>Étage de descente</th>
+						<th>1219</th>
+						<th>3</th>
+					</tr>
+					<tr>
+						<th>Rover <i>Curiosity</i></th>
+						<th>899</th>
+						<th>4</th>
+					</tr>
+					<tr>
+						<th>Parachute</th>
+						<th></th>
+						<th>6</th>
+					</tr>
+					</table>
+				</div>
+					
 				
-				<h3>Lancement, transit, descente et atterrissage</h3>
 				<table class="probe_image">
+				<tr>
+					<th colspan="2" style="border: 0;"><h3>Lancement, transit, descente et atterrissage</h3></th>
+				</tr>
 				<tr>
 					<th width="20px">
 					<a href="img/960px-Mars_Science_Laboratory_Launch.jpg"><img class="probe_image" src="img/960px-Mars_Science_Laboratory_Launch_thumb.jpg" height="300px" alt="Lancement de la sonde"></img></a><br/>
@@ -154,7 +160,7 @@
 
 		<footer>
 		</footer>
-	</div>	
+	</div>
 </body>
 
 
