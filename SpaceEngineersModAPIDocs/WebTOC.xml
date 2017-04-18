@@ -1,0 +1,1600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="48ba15b8-4e0a-4616-b915-46b2c7d94378" Title="Sandbox.ModAPI" Url="html/b2d609dc-672a-3d90-cdc0-3753ce60d06f.htm">
+    <HelpTOCNode Title="BuildCheckResult Enumeration" Url="html/7e1695f7-3170-b2a9-2712-e9ac6c7ea249.htm" />
+    <HelpTOCNode Title="CustomActionGetDelegate Delegate" Url="html/795978cf-5ee2-c734-3d96-16ff0e73311f.htm" />
+    <HelpTOCNode Title="CustomControlGetDelegate Delegate" Url="html/6eb748a8-2b41-bb6c-b792-cb91be91bc87.htm" />
+    <HelpTOCNode Id="026d13ce-7808-4165-877f-5f0e8c5b0a5c" Title="IMyAdvancedDoor Interface" Url="html/ece89155-5b6d-b0ab-bce4-82944da0c303.htm">
+      <HelpTOCNode Title="IMyAdvancedDoor Methods" Url="html/3aa90e99-655c-67da-ea90-0dc319ba1c73.htm" />
+      <HelpTOCNode Title="IMyAdvancedDoor Properties" Url="html/ac96bcd8-6cc6-f4e3-198a-acde463426bf.htm" />
+      <HelpTOCNode Title="IMyAdvancedDoor Events" Url="html/d4096869-d548-e9a7-632b-60c71046aac1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3626c329-9339-45eb-ac6a-7b8b04a093bc" Title="IMyAirtightDoorBase Interface" Url="html/72d7d093-0f4f-60da-7ee5-cb99ac4bbe70.htm">
+      <HelpTOCNode Title="IMyAirtightDoorBase Methods" Url="html/38de494c-1cbc-7550-fefb-e38502e452b2.htm" />
+      <HelpTOCNode Title="IMyAirtightDoorBase Properties" Url="html/345fd302-c10c-d717-f8ac-4172b91aaae7.htm" />
+      <HelpTOCNode Title="IMyAirtightDoorBase Events" Url="html/116d40d8-912c-f777-6a64-6fa96f77b854.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5428e75c-aaa2-43c3-a34b-79bef2679835" Title="IMyAirtightHangarDoor Interface" Url="html/97f88415-b4aa-bbb2-6110-021da23ea5c3.htm">
+      <HelpTOCNode Title="IMyAirtightHangarDoor Methods" Url="html/e66df59e-f53f-de04-262b-5ff9fec1035b.htm" />
+      <HelpTOCNode Title="IMyAirtightHangarDoor Properties" Url="html/7e820044-8bbb-fd7e-0f24-c64d428726ff.htm" />
+      <HelpTOCNode Title="IMyAirtightHangarDoor Events" Url="html/6ed6fbe8-159f-827f-a816-00819a5913f1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="04af0c61-3bcd-4cf0-95fe-5d92ce12dd3a" Title="IMyAirtightSlideDoor Interface" Url="html/d8364509-942c-e842-8704-9c064cc812c5.htm">
+      <HelpTOCNode Title="IMyAirtightSlideDoor Methods" Url="html/a6deff25-be10-f40a-4191-e4721d6b1f6f.htm" />
+      <HelpTOCNode Title="IMyAirtightSlideDoor Properties" Url="html/cbba274a-8fc7-c7f3-9325-661e76d2455e.htm" />
+      <HelpTOCNode Title="IMyAirtightSlideDoor Events" Url="html/4d724d5b-47ad-1c87-467d-31e178156903.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2eab410e-3ead-488a-ac97-bf7307f6f30b" Title="IMyAssembler Interface" Url="html/2e1a3990-4f2e-4ec1-670c-9af684c5f387.htm">
+      <HelpTOCNode Title="IMyAssembler Methods" Url="html/517595c1-4945-4f14-d82f-40ece52dab7c.htm" />
+      <HelpTOCNode Title="IMyAssembler Properties" Url="html/c4666e54-9385-6366-71fb-cd6c7f873625.htm" />
+      <HelpTOCNode Id="2b1d3f18-caa2-4cb8-a30e-df4f4ccf3434" Title="IMyAssembler Events" Url="html/9ba09761-80a6-e6ba-4975-dbc552001bb7.htm">
+        <HelpTOCNode Title="CurrentModeChanged Event" Url="html/ea505d6a-02bc-7e16-cdbd-b56b44a64e7b.htm" />
+        <HelpTOCNode Title="CurrentProgressChanged Event" Url="html/fbd303b1-8be3-7fca-f6ab-1b4874271c97.htm" />
+        <HelpTOCNode Title="CurrentStateChanged Event" Url="html/9070c808-5eae-443b-4b77-b82f937026ed.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bb7f0d71-1946-4fbf-a660-e98dd69c8a4e" Title="IMyAttachableTopBlock Interface" Url="html/c0b3ecbb-b08d-546b-0287-21156cfe4362.htm">
+      <HelpTOCNode Title="IMyAttachableTopBlock Methods" Url="html/0f5432bc-4a7a-e4e5-806a-ca71d515d9f3.htm" />
+      <HelpTOCNode Id="85e2b0a3-4035-43ca-8712-0541e1e18dd4" Title="IMyAttachableTopBlock Properties" Url="html/8012c64e-7c04-1c84-c19b-515e5725eac8.htm">
+        <HelpTOCNode Title="Base Property " Url="html/2d4e0c7a-99ad-34f4-2ab2-3fe77241d932.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyAttachableTopBlock Events" Url="html/8b80317b-191c-1217-6d4e-fcdf4bf5d3f7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d833151c-79ae-4924-b91e-4542fea90ccc" Title="IMyBatteryBlock Interface" Url="html/c5ca502a-8bcb-01d4-6e99-32d69251a644.htm">
+      <HelpTOCNode Title="IMyBatteryBlock Methods" Url="html/c9284b4b-f80c-6d1e-0a90-d58c5afd1cbf.htm" />
+      <HelpTOCNode Title="IMyBatteryBlock Properties" Url="html/0900b268-9253-7f86-c0d0-89c628e1aff8.htm" />
+      <HelpTOCNode Title="IMyBatteryBlock Events" Url="html/c360ca98-7ac6-a486-e9c4-b0c8b7ec6279.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="743f26ec-237f-4774-8b4d-2b902e87131b" Title="IMyBeacon Interface" Url="html/cef220b1-140e-6f36-a65b-cc7d5eb4e142.htm">
+      <HelpTOCNode Title="IMyBeacon Methods" Url="html/77aaf86d-b7c8-eab4-f455-7bd63e87f42c.htm" />
+      <HelpTOCNode Title="IMyBeacon Properties" Url="html/d77c63ed-8623-c3c6-fb2f-d887c071e447.htm" />
+      <HelpTOCNode Title="IMyBeacon Events" Url="html/f08987f3-be80-63b4-1762-8082b100e47f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d1f5389e-9317-4377-b75c-7af0967772c8" Title="IMyBlockGroup Interface" Url="html/8e36cf01-6203-5fec-c35b-804545888573.htm">
+      <HelpTOCNode Id="b0e72ac1-93cc-435e-b1fa-51e8d35ca44c" Title="IMyBlockGroup Methods" Url="html/b043f75d-8686-b33a-e597-a25c31fc6b9d.htm">
+        <HelpTOCNode Id="ab9ba512-0edd-4748-b1ad-c10a57341626" Title="GetBlocks Method " Url="html/4c6c42f5-750f-1f5c-9ba4-a4ca237f0c44.htm">
+          <HelpTOCNode Title="GetBlocks Method (List(IMyTerminalBlock), Func)" Url="html/a31cff52-b508-5ff6-ce33-9240306405c2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8f186e68-4346-4264-a7d0-fb85da35594a" Title="GetBlocksOfType Method " Url="html/5064118e-a2c3-272e-00ef-e6e46c1c0057.htm">
+          <HelpTOCNode Title="GetBlocksOfType(T) Method (List(IMyTerminalBlock), Func)" Url="html/47238877-e495-e53e-c63f-0dbb54290f92.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyBlockGroup Properties" Url="html/1124ff95-e282-368c-866a-6e7aa02cc8fe.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5ff86120-2045-4a72-bd0a-c26566d91cbd" Title="IMyCameraBlock Interface" Url="html/6e624f2e-77ea-c6f8-c940-f86201077bfd.htm">
+      <HelpTOCNode Title="IMyCameraBlock Methods" Url="html/f7121327-f24c-5bff-f060-47de0274b883.htm" />
+      <HelpTOCNode Title="IMyCameraBlock Properties" Url="html/07cda772-02eb-a4d9-ee9e-7c1ca0b3b582.htm" />
+      <HelpTOCNode Title="IMyCameraBlock Events" Url="html/8a660b06-2479-e960-9c11-5a831aeb533f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="84354606-b759-41e4-b86e-5bffff3dadc3" Title="IMyCargoContainer Interface" Url="html/7219a5ea-5d5d-f62c-b0a1-f8b23a17475d.htm">
+      <HelpTOCNode Title="IMyCargoContainer Methods" Url="html/3e862cfd-00a5-4ec9-5322-c2b356002568.htm" />
+      <HelpTOCNode Title="IMyCargoContainer Properties" Url="html/89c39237-84e8-6c16-d797-984b077f44a1.htm" />
+      <HelpTOCNode Title="IMyCargoContainer Events" Url="html/6de5824a-c27c-33a5-e9b1-8f7092fedcb7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cca2d69a-0f51-4477-9bf1-b44378a09e9f" Title="IMyCockpit Interface" Url="html/b09ef0eb-bb8b-043c-193b-21eb70d93b42.htm">
+      <HelpTOCNode Id="3ff1a18e-d3c7-4774-872a-26d121e123fa" Title="IMyCockpit Methods" Url="html/041b68ce-fe31-167f-21e4-e9160f41bb0f.htm">
+        <HelpTOCNode Title="AttachPilot Method " Url="html/7283ca9b-0f6d-de42-72a8-9b53d41a4fec.htm" />
+        <HelpTOCNode Title="RemovePilot Method " Url="html/14bc1c3a-622a-6fd6-0883-bc8478905cee.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7b9dc54a-2961-4c72-b306-bee481f57270" Title="IMyCockpit Properties" Url="html/2e4bcd76-4a68-1323-fcc1-34368776ddb4.htm">
+        <HelpTOCNode Title="OxygenFilledRatio Property " Url="html/8d678c00-f4db-92b4-f2af-6c27be63b4dc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyCockpit Events" Url="html/cbfa0494-1e29-b2ce-c678-bea07249e907.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bba7353d-e794-44c1-a615-204ad0f8602c" Title="IMyCollector Interface" Url="html/43ad00d6-c315-b539-42c9-73f69b700c65.htm">
+      <HelpTOCNode Title="IMyCollector Methods" Url="html/a5d87c73-9c42-617e-559b-c78fa492eee9.htm" />
+      <HelpTOCNode Title="IMyCollector Properties" Url="html/76b638da-4d62-24ee-53b7-5b2e160a1180.htm" />
+      <HelpTOCNode Title="IMyCollector Events" Url="html/1cb6e18c-f778-aef1-25d9-d0bc42a465cc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="44a5f1e4-09f0-4837-95d7-80d2263e5861" Title="IMyConveyor Interface" Url="html/55409e69-c939-29f4-6d60-97e80c366c09.htm">
+      <HelpTOCNode Title="IMyConveyor Methods" Url="html/311f4450-2d4a-c198-9fd7-b1eef60273a7.htm" />
+      <HelpTOCNode Title="IMyConveyor Properties" Url="html/5d0e45ed-eca7-a521-54c6-2adf8b6c5514.htm" />
+      <HelpTOCNode Title="IMyConveyor Events" Url="html/a1907fc2-754b-a3c6-fd7d-5832c653590b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3899014c-b1bb-4ddd-a7c8-9a6a1e16aa10" Title="IMyConveyorSorter Interface" Url="html/f1b79fc0-4c67-b41c-324b-c75ef71fcd2e.htm">
+      <HelpTOCNode Title="IMyConveyorSorter Methods" Url="html/d21e770f-0ec2-a033-ab8e-9c449bf5e186.htm" />
+      <HelpTOCNode Title="IMyConveyorSorter Properties" Url="html/755209a1-56f1-a54d-0868-93277becb295.htm" />
+      <HelpTOCNode Title="IMyConveyorSorter Events" Url="html/5e35b1e2-5f7d-c49f-64b3-01b1b822ed2c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c54dc201-f773-4a7a-82a5-6465ba2b0cc6" Title="IMyConveyorTube Interface" Url="html/5994ec38-1472-4dc8-593d-05ba8f0e6028.htm">
+      <HelpTOCNode Title="IMyConveyorTube Methods" Url="html/ece2f8b9-ca40-f0fa-9ceb-06df3341ec39.htm" />
+      <HelpTOCNode Title="IMyConveyorTube Properties" Url="html/5eac5c78-0fb0-15ea-6709-e95b6a00c908.htm" />
+      <HelpTOCNode Title="IMyConveyorTube Events" Url="html/3c9dce2b-e78d-0525-0684-24bd64cd6775.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9fb28792-1256-4c8e-9739-d0e16ab88513" Title="IMyCryoChamber Interface" Url="html/ae10571f-9ca9-69a0-8efd-d82f8beda69e.htm">
+      <HelpTOCNode Title="IMyCryoChamber Methods" Url="html/98bd6cf8-afd6-f53e-e349-f57cc724e5a2.htm" />
+      <HelpTOCNode Title="IMyCryoChamber Properties" Url="html/431be91c-47ee-469a-1b74-5e2e4ed5fcca.htm" />
+      <HelpTOCNode Title="IMyCryoChamber Events" Url="html/65ae9b93-7abc-c660-0097-e77762d90448.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b94694b2-408a-48a6-ae04-a62c4100a88f" Title="IMyDecoy Interface" Url="html/2619f2d2-9f61-e944-931a-4fc2dd60423e.htm">
+      <HelpTOCNode Title="IMyDecoy Methods" Url="html/ca14ab11-1608-d232-6093-ef86e328c187.htm" />
+      <HelpTOCNode Title="IMyDecoy Properties" Url="html/1b9f05b2-87d7-42da-c988-5cdb911739fd.htm" />
+      <HelpTOCNode Title="IMyDecoy Events" Url="html/023f640a-b877-a208-7fb4-5181df978e66.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="23f5484c-e3c5-49cf-91d6-36db94fdc1aa" Title="IMyDoor Interface" Url="html/4409bbf1-15fc-90ee-ac2d-a62675f1e4a3.htm">
+      <HelpTOCNode Title="IMyDoor Methods" Url="html/ba0732fd-9c4c-8d3c-c4e0-41962bc4dda7.htm" />
+      <HelpTOCNode Title="IMyDoor Properties" Url="html/a76a1718-891c-9bda-2f28-bf2a60060c18.htm" />
+      <HelpTOCNode Id="7425d691-29ed-417b-9ac9-aecabfac8ddd" Title="IMyDoor Events" Url="html/053658f2-74d8-9ff9-e331-95ad51f550c6.htm">
+        <HelpTOCNode Title="DoorStateChanged Event" Url="html/9562133b-6d2b-8bca-b1b9-f52e0b6fb7d0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ee7c3472-827a-40ae-a3ac-2826acc02c3f" Title="IMyExtendedPistonBase Interface" Url="html/ad00ffcc-8155-4c36-2e38-6786c2c438d7.htm">
+      <HelpTOCNode Title="IMyExtendedPistonBase Methods" Url="html/82d107de-a4c8-2e3d-75b7-a3324f188e7f.htm" />
+      <HelpTOCNode Title="IMyExtendedPistonBase Properties" Url="html/52419a69-c4f8-8b00-3308-86e779142355.htm" />
+      <HelpTOCNode Title="IMyExtendedPistonBase Events" Url="html/25bfa87f-a019-6464-3dfb-129ab6214576.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="60a5feda-e50f-4492-9e79-1d0f8f100ebe" Title="IMyFunctionalBlock Interface" Url="html/93e53e16-31c3-ad92-941c-98ebc85bbf7f.htm">
+      <HelpTOCNode Title="IMyFunctionalBlock Methods" Url="html/8578756f-dc02-82b1-427c-cf5814b78d8a.htm" />
+      <HelpTOCNode Title="IMyFunctionalBlock Properties" Url="html/27573fec-dce7-d4ce-745c-3f5791370c02.htm" />
+      <HelpTOCNode Id="4f7dc90d-6516-440c-9ce8-d7fc4d0e44bf" Title="IMyFunctionalBlock Events" Url="html/a6d76f11-3d1c-a768-6253-e871e83702e3.htm">
+        <HelpTOCNode Title="EnabledChanged Event" Url="html/53cf353b-ccb8-94f7-f4ba-43702762b6f8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bafa6ff6-01d9-471c-9b68-c698a6ab6bb8" Title="IMyGasGenerator Interface" Url="html/9616416e-2de2-9783-1bf1-826936f10683.htm">
+      <HelpTOCNode Title="IMyGasGenerator Methods" Url="html/82221604-0e29-d811-c4ed-a896118d6b70.htm" />
+      <HelpTOCNode Id="9d2f67a7-e112-4fe8-b0cc-e70cbb57dbb2" Title="IMyGasGenerator Properties" Url="html/47ede77f-6f7d-a0db-f715-a5297148b946.htm">
+        <HelpTOCNode Title="PowerConsumptionMultiplier Property " Url="html/776b805e-5d1b-bb86-430a-a7b394524bb7.htm" />
+        <HelpTOCNode Title="ProductionCapacityMultiplier Property " Url="html/af47c0a7-5a80-fcf8-0ab0-0c526169a5c8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyGasGenerator Events" Url="html/61dd7423-302f-54cf-f966-5e0f48dcf61b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="16803728-a8f6-4cb6-9298-db06dbb21923" Title="IMyGasTank Interface" Url="html/59411ac7-057e-30d0-3b0d-9c4ff52cd1c7.htm">
+      <HelpTOCNode Title="IMyGasTank Methods" Url="html/2fd9b62d-d8c4-29b9-36ad-9822bea53dd2.htm" />
+      <HelpTOCNode Title="IMyGasTank Properties" Url="html/3ac5e632-4da4-1263-db7c-8c6bfd29f53d.htm" />
+      <HelpTOCNode Title="IMyGasTank Events" Url="html/2a72981b-3e33-94e4-fd00-96b3fc11d3eb.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8ab3a25d-d668-4529-a60b-05fe88a10744" Title="IMyGridProgram Interface" Url="html/463b6ab6-1cde-294b-2056-95e563450f52.htm">
+      <HelpTOCNode Id="f19adc39-f62a-42b2-b8c1-2ce9d63485a8" Title="IMyGridProgram Methods" Url="html/4cf2b8c5-d8a9-6b41-b392-15e18da170c8.htm">
+        <HelpTOCNode Title="Main Method " Url="html/2ac20b50-4c65-0eee-f6fa-fb6b8583b0e3.htm" />
+        <HelpTOCNode Title="Save Method " Url="html/b6b1cc34-c47f-0651-e1ad-5b3ac76fa14c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="15c56b72-9a3c-498d-9632-4eac8a706f1e" Title="IMyGridProgram Properties" Url="html/bd087790-d05e-2fe1-b343-420b4ef5c45d.htm">
+        <HelpTOCNode Title="Echo Property " Url="html/980722d5-251d-d500-ec10-f845615932a4.htm" />
+        <HelpTOCNode Title="ElapsedTime Property " Url="html/c3deef1a-3914-9ddc-8b28-e9dcc746d462.htm" />
+        <HelpTOCNode Title="GridTerminalSystem Property " Url="html/ee325bbf-a09b-4d96-fa7a-6012734e7409.htm" />
+        <HelpTOCNode Title="HasMainMethod Property " Url="html/d6487512-429e-fa1a-cd0d-f46740e92b01.htm" />
+        <HelpTOCNode Title="HasSaveMethod Property " Url="html/e4683851-87f7-2c3f-2121-da0ab41f8497.htm" />
+        <HelpTOCNode Title="Me Property " Url="html/1a2f51ea-38be-18f9-f41b-5e94833cfe3c.htm" />
+        <HelpTOCNode Title="Runtime Property " Url="html/c68cfa1e-9700-1535-a42d-d2111b7ff907.htm" />
+        <HelpTOCNode Title="Storage Property " Url="html/ce327f1e-e6fa-7783-9128-a62d253c59ca.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0f2924c0-7b3c-40bd-9718-073322014112" Title="IMyGridTerminalSystem Interface" Url="html/8b7b1e02-0ad2-03c4-9226-f3c68dc39d17.htm">
+      <HelpTOCNode Id="f8955daa-f474-4d87-b803-427eb5d2e67a" Title="IMyGridTerminalSystem Methods" Url="html/aeaab73a-dfa1-15cb-c4d2-aed96719196b.htm">
+        <HelpTOCNode Id="c01fbe58-d98b-418d-8192-21742ae6f67f" Title="GetBlockGroups Method " Url="html/77a046fe-253e-d0ac-99b2-e3249d08a3c0.htm">
+          <HelpTOCNode Title="GetBlockGroups Method (List(IMyBlockGroup))" Url="html/a98da1d1-8002-5ae3-e0f8-901abe884bed.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetBlockGroupWithName Method " Url="html/8362df4b-9904-f1e1-8959-16a68e5f9d94.htm" />
+        <HelpTOCNode Id="f977de90-7c51-45cb-a4d5-f6aaa6923fb2" Title="GetBlocks Method " Url="html/47c4700f-8213-1b08-b713-034c48154277.htm">
+          <HelpTOCNode Title="GetBlocks Method (List(IMyTerminalBlock))" Url="html/773b8918-e733-c7e7-4ced-308eccfff2a7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f6518a73-0c87-4e06-9d8d-cf3c43bff912" Title="GetBlocksOfType Method " Url="html/4eeb944a-15d9-72ae-4b9c-7472925588d1.htm">
+          <HelpTOCNode Title="GetBlocksOfType(T) Method (List(IMyTerminalBlock), Func)" Url="html/d1e8af78-9f99-5de8-bcca-3e3106bb098f.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetBlockWithName Method " Url="html/2ec2d463-4cba-26a8-0f70-800b1a25fec0.htm" />
+        <HelpTOCNode Id="f11e83d4-3f91-41a1-8596-ad0522e7a2a9" Title="SearchBlocksOfName Method " Url="html/9d44700b-6cb7-5329-4a02-d9415732518d.htm">
+          <HelpTOCNode Title="SearchBlocksOfName Method (String, List(IMyTerminalBlock), Func)" Url="html/3bc927e6-50d5-8f67-3153-28d7b57b9eae.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a4ad3c4a-39b6-4acc-b23a-ef30f32af656" Title="IMyGyro Interface" Url="html/7684a502-fda6-49cb-ca7a-f2f262a4fb30.htm">
+      <HelpTOCNode Title="IMyGyro Methods" Url="html/fc12bd66-1f71-a2e6-d3a9-51f856a6e2e1.htm" />
+      <HelpTOCNode Id="a617361f-60cf-4678-93a2-a26db9a62d1e" Title="IMyGyro Properties" Url="html/81da29de-1e42-bbf0-8fd5-d814d8788b51.htm">
+        <HelpTOCNode Title="GyroStrengthMultiplier Property " Url="html/2ee67816-241e-0d9e-a620-6508359ac657.htm" />
+        <HelpTOCNode Title="PowerConsumptionMultiplier Property " Url="html/964feb7c-729b-0049-0df0-443d3d29822b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyGyro Events" Url="html/5f03c2a6-afba-3654-aabe-3befd151adf6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="313f24cb-f2d5-4987-adeb-b383f13a9a41" Title="IMyIngameScripting Interface" Url="html/90062de5-8620-f4d8-5674-157e62800c2d.htm">
+      <HelpTOCNode Id="14475235-65da-477d-90ce-8167eed58c30" Title="IMyIngameScripting Methods" Url="html/900d738c-3a3a-d0a6-380e-c5677f4884cd.htm">
+        <HelpTOCNode Title="Clean Method " Url="html/36777b89-909a-a656-ae88-d7c2d4e137bc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2bfb94b1-3e5e-4363-a135-6eea4f9f578b" Title="IMyIngameScripting Properties" Url="html/e7cf4105-9ffa-ef27-5fc2-42f937cc5ea0.htm">
+        <HelpTOCNode Title="ScriptBlacklist Property " Url="html/5fe82a4b-285d-6fa1-30ee-318cc72cf9c1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="357ff40e-a6bd-4b06-ba50-b23516ba7cd5" Title="IMyInventoryBag Interface" Url="html/d4b1272f-a140-1d9d-60fe-92c733308f47.htm">
+      <HelpTOCNode Title="IMyInventoryBag Methods" Url="html/368b318d-66e4-510e-0eef-df2ed4d4e1b0.htm" />
+      <HelpTOCNode Title="IMyInventoryBag Properties" Url="html/8f019e34-3769-0379-5dd1-9a8f45953868.htm" />
+      <HelpTOCNode Title="IMyInventoryBag Events" Url="html/f4d6ea49-0158-30bf-1f23-6b4b0353097a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6efbc6c9-d19d-4409-a3a6-b33c13a45546" Title="IMyJumpDrive Interface" Url="html/ccc5da01-9647-2fcb-3409-21b658148bfa.htm">
+      <HelpTOCNode Id="f70a8f85-fca9-44ee-b486-d940d33dfb2a" Title="IMyJumpDrive Methods" Url="html/137f977d-9ded-aec1-9ece-498413494c89.htm">
+        <HelpTOCNode Title="Jump Method " Url="html/afbc2e07-177f-1deb-6cbd-e7ef7f681534.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e001a6ec-ab0a-45ae-83c1-419ebb707bee" Title="IMyJumpDrive Properties" Url="html/bb307a5c-a923-2075-5c8e-937641f2259d.htm">
+        <HelpTOCNode Title="CurrentStoredPower Property " Url="html/9870d128-e31c-04ba-2f21-0f28d88c4a7b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyJumpDrive Events" Url="html/4c529714-8456-4267-059e-d6f0c2a6ad6e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d9c3771-0f30-4065-8be1-a09315ebf98d" Title="IMyLargeTurretBase Interface" Url="html/90aa8946-6410-1b3f-f16c-189b3090f2bd.htm">
+      <HelpTOCNode Title="IMyLargeTurretBase Methods" Url="html/ff3a2c70-5936-04a6-dd52-7db44120dcee.htm" />
+      <HelpTOCNode Id="9c94092d-37ce-4c81-b1b1-10b4aa088112" Title="IMyLargeTurretBase Properties" Url="html/31d32b0f-08fd-aceb-9880-a4c9b436a454.htm">
+        <HelpTOCNode Title="Target Property " Url="html/f3ff20c0-7d4a-20fa-7040-916bf00c82d4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyLargeTurretBase Events" Url="html/d697c67d-87a8-9331-53dd-3a5ade727398.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d3de500-d26c-4476-83da-6bd3459b42ab" Title="IMyLaserAntenna Interface" Url="html/18eabac7-b59a-2a78-a4a6-d75618905df3.htm">
+      <HelpTOCNode Id="72424c30-86a7-45b4-82d8-1103a8dc50f6" Title="IMyLaserAntenna Methods" Url="html/80f21825-192b-e89f-03ca-fa90578f9d4f.htm">
+        <HelpTOCNode Title="IsInRange Method " Url="html/999868ed-3f8a-2bea-1728-7ce8582d6b97.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2985167e-c68a-4c89-97fd-0596f2c9a3d4" Title="IMyLaserAntenna Properties" Url="html/a0c7d619-1222-0f10-9cf1-1339c10a561b.htm">
+        <HelpTOCNode Title="Other Property " Url="html/f906f18e-eaa9-35b4-89d0-6fa63ab825d3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyLaserAntenna Events" Url="html/33a70804-414a-9324-1f19-cfbfc8c86096.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8a7ff6cf-5d0c-442e-a641-4f4388abb588" Title="IMyLightingBlock Interface" Url="html/a1b26e5b-adc6-9209-602a-c85b49e07f47.htm">
+      <HelpTOCNode Title="IMyLightingBlock Methods" Url="html/787dc275-592f-037a-f67e-ad9f59e16e39.htm" />
+      <HelpTOCNode Title="IMyLightingBlock Properties" Url="html/af6af28c-46e0-aa44-273e-55729cc9aeeb.htm" />
+      <HelpTOCNode Title="IMyLightingBlock Events" Url="html/c855c854-1d63-8681-c5f0-3faf708983aa.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="93e6c764-695a-4e8c-848b-8850e96cf8b9" Title="IMyMechanicalConnectionBlock Interface" Url="html/eb6bfcbf-cf03-7a74-fd52-47b11bd7e1ba.htm">
+      <HelpTOCNode Id="4d55fcaa-9db2-4875-ae90-ef10f1a40e4b" Title="IMyMechanicalConnectionBlock Methods" Url="html/22eac688-e97e-1d2a-6653-682d0cdad20c.htm">
+        <HelpTOCNode Id="a4794639-e0b0-4ef5-9ff4-32fe175a3d74" Title="Attach Method " Url="html/61062c06-e034-cf58-98df-8c92f46d30e3.htm">
+          <HelpTOCNode Title="Attach Method (IMyAttachableTopBlock, Boolean)" Url="html/094d3207-c2c5-3335-5be3-0a3317148ef0.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fcbf808d-b3b8-4836-ae00-91aa2eebbea8" Title="IMyMechanicalConnectionBlock Properties" Url="html/3acf33ee-d3c4-7010-7b0b-86c7e8020220.htm">
+        <HelpTOCNode Title="Top Property " Url="html/659568ca-d8ac-c872-9699-6505e2c279b5.htm" />
+        <HelpTOCNode Title="TopGrid Property " Url="html/cd465719-8b05-0036-d3c9-aa6dd569dc95.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyMechanicalConnectionBlock Events" Url="html/adfa88b9-f377-89e5-5a21-0dc1d61850ea.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b3f3218b-c1bf-4a77-84bb-6fcceab6f3fa" Title="IMyMeteor Interface" Url="html/d6826c2b-a5ef-d27b-5c21-cd48e22bc78a.htm">
+      <HelpTOCNode Title="IMyMeteor Methods" Url="html/78e5cf44-6640-2631-bac2-c59faa274623.htm" />
+      <HelpTOCNode Title="IMyMeteor Properties" Url="html/5fa40928-5f33-6625-7ede-446b5cdc828f.htm" />
+      <HelpTOCNode Title="IMyMeteor Events" Url="html/78b1d9af-b912-08dd-6e50-0b38f789e9b7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2ae35ce8-63c1-4f76-80ab-84117d63e56b" Title="IMyMotorAdvancedRotor Interface" Url="html/2bf6d9f2-25fd-54d0-0eb0-f4c21624b10c.htm">
+      <HelpTOCNode Title="IMyMotorAdvancedRotor Methods" Url="html/b40e1e0d-43d9-fa76-fba3-00ca1ec17ace.htm" />
+      <HelpTOCNode Title="IMyMotorAdvancedRotor Properties" Url="html/17b22216-c93b-283c-b19d-6dd1d391dd5f.htm" />
+      <HelpTOCNode Title="IMyMotorAdvancedRotor Events" Url="html/22f24eb0-ce60-4a3a-f4ca-ed867ec5e2a7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bbac3bb5-823a-450f-9513-2d2a3a77256a" Title="IMyMotorAdvancedStator Interface" Url="html/b250bd12-74b1-5b0e-333a-ef4811437fa3.htm">
+      <HelpTOCNode Title="IMyMotorAdvancedStator Methods" Url="html/b7bfc1b7-854a-6862-6a6a-01ccf4329481.htm" />
+      <HelpTOCNode Title="IMyMotorAdvancedStator Properties" Url="html/e95e264d-c12f-4a87-14eb-1cfdcf703ddf.htm" />
+      <HelpTOCNode Title="IMyMotorAdvancedStator Events" Url="html/9d2ed7b2-cb51-13de-3a54-13d2884f65ea.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8bbc4c42-7eb2-405d-a8e8-b388b989f234" Title="IMyMotorBase Interface" Url="html/ebaf0271-1cb1-50e1-7d78-162856d827a4.htm">
+      <HelpTOCNode Id="6198b5f4-606e-45a9-bdb2-f28f0107fc59" Title="IMyMotorBase Methods" Url="html/b62f893d-8dd2-8625-d7b5-45edb1ac4ab2.htm">
+        <HelpTOCNode Id="f97421da-f029-4c36-8734-947ce2532f9d" Title="Attach Method " Url="html/053ecc82-1980-0bcb-99a3-7a322cac2df1.htm">
+          <HelpTOCNode Title="Attach Method (IMyMotorRotor, Boolean)" Url="html/1a8573ed-2dc2-b853-cbbe-09da7cf9c204.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f2d2da8f-5544-4e6a-bc21-93f581004d90" Title="IMyMotorBase Properties" Url="html/fc25c396-016e-054c-fc08-a86e0c8d4e0a.htm">
+        <HelpTOCNode Title="DummyPosition Property " Url="html/3cd5132d-53be-3d14-4b08-cb252332a01d.htm" />
+        <HelpTOCNode Title="MaxRotorAngularVelocity Property " Url="html/234750d6-8f72-f1a9-69e2-5dcde7778dfc.htm" />
+        <HelpTOCNode Title="Rotor Property " Url="html/3aa52c5c-8200-a041-0e2f-44433e239fe6.htm" />
+        <HelpTOCNode Title="RotorAngularVelocity Property " Url="html/5779cefb-5b0a-fca5-86a7-5638a0f791ee.htm" />
+        <HelpTOCNode Title="RotorGrid Property " Url="html/b5bc2d7c-8e58-bc45-2482-0f77df1f78c5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="58026d14-9f78-4c8b-93c9-e8ac6264bdb5" Title="IMyMotorBase Events" Url="html/4735e060-6c8a-6037-16d8-657f62f0c00b.htm">
+        <HelpTOCNode Title="AttachedEntityChanged Event" Url="html/1c403aeb-12ec-4a73-4361-7c742d2e3f39.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f63c6434-6ec6-4b95-9ee9-0fe0d64110b4" Title="IMyMotorRotor Interface" Url="html/817acec2-8550-f411-f8f8-74d022ec92e0.htm">
+      <HelpTOCNode Title="IMyMotorRotor Methods" Url="html/ad8f92c8-7765-3561-6ea2-5d7c3dbfc367.htm" />
+      <HelpTOCNode Id="e950c7e1-d4dc-49f0-8815-f8fca8a57f0d" Title="IMyMotorRotor Properties" Url="html/3b886142-4465-119b-c876-8e41d040cd4f.htm">
+        <HelpTOCNode Title="Base Property " Url="html/a1eda8d0-90f0-070d-8769-82614795c4ab.htm" />
+        <HelpTOCNode Title="Stator Property " Url="html/447ab379-37b2-9063-c224-3e36b9e3bced.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyMotorRotor Events" Url="html/d452b797-8109-04b3-17c3-6dc2ce2a70df.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="57472b3b-104c-47f5-b7f2-d2d7bd9bd9de" Title="IMyMotorStator Interface" Url="html/a4cc0831-564b-a668-af0f-56bbde04b25b.htm">
+      <HelpTOCNode Title="IMyMotorStator Methods" Url="html/245a46aa-e81b-c50d-79c7-f8242cbce940.htm" />
+      <HelpTOCNode Title="IMyMotorStator Properties" Url="html/c6d63f40-9ae5-baa2-5330-509b9aa669ba.htm" />
+      <HelpTOCNode Id="049bc95f-5de1-4802-a018-d6552f9457b8" Title="IMyMotorStator Events" Url="html/e45aeb0a-610f-beb3-369a-eb71dbc7bdc4.htm">
+        <HelpTOCNode Title="LimitReached Event" Url="html/c8742058-2ecc-b59f-91cb-f03005633134.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c2a83c3f-5fdc-477e-b115-71b03d7cdf11" Title="IMyMotorSuspension Interface" Url="html/07f9e985-0b97-60c8-d7e9-9391098227c9.htm">
+      <HelpTOCNode Title="IMyMotorSuspension Methods" Url="html/8fb1d445-6b03-f17c-6ae6-2513e454be0f.htm" />
+      <HelpTOCNode Title="IMyMotorSuspension Properties" Url="html/3670b441-2e41-610a-6e6e-67e516fae3f8.htm" />
+      <HelpTOCNode Title="IMyMotorSuspension Events" Url="html/4ae0ad7d-13d8-62d3-0922-84ce1ce86420.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="279c43b6-cc0f-45bd-9d0e-77fc19b57fbd" Title="IMyOreDetector Interface" Url="html/e639d247-958b-89be-cd85-0039dbecb45a.htm">
+      <HelpTOCNode Title="IMyOreDetector Methods" Url="html/b39663fa-5c3d-2566-6b40-8e6ed1a688ee.htm" />
+      <HelpTOCNode Title="IMyOreDetector Properties" Url="html/8b9198b9-f863-eac8-877f-5d590c3162d2.htm" />
+      <HelpTOCNode Title="IMyOreDetector Events" Url="html/05ca2e2e-5c9b-b3bb-5640-08a77beb17c3.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="79809879-da2f-4689-acad-d072c31f60c5" Title="IMyOxygenGenerator Interface" Url="html/968d18ff-167a-76e5-5de1-283a3b2b0417.htm">
+      <HelpTOCNode Title="IMyOxygenGenerator Methods" Url="html/ee1b97e4-7266-ea36-e7b2-4dd728c857bf.htm" />
+      <HelpTOCNode Title="IMyOxygenGenerator Properties" Url="html/ad94129d-1b1f-8fd9-e126-396d50fc65e4.htm" />
+      <HelpTOCNode Title="IMyOxygenGenerator Events" Url="html/00b7745c-eec8-591a-4cb2-5e6e8b571c5c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1f475b0b-f47a-4ac1-a90c-9436d2890046" Title="IMyOxygenTank Interface" Url="html/1f2664ac-20f8-fb8b-980e-95a54a24d08f.htm">
+      <HelpTOCNode Title="IMyOxygenTank Methods" Url="html/f8717f55-f6b1-3e52-9a6b-7a8579400702.htm" />
+      <HelpTOCNode Title="IMyOxygenTank Properties" Url="html/632feaf6-087c-0863-4d5f-a97202425b3f.htm" />
+      <HelpTOCNode Title="IMyOxygenTank Events" Url="html/27bea934-086b-08db-fe00-f4f690402a92.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f40e39f8-3e96-4c16-a76b-453da9eb7228" Title="IMyPassage Interface" Url="html/0f78c11b-a14e-c6ef-5a99-f70105b2c47e.htm">
+      <HelpTOCNode Title="IMyPassage Methods" Url="html/af48301b-c7e5-75ba-c152-9237a54da658.htm" />
+      <HelpTOCNode Title="IMyPassage Properties" Url="html/5b7243b1-f337-2074-6dfe-8936ec26d09d.htm" />
+      <HelpTOCNode Title="IMyPassage Events" Url="html/f400300e-d860-e8ec-af62-e53a9bcfc0cf.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="34c4c2d9-cb3b-4cf5-b7fa-9238c07e8316" Title="IMyPistonBase Interface" Url="html/9827c3c4-9279-0f92-7aaf-061a47c7a8b2.htm">
+      <HelpTOCNode Id="5ccef7bc-6942-4088-9e47-a02a43701071" Title="IMyPistonBase Methods" Url="html/818c5049-90f2-5980-af15-b5a5876d10d9.htm">
+        <HelpTOCNode Id="047a0531-5cf7-4db2-8e32-1630351b705d" Title="Attach Method " Url="html/899e1c17-f479-cd0b-747d-cfaa062382d9.htm">
+          <HelpTOCNode Title="Attach Method (IMyPistonTop, Boolean)" Url="html/b6c04b6b-2cc5-6ae4-f245-c4051cc5bc58.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyPistonBase Properties" Url="html/b841e04a-b14a-6055-8b45-b82e38f1f08a.htm" />
+      <HelpTOCNode Id="6b66385b-dd8a-4f6c-bc3f-33ac22d87b06" Title="IMyPistonBase Events" Url="html/c8d91463-ecae-dd2a-7bca-8b9e54f905d9.htm">
+        <HelpTOCNode Title="AttachedEntityChanged Event" Url="html/0032a772-b6e8-b24c-5618-af57b8977bc5.htm" />
+        <HelpTOCNode Title="LimitReached Event" Url="html/38aa1743-b21a-54cf-729e-52179ea98378.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="81738d31-f784-4ff7-8ed0-383338072c48" Title="IMyPistonTop Interface" Url="html/51825773-67b0-8903-c0e9-634716d5cee5.htm">
+      <HelpTOCNode Title="IMyPistonTop Methods" Url="html/d5537aad-275a-c041-8d47-4a7e8c8d33be.htm" />
+      <HelpTOCNode Id="f3349ffe-b750-4f7c-9cae-e158aec964a7" Title="IMyPistonTop Properties" Url="html/d51d8050-13aa-adeb-0753-7f8c42561d22.htm">
+        <HelpTOCNode Title="Base Property " Url="html/228fa7b8-95bd-d6b2-f44b-8cde265ce8b3.htm" />
+        <HelpTOCNode Title="Piston Property " Url="html/0fb03a8c-6a3d-4a2d-3544-a4289564ffb3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyPistonTop Events" Url="html/f3b804d7-0003-85de-a9df-134a7b7499b2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="99845660-f388-4f71-aae5-dec04abb14d0" Title="IMyProductionBlock Interface" Url="html/b6cf6d97-5767-03c5-a3e5-5bcd9f17c748.htm">
+      <HelpTOCNode Id="1bd8219d-4978-4f19-8d82-49076c993d78" Title="IMyProductionBlock Methods" Url="html/1fbe8954-7990-244f-27d3-7a191b074e30.htm">
+        <HelpTOCNode Id="de37f5fc-2381-4d4b-9790-1f40932f601e" Title="AddQueueItem Method " Url="html/6cb93156-db5f-bbf6-2e96-73d1931e28a1.htm">
+          <HelpTOCNode Title="AddQueueItem Method (MyDefinitionBase, MyFixedPoint)" Url="html/680811ff-03b7-9b8b-292d-a3fc0b667bed.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3a7f4ee2-4a00-4429-8d82-676df8f19a14" Title="CanUseBlueprint Method " Url="html/c2a811ca-221e-4604-62cf-c2c9be0b7f9d.htm">
+          <HelpTOCNode Title="CanUseBlueprint Method (MyDefinitionBase)" Url="html/8b55f17f-e337-eab7-cc40-c571b73452d3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="306cd485-3765-43f4-9188-40b76d94fecf" Title="GetQueue Method " Url="html/df77fc0e-68a2-9e29-0231-85de062e3aa8.htm">
+          <HelpTOCNode Title="GetQueue Method " Url="html/d5ae9cc5-db3c-7334-9420-f5207d418c6a.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="15cceb90-9441-4870-8d89-46db527b1c03" Title="InsertQueueItem Method " Url="html/acb21952-8ad9-8a7c-ad8d-683c1e7f495c.htm">
+          <HelpTOCNode Title="InsertQueueItem Method (Int32, MyDefinitionBase, MyFixedPoint)" Url="html/6131eaf8-1c77-35a3-b825-8236e201ebd0.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4e9f9b42-4621-4d1f-9f7a-ea2f2f85d6fd" Title="IMyProductionBlock Properties" Url="html/c156e5d2-e293-ed05-8fb1-d6d923fc1881.htm">
+        <HelpTOCNode Title="InputInventory Property " Url="html/97c4a359-1f97-eb63-ce4e-52c6689088ba.htm" />
+        <HelpTOCNode Title="OutputInventory Property " Url="html/08f82547-a5c5-f7fc-79c3-5c377ef50db8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7013c92-0151-4ffb-8fa9-b3d7004b5f7c" Title="IMyProductionBlock Events" Url="html/3868ce7a-158f-4311-ecc2-8c1a07bbcc43.htm">
+        <HelpTOCNode Title="StartedProducing Event" Url="html/969d80a7-2047-ba38-6e39-6e5a8dbca128.htm" />
+        <HelpTOCNode Title="StoppedProducing Event" Url="html/8e9ae6b3-5d52-bb9e-dae0-9b773177ee97.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f32f0d7b-801c-402d-89d9-1adfa4a52089" Title="IMyProgrammableBlock Interface" Url="html/c8955bc1-7d20-c78a-f088-c699793eebaa.htm">
+      <HelpTOCNode Id="ce734466-b76f-4581-9d95-d75fbd0697e0" Title="IMyProgrammableBlock Methods" Url="html/344e1544-10de-4932-c689-df0987f59f94.htm">
+        <HelpTOCNode Title="Recompile Method " Url="html/1d81f3db-6f8a-f6ea-b18e-f39093f2856c.htm" />
+        <HelpTOCNode Id="99850aa8-f14a-456a-8adf-addadef48897" Title="Run Method " Url="html/bae05d93-90f9-eee5-9389-54042b4d4348.htm">
+          <HelpTOCNode Title="Run Method " Url="html/244dc30c-b5ff-986c-b37c-cfd0f8b63e8c.htm" />
+          <HelpTOCNode Title="Run Method (String)" Url="html/bc916500-1dc0-f00b-f82a-44bd20c3fbfa.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b58d7888-34ea-43d9-a66c-73715c8ca0a0" Title="IMyProgrammableBlock Properties" Url="html/a1b14fae-1cc8-4eb4-ece2-4db61d50e66d.htm">
+        <HelpTOCNode Title="HasCompileErrors Property " Url="html/6d4c1fe7-d9d6-fa2b-e527-f1131b6e51be.htm" />
+        <HelpTOCNode Title="ProgramData Property " Url="html/de05fbb3-3940-7943-0b7e-8e15c63b7740.htm" />
+        <HelpTOCNode Title="StorageData Property " Url="html/bf048951-2f9c-76b3-3692-0c01198104c8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyProgrammableBlock Events" Url="html/648dc933-6dd4-e291-383c-f4cfdd0aa414.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7069aa42-9bb9-4526-80ac-4749cb8ec82f" Title="IMyProjector Interface" Url="html/67e25e6d-5e40-d6b7-6778-4fa25d3f6d80.htm">
+      <HelpTOCNode Id="2b4518d7-cf87-4847-8e0e-76136b6646db" Title="IMyProjector Methods" Url="html/fff4df31-7af4-c00a-27de-d55acc10f993.htm">
+        <HelpTOCNode Title="Build Method " Url="html/0e43c55c-054e-e663-63cd-d50b3ba1fa4a.htm" />
+        <HelpTOCNode Title="CanBuild Method " Url="html/c6591977-6af7-3f5a-6bd7-e4d1e01e223d.htm" />
+        <HelpTOCNode Title="SetProjectedGrid Method " Url="html/404a068c-4475-de56-4858-98cfc6d6af89.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="18961dcd-d19e-489c-b115-592f23766203" Title="IMyProjector Properties" Url="html/c8623f5f-db22-617d-e453-9edd3fc5539d.htm">
+        <HelpTOCNode Title="ProjectedGrid Property " Url="html/eaca2d62-974d-bc1d-d1ce-073a9fcc1ef5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyProjector Events" Url="html/6fdfeef4-8ab0-65a0-e222-0fa20b34bd0d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7b3f3705-26a1-4d95-aff4-96c86a563bd7" Title="IMyRadioAntenna Interface" Url="html/5893aa01-a5e3-e2f7-a438-1707d57fcdd5.htm">
+      <HelpTOCNode Title="IMyRadioAntenna Methods" Url="html/d8518110-c368-a854-1ac2-11a9fcd70c62.htm" />
+      <HelpTOCNode Title="IMyRadioAntenna Properties" Url="html/35faf7d3-496c-22f2-ebb1-c27fd783602d.htm" />
+      <HelpTOCNode Title="IMyRadioAntenna Events" Url="html/a6bd2476-fc82-7e03-4833-6efc4fccea19.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="93a8a18e-babf-49d0-89d5-cb522c3694b0" Title="IMyReactor Interface" Url="html/45dd2c55-90c2-3179-e035-72c54ae2bd17.htm">
+      <HelpTOCNode Title="IMyReactor Methods" Url="html/52dafd07-1379-eee2-2273-1679f31a38f1.htm" />
+      <HelpTOCNode Id="d09811ab-8cae-4baa-b370-dd3e71b5dcf5" Title="IMyReactor Properties" Url="html/9e96ac37-d381-c4f0-5ac7-180109c1f4f1.htm">
+        <HelpTOCNode Title="PowerOutputMultiplier Property " Url="html/d9e7e2a7-fd10-44c2-15dc-a33aa59249ad.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyReactor Events" Url="html/227eb56c-79f1-303a-da8b-197e9b2af628.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8bd65437-fb42-4085-bc2a-fa93d42a66ae" Title="IMyRefinery Interface" Url="html/192a2167-e9c5-dda7-c655-6a7880fda994.htm">
+      <HelpTOCNode Title="IMyRefinery Methods" Url="html/747c47d1-0015-bfee-c645-4a078e385a69.htm" />
+      <HelpTOCNode Title="IMyRefinery Properties" Url="html/26903fab-3535-bdc0-dc2c-bd223130ccfb.htm" />
+      <HelpTOCNode Title="IMyRefinery Events" Url="html/80e6b84f-7921-e2e8-63e7-aae8878c7850.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f4ca802b-e542-4780-82ec-b07a35684592" Title="IMyReflectorLight Interface" Url="html/eb0b51ca-c861-ab03-9fe1-4658f2d5c43f.htm">
+      <HelpTOCNode Title="IMyReflectorLight Methods" Url="html/ce7660c4-b681-b29d-a688-92dadc27d773.htm" />
+      <HelpTOCNode Title="IMyReflectorLight Properties" Url="html/eef7a7f0-d583-8db4-587e-c575f3521b00.htm" />
+      <HelpTOCNode Title="IMyReflectorLight Events" Url="html/4c3e6385-2f01-677c-ef68-3c1977271495.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8bdac462-26b8-4ce4-a762-881e6c7dc7a5" Title="IMyRemoteControl Interface" Url="html/66d5847e-9d5c-919a-91a3-fe4aaeb8122b.htm">
+      <HelpTOCNode Id="c8942224-441f-43ce-995e-577b3e8d711f" Title="IMyRemoteControl Methods" Url="html/96af3bbe-d0a5-f564-0803-0ef8702bb465.htm">
+        <HelpTOCNode Title="GetFreeDestination Method " Url="html/bca20cee-6a5f-5334-9a0c-37a466b958d9.htm" />
+        <HelpTOCNode Title="GetNearestPlayer Method " Url="html/2b206ab4-d81b-df03-983c-3fab19c27261.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyRemoteControl Properties" Url="html/8fe17cf7-ee24-acea-3a17-7d767377a929.htm" />
+      <HelpTOCNode Title="IMyRemoteControl Events" Url="html/67044e8e-ce49-8e54-b3e9-c727bcd7be00.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1bdf3eeb-994f-4cf1-b768-d8117fbec729" Title="IMyScriptBlacklist Interface" Url="html/412632cf-90bd-ab8f-5c08-5a44a99ceaf2.htm">
+      <HelpTOCNode Id="5d9f759b-0b5b-4295-a7a5-e236feede9b5" Title="IMyScriptBlacklist Methods" Url="html/c9dc158b-79b4-b5e9-cbf0-0f1f19c5b706.htm">
+        <HelpTOCNode Title="GetBlacklistedIngameEntries Method " Url="html/caf6b9a6-b4c2-5cac-f81a-52cd3ad2af53.htm" />
+        <HelpTOCNode Title="GetWhitelist Method " Url="html/a60ac8d3-00a3-e7ee-7be2-0bb659567d78.htm" />
+        <HelpTOCNode Title="OpenIngameBlacklistBatch Method " Url="html/45841ff2-5e93-c0e6-6d6a-a91fb1700e69.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e9d98a57-de64-4d58-8b5c-72f6df459577" Title="IMyScriptBlacklistBatch Interface" Url="html/f094a5a2-ef32-0990-1be4-ff203ea7051a.htm">
+      <HelpTOCNode Id="7a751257-a9f8-4b46-afbf-7ef65f4790fe" Title="IMyScriptBlacklistBatch Methods" Url="html/f0ba30c2-ab32-04f6-dd9f-32c0ed263480.htm">
+        <HelpTOCNode Title="AddMembers Method " Url="html/d2c35f0d-5c67-935d-0498-7491bb671779.htm" />
+        <HelpTOCNode Title="AddNamespaceOfTypes Method " Url="html/0762a4e7-6263-5570-75a0-f9733f04e2b8.htm" />
+        <HelpTOCNode Title="AddTypes Method " Url="html/77776053-4da0-525d-dae2-44f8106c6381.htm" />
+        <HelpTOCNode Title="RemoveMembers Method " Url="html/22d3d158-93f9-2a2f-14c7-33dadb86f561.htm" />
+        <HelpTOCNode Title="RemoveNamespaceOfTypes Method " Url="html/ba34ae9c-20aa-41c6-9913-173678a4d71f.htm" />
+        <HelpTOCNode Title="RemoveTypes Method " Url="html/6b8a3e49-9a04-fb46-543a-a31128d795a5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d7b641c2-370a-41f1-b413-7e43c834637c" Title="IMySensorBlock Interface" Url="html/23762895-04ed-0a7c-3b9d-570946219ac9.htm">
+      <HelpTOCNode Title="IMySensorBlock Methods" Url="html/118e314d-e6a3-49f8-5a1a-3ab55f37e7f3.htm" />
+      <HelpTOCNode Id="ae92e1ea-f08f-421b-8217-0fbf4af01873" Title="IMySensorBlock Properties" Url="html/1869a37b-a023-8693-034a-8fece6f55cf2.htm">
+        <HelpTOCNode Title="FieldMax Property " Url="html/efa6b5cf-e99c-9f5d-1248-dfb8258ab316.htm" />
+        <HelpTOCNode Title="FieldMin Property " Url="html/480dfcaf-f7a0-764b-f846-9d5f598871f4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7f465b24-2cc9-4f7b-bcc5-f78cec2ccfff" Title="IMySensorBlock Events" Url="html/e3ff2091-8d22-d882-cefa-11a2944cb6b7.htm">
+        <HelpTOCNode Title="StateChanged Event" Url="html/89e3f660-65a9-8ee2-9295-9e4388bad4b8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8ee3f132-b671-40ba-8c0a-a2a22146a2ca" Title="IMyShipConnector Interface" Url="html/652ce0b9-f847-8028-9d9e-5a461045d3ad.htm">
+      <HelpTOCNode Title="IMyShipConnector Methods" Url="html/28655afa-adb2-ce91-16ec-e7e79baf2675.htm" />
+      <HelpTOCNode Id="c1e047b9-0c9c-4c8e-ab3d-7bf11c4e21dd" Title="IMyShipConnector Properties" Url="html/da4ec3b1-0213-c8d2-2242-dc6600f2cea8.htm">
+        <HelpTOCNode Title="OtherConnector Property " Url="html/1e3d8f03-57c3-a1ca-d464-795e5cd5bc44.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyShipConnector Events" Url="html/ba28fd40-80be-15a9-89a7-f3e64c7366e4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="71257ce1-b63f-41a0-ba60-909b4f8d9702" Title="IMyShipController Interface" Url="html/ac2af047-1fe5-967a-2c9d-3bea33957369.htm">
+      <HelpTOCNode Title="IMyShipController Methods" Url="html/c756ea14-cd14-299f-e6f8-d64d88a58140.htm" />
+      <HelpTOCNode Id="f79b4fdf-5943-49db-8d28-3b133dba7707" Title="IMyShipController Properties" Url="html/e3221342-c45c-2f20-9227-9787c9bc4bb8.htm">
+        <HelpTOCNode Title="HasFirstPersonCamera Property " Url="html/c9103d6a-e980-f6ef-979d-2adc15802a00.htm" />
+        <HelpTOCNode Title="IsShooting Property " Url="html/49c9a795-104c-e719-7939-b69c77bd2cbf.htm" />
+        <HelpTOCNode Title="LastPilot Property " Url="html/3a9f82cb-b12f-82d5-160c-3414c2b89310.htm" />
+        <HelpTOCNode Title="MoveIndicator Property " Url="html/c0a3578c-f3ad-53fe-265d-a6e9a1b78675.htm" />
+        <HelpTOCNode Title="Pilot Property " Url="html/0dfad19c-1d65-7b0d-440c-dba26672dbb7.htm" />
+        <HelpTOCNode Title="RollIndicator Property " Url="html/c6c4707a-9cca-4372-4982-4d5a555ac886.htm" />
+        <HelpTOCNode Title="RotationIndicator Property " Url="html/0cb8f782-aa96-dac3-caf1-f243754c3ee7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyShipController Events" Url="html/c3abd6a4-c00b-6b31-80fc-c59eb7ed91a3.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0713b7c5-5674-4b02-9ad8-e1af8cd56081" Title="IMyShipDrill Interface" Url="html/33581b09-83e3-a5a2-c9f0-844d2a4b4184.htm">
+      <HelpTOCNode Title="IMyShipDrill Methods" Url="html/22d1ed2e-d16f-1bbc-46e5-29f7399b8a1c.htm" />
+      <HelpTOCNode Id="9c839d23-5c00-44e9-b36f-641261f1f70b" Title="IMyShipDrill Properties" Url="html/5bfdf1ac-f56f-3287-d9de-f79315a99bdc.htm">
+        <HelpTOCNode Title="DrillHarvestMultiplier Property " Url="html/2c6e6552-27d2-91ea-fa56-6467a05b5ec0.htm" />
+        <HelpTOCNode Title="PowerConsumptionMultiplier Property " Url="html/81369665-b6b6-859a-d6e3-6d2e6eabe598.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyShipDrill Events" Url="html/a7e57173-294a-f1e5-0627-a55ac32194af.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ffe63237-ca8d-4ed6-a435-ce5efa05aa8a" Title="IMyShipGrinder Interface" Url="html/213e01d0-c423-d970-f827-bea072c8aa83.htm">
+      <HelpTOCNode Title="IMyShipGrinder Methods" Url="html/679b360e-f958-0920-7a68-48453dba5cb7.htm" />
+      <HelpTOCNode Title="IMyShipGrinder Properties" Url="html/f2087e96-afa3-718b-58d8-8617523f148e.htm" />
+      <HelpTOCNode Title="IMyShipGrinder Events" Url="html/ce949349-e9a0-4015-3f6c-9bb540fdb251.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8bfba852-79a3-45fa-97de-a1821657838a" Title="IMyShipToolBase Interface" Url="html/409bbdca-e33c-c876-ec5e-4dbf851cc2f1.htm">
+      <HelpTOCNode Title="IMyShipToolBase Methods" Url="html/f99c3a02-fda8-a3e7-d1dd-a81f5734829f.htm" />
+      <HelpTOCNode Title="IMyShipToolBase Properties" Url="html/18195318-babb-e17d-8dd6-555a9c0ca242.htm" />
+      <HelpTOCNode Title="IMyShipToolBase Events" Url="html/89d1daf1-f984-a0b0-fed8-e22ff4695402.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cd1470a6-ad4f-4e2c-8e5d-a82640a70b99" Title="IMyShipWelder Interface" Url="html/3ca685f4-eddc-f9d9-009c-aa8cecf4d76f.htm">
+      <HelpTOCNode Title="IMyShipWelder Methods" Url="html/558bd980-1c6c-4d6b-1e34-e85ef58f266b.htm" />
+      <HelpTOCNode Title="IMyShipWelder Properties" Url="html/3ba70a26-31c8-e596-fcd5-32b6d4558cac.htm" />
+      <HelpTOCNode Title="IMyShipWelder Events" Url="html/dbbd79d9-9a07-e901-2623-d673f40a2e92.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bc735583-5a42-4465-90b5-797ba60e69a9" Title="IMySmallGatlingGun Interface" Url="html/b6f316c4-cbc4-d212-ec70-0c3c50ce4f0e.htm">
+      <HelpTOCNode Title="IMySmallGatlingGun Methods" Url="html/5ef6026a-e330-18ca-37d7-cb11e1ee6c29.htm" />
+      <HelpTOCNode Title="IMySmallGatlingGun Properties" Url="html/c0fc84a9-371c-c436-06b8-2f4621b4813f.htm" />
+      <HelpTOCNode Title="IMySmallGatlingGun Events" Url="html/8c8ce5f7-0d94-85de-88e4-f3d18df0fa39.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4620ab12-5dce-4d9f-b543-7e09bf9b3496" Title="IMySmallMissileLauncher Interface" Url="html/11d10732-c6c8-cec1-e0e3-4ba1e63f7900.htm">
+      <HelpTOCNode Title="IMySmallMissileLauncher Methods" Url="html/4d63f195-9b76-a96b-c968-f497449d5bad.htm" />
+      <HelpTOCNode Title="IMySmallMissileLauncher Properties" Url="html/be498286-c32c-af42-305b-881275b552b6.htm" />
+      <HelpTOCNode Title="IMySmallMissileLauncher Events" Url="html/ef918eca-9c0e-9984-07fc-41f492b0b73c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f34ca3a1-9565-4b25-9564-2962839a9ede" Title="IMySmallMissileLauncherReload Interface" Url="html/b9666ac3-0916-d8fd-c997-7d9d288827f7.htm">
+      <HelpTOCNode Title="IMySmallMissileLauncherReload Methods" Url="html/98a6fa83-1a6f-fcee-d869-c0bf0458ee00.htm" />
+      <HelpTOCNode Title="IMySmallMissileLauncherReload Properties" Url="html/b069a8aa-f4ba-152d-8f85-e1c1803f11e3.htm" />
+      <HelpTOCNode Title="IMySmallMissileLauncherReload Events" Url="html/7550b17c-d151-a5e6-619f-20411d38073c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="44c9955e-d566-484e-afc0-77fbfd0e3254" Title="IMyTerminalActionsHelper Interface" Url="html/3e792b8c-afbd-71c5-ee46-76cc21963b8f.htm">
+      <HelpTOCNode Id="06ec1034-2856-4951-a877-31a8a935bb4e" Title="IMyTerminalActionsHelper Methods" Url="html/d75e620a-3f09-05f0-9148-6d5e3a24c126.htm">
+        <HelpTOCNode Title="GetActions Method " Url="html/dc6abd3e-e540-6f16-7b05-c041e298284d.htm" />
+        <HelpTOCNode Title="GetActionWithName Method " Url="html/60d1cf0d-4d6e-863f-89d1-1e8c475c1dc2.htm" />
+        <HelpTOCNode Title="GetProperties Method " Url="html/98e51303-5e62-1edd-53e5-c770b5d55152.htm" />
+        <HelpTOCNode Title="GetProperty Method " Url="html/3603259c-3927-e666-eac6-6eb83b61fb76.htm" />
+        <HelpTOCNode Title="GetTerminalSystemForGrid Method " Url="html/bf00ed3a-0e0e-0e73-bbf5-d162630790a3.htm" />
+        <HelpTOCNode Title="SearchActionsOfName Method " Url="html/81661b9b-f420-2b09-ce6c-34127d0d857e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="50ed596c-e026-482a-82a4-52173e070cb5" Title="IMyTerminalBlock Interface" Url="html/d6b4c8ae-f1f3-655c-d00c-48b74d1f94fe.htm">
+      <HelpTOCNode Id="0612c86f-2fd9-4c25-9780-2c832b3406f2" Title="IMyTerminalBlock Methods" Url="html/adcf3dfe-640f-37b8-654e-7da19885d141.htm">
+        <HelpTOCNode Title="RefreshCustomInfo Method " Url="html/d161b4eb-5b80-5979-771a-2f383d3f5d19.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyTerminalBlock Properties" Url="html/914b86ae-9425-9714-196e-86c6508dff11.htm" />
+      <HelpTOCNode Id="45d5d1ec-36fc-413d-9d88-462df2d7d0e0" Title="IMyTerminalBlock Events" Url="html/0cea8f68-5ce1-9485-ca15-e20badb0ccde.htm">
+        <HelpTOCNode Title="AppendingCustomInfo Event" Url="html/8ea0205b-16f9-755a-82d6-575e6b68239f.htm" />
+        <HelpTOCNode Title="CustomNameChanged Event" Url="html/751f0ca7-4d46-f17c-f602-fc9f5f93c8c7.htm" />
+        <HelpTOCNode Title="OwnershipChanged Event" Url="html/c365cefa-7b43-14ea-59a5-474b3b35323c.htm" />
+        <HelpTOCNode Title="PropertiesChanged Event" Url="html/e25bf703-440e-0955-6058-30bbc21cd419.htm" />
+        <HelpTOCNode Title="ShowOnHUDChanged Event" Url="html/3fb4b9ee-b6a2-fe2f-0336-c8cdc570c61e.htm" />
+        <HelpTOCNode Title="VisibilityChanged Event" Url="html/c66df9b6-840b-2342-12dc-441c000088a1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="65ffadb6-fcc9-41d3-bcc5-2283b5758fe7" Title="IMyTerminalControls Interface" Url="html/87fc0243-eeaa-dda8-096f-db569e3e39b4.htm">
+      <HelpTOCNode Id="44812a14-cdb3-4e92-a8e4-60e76f95dbc4" Title="IMyTerminalControls Methods" Url="html/4ea2604b-e5ce-e63a-0313-5713505a5ce4.htm">
+        <HelpTOCNode Title="AddAction(TBlock) Method " Url="html/1c6e9a56-91e8-83f7-d4d3-90287d13a2c4.htm" />
+        <HelpTOCNode Title="AddControl(TBlock) Method " Url="html/ff82b20d-9cd9-f82b-52fe-533cb37f2d8a.htm" />
+        <HelpTOCNode Title="CreateAction(TBlock) Method " Url="html/66c07f05-7cf4-6185-01aa-41e4dc46780c.htm" />
+        <HelpTOCNode Title="CreateControl(TControl, TBlock) Method " Url="html/6447ac22-86ab-bb92-b62d-370602aadc93.htm" />
+        <HelpTOCNode Title="CreateProperty(TValue, TBlock) Method " Url="html/470a6d5e-4e1a-9592-cc30-a6933680f0ab.htm" />
+        <HelpTOCNode Title="GetActions(TBlock) Method " Url="html/b2927b77-5186-8e23-31e3-d23c29f966f6.htm" />
+        <HelpTOCNode Title="GetControls(TBlock) Method " Url="html/67fdfcbf-d0c7-60f7-8183-9de0b22d12b1.htm" />
+        <HelpTOCNode Title="RemoveAction(TBlock) Method " Url="html/d882892f-d029-0bb8-1b25-2eff76a1c3b9.htm" />
+        <HelpTOCNode Title="RemoveControl(TBlock) Method " Url="html/b4da8de9-c86f-7ee6-0792-3be2c0a8b72e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c6d2e1e8-826d-4c17-a8b8-8107c96464e0" Title="IMyTerminalControls Events" Url="html/96f442ab-03dd-699c-a140-b44a2eb91e51.htm">
+        <HelpTOCNode Title="CustomActionGetter Event" Url="html/bb96628f-d60d-9097-bfc6-d190368b71e2.htm" />
+        <HelpTOCNode Title="CustomControlGetter Event" Url="html/5ee7f5ce-a9ee-348f-302f-27e42387d8c3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4cacf4bf-d03f-4829-9cb9-d06fd8f9f0ec" Title="IMyTextPanel Interface" Url="html/177f4365-e831-f421-2bbf-8d5d31e5ed59.htm">
+      <HelpTOCNode Title="IMyTextPanel Methods" Url="html/df3c6fcc-d714-4569-e419-1a3c6a1dc393.htm" />
+      <HelpTOCNode Title="IMyTextPanel Properties" Url="html/a3b7591a-5eda-c132-fbf8-4a394f5c93fe.htm" />
+      <HelpTOCNode Title="IMyTextPanel Events" Url="html/27d0fa83-5d26-7a9f-b395-8767b5394934.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e31cc99b-e7f6-464b-904f-811cfd682cb0" Title="IMyThrust Interface" Url="html/2996c02b-c488-0f61-b82b-286c7414cdb6.htm">
+      <HelpTOCNode Title="IMyThrust Methods" Url="html/a7dd63e9-3e07-4ac7-f33e-a2eddd4230a2.htm" />
+      <HelpTOCNode Id="147fa611-d6ca-4db2-8bd5-0372d261a127" Title="IMyThrust Properties" Url="html/0763508f-4428-375c-53e4-207fa8934951.htm">
+        <HelpTOCNode Title="PowerConsumptionMultiplier Property " Url="html/62e2db6e-5083-5ca6-0559-0fbf65ed1b07.htm" />
+        <HelpTOCNode Title="ThrustMultiplier Property " Url="html/5a814fbf-c2b2-94a4-b796-d2d5e2c3cd03.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9f1b0db7-3edd-475d-9d1e-332779b2164c" Title="IMyThrust Events" Url="html/2783bc07-9a77-0932-73bb-1ce7e5911309.htm">
+        <HelpTOCNode Title="ThrustOverrideChanged Event" Url="html/d51b1de9-58d5-65c1-d711-fa50ff2270ae.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="33a80a04-7f0b-4ca1-bb2f-8387f44b3e72" Title="IMyUpgradableBlock Interface" Url="html/912b4b23-24bb-e53d-23a0-fd484e7ac754.htm">
+      <HelpTOCNode Title="IMyUpgradableBlock Methods" Url="html/9ae1b581-927e-ddf0-a78d-4d8c37f29a63.htm" />
+      <HelpTOCNode Title="IMyUpgradableBlock Properties" Url="html/496d86b4-b0b2-0a54-4833-e3e0e6200b1e.htm" />
+      <HelpTOCNode Title="IMyUpgradableBlock Events" Url="html/180ba379-c182-db9c-ea8e-d1e1c0969c72.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c709da61-f300-4369-9f21-1b43b49b1d19" Title="IMyUpgradeModule Interface" Url="html/548cd548-82b9-0984-a153-16e9e5996207.htm">
+      <HelpTOCNode Title="IMyUpgradeModule Methods" Url="html/9fb8d8df-1719-4ee2-89fb-e4c72c26a531.htm" />
+      <HelpTOCNode Title="IMyUpgradeModule Properties" Url="html/d8bd598e-97eb-010c-054f-5be8d3dd7cfc.htm" />
+      <HelpTOCNode Title="IMyUpgradeModule Events" Url="html/30dca2b4-a15f-d1c0-b90e-24c1e23d53ab.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="362916b3-81c5-47fb-b086-b975021934c1" Title="IMyUserControllableGun Interface" Url="html/17fc7712-ba23-ac48-b8be-ce0ff314aafc.htm">
+      <HelpTOCNode Title="IMyUserControllableGun Methods" Url="html/2293cab5-f673-7b15-11f4-f04fc3fa2b1f.htm" />
+      <HelpTOCNode Title="IMyUserControllableGun Properties" Url="html/1ffbf537-a39b-72ca-d70d-94ca988d38bf.htm" />
+      <HelpTOCNode Title="IMyUserControllableGun Events" Url="html/d6367cbe-f824-1187-6d94-8fc9aefddb6d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="80265cfc-ce89-45b0-aff0-103ec0085d2c" Title="IMyWarhead Interface" Url="html/98a47d56-02f7-5ba1-08aa-0753bad50180.htm">
+      <HelpTOCNode Title="IMyWarhead Methods" Url="html/184b728c-cbd3-50e2-ca2a-01188642b8bd.htm" />
+      <HelpTOCNode Title="IMyWarhead Properties" Url="html/b0558c79-2b66-c691-b09f-58aaa7ab8312.htm" />
+      <HelpTOCNode Title="IMyWarhead Events" Url="html/14629ea7-7d72-80ca-0304-be8be6361978.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9bb99434-b279-4bb8-9ea1-669b72487779" Title="IMyWheel Interface" Url="html/2f988c51-a699-e81e-3efc-64188b7688da.htm">
+      <HelpTOCNode Title="IMyWheel Methods" Url="html/e94df40d-b242-fdaa-3195-322357f4b4eb.htm" />
+      <HelpTOCNode Title="IMyWheel Properties" Url="html/1f098620-361b-6d51-23fd-a86058b15997.htm" />
+      <HelpTOCNode Title="IMyWheel Events" Url="html/477d0cf7-6e64-3d32-95f5-93c111cc35df.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c7490d8e-1407-4227-98eb-1b2a496e5776" Title="MyAPIGateway Class" Url="html/90c9a655-d2aa-390b-8f97-359415be4b84.htm">
+      <HelpTOCNode Id="52d976f3-fed2-4994-a48a-283cec174e58" Title="MyAPIGateway Fields" Url="html/8d5fb8a1-ad98-9c54-a8b8-fb0765d7eaff.htm">
+        <HelpTOCNode Title="CubeBuilder Field" Url="html/3f77e1ba-012f-1a95-bf30-23441fe352df.htm" />
+        <HelpTOCNode Title="Gui Field" Url="html/0a6353fa-4981-65e4-d451-8011907b74c6.htm" />
+        <HelpTOCNode Title="GuiControlCreated Field" Url="html/1fe95856-ba09-64de-84c9-fec8042f451d.htm" />
+        <HelpTOCNode Title="IngameScripting Field" Url="html/7081c529-5427-7a7f-0d53-58840d658076.htm" />
+        <HelpTOCNode Title="Input Field" Url="html/ca656eeb-cb1c-a628-b95b-88baf3e23099.htm" />
+        <HelpTOCNode Title="Multiplayer Field" Url="html/a5226e94-dd87-ee4c-750b-8512d964736f.htm" />
+        <HelpTOCNode Title="Parallel Field" Url="html/aed039af-ea70-2735-a6c7-fbfe2e2bdd44.htm" />
+        <HelpTOCNode Title="Physics Field" Url="html/faa2200b-53af-32af-5bd3-37a07a5f4583.htm" />
+        <HelpTOCNode Title="Players Field" Url="html/5e7b6cd0-b44d-8756-5062-bdb1f9677194.htm" />
+        <HelpTOCNode Title="PrefabManager Field" Url="html/9eeed081-294f-5fc8-3016-1fcb79a171e9.htm" />
+        <HelpTOCNode Title="TerminalActionsHelper Field" Url="html/6e21e0df-8a5c-fce0-37d3-082f5249ac68.htm" />
+        <HelpTOCNode Title="TerminalControls Field" Url="html/199576f2-8164-aad3-4cbb-4d9ebe589b6b.htm" />
+        <HelpTOCNode Title="Utilities Field" Url="html/6dd518ec-a189-cd19-16ec-79fad07a3e81.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f12ef017-7f0f-4fa9-b418-9330a4ab3a62" Title="MyAPIGateway Methods" Url="html/f48faad5-d3f5-0ace-2dbf-85b2106df94a.htm">
+        <HelpTOCNode Title="Clean Method " Url="html/28c283ed-0198-9962-15b0-0e7aae7dee48.htm" />
+        <HelpTOCNode Title="DoorBase Method " Url="html/1a9dbaea-94fa-a8bf-077f-80093fd0551d.htm" />
+        <HelpTOCNode Title="GetMessageBoxPointer Method " Url="html/1b75744b-42ab-fcda-f9b9-defc47ac746e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f2fe9b71-8dd2-4108-9bf9-733d72d1c15b" Title="MyAPIGateway Properties" Url="html/9831b49c-b6a7-780b-47be-02d7d964aa5f.htm">
+        <HelpTOCNode Title="Entities Property " Url="html/5d7a0177-8128-3c56-9f6a-3c89ea739134.htm" />
+        <HelpTOCNode Title="Session Property " Url="html/4123388b-edb0-11aa-0825-0056c7b544a3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="406a68e1-100f-43fc-8546-cf549f67492e" Title="MyProductionQueueItem Structure" Url="html/9855acaa-2e93-0d6a-429c-f69a7a007a9e.htm">
+      <HelpTOCNode Id="77dc1419-6b08-49ea-bf6b-12efaf66a0dc" Title="MyProductionQueueItem Fields" Url="html/af566e88-4803-9fa1-e853-6e7faada55a3.htm">
+        <HelpTOCNode Title="Amount Field" Url="html/5bf99f19-e428-9e5e-19fe-39190f754000.htm" />
+        <HelpTOCNode Title="Blueprint Field" Url="html/2f3adc15-f612-7335-f589-77db7cfaa20f.htm" />
+        <HelpTOCNode Title="ItemId Field" Url="html/4983ad23-0c41-54f0-bac4-38a8351be393.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MyProductionQueueItem Methods" Url="html/c3e7a004-7e81-c566-a011-d14c21e2f79d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="MyWhitelistTarget Enumeration" Url="html/74c5ce2b-e2da-9a4a-c903-a82c2ea87c68.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="86ec1f56-d229-46ec-a49b-75e79c8c0aa3" Title="Sandbox.ModAPI.Ingame" Url="html/772c45e8-de4f-90e3-93a9-02f1bbdc4866.htm">
+    <HelpTOCNode Title="DoorStatus Enumeration" Url="html/1ae61868-bbc1-d0d7-8087-5f24e8553d46.htm" />
+    <HelpTOCNode Id="c40abe57-f572-41a7-bb8f-5421fbf606f2" Title="IMyAdvancedDoor Interface" Url="html/bff87b73-b015-a5de-5d9f-c6d0905cd809.htm">
+      <HelpTOCNode Title="IMyAdvancedDoor Methods" Url="html/72239c4c-63a9-671e-faad-e691813b152a.htm" />
+      <HelpTOCNode Title="IMyAdvancedDoor Properties" Url="html/0eff6884-2e3f-68ba-424f-0573e9337631.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e25180b3-95d8-4db9-b30b-b98da69ea6c9" Title="IMyAirtightDoorBase Interface" Url="html/1b7a5375-84fe-e31b-690f-28cebb277206.htm">
+      <HelpTOCNode Title="IMyAirtightDoorBase Methods" Url="html/5a145b37-46c6-59b1-acbe-067ad873cea8.htm" />
+      <HelpTOCNode Title="IMyAirtightDoorBase Properties" Url="html/db24a2b0-9cd1-06dc-4b59-480e43f4c3dc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ec6c7744-2463-4429-aa77-cb23237e2946" Title="IMyAirtightHangarDoor Interface" Url="html/df718b8a-69ed-a2b5-d196-6ff6cb4850c2.htm">
+      <HelpTOCNode Title="IMyAirtightHangarDoor Methods" Url="html/0ee822b6-0e7d-aece-229e-46601d16867c.htm" />
+      <HelpTOCNode Title="IMyAirtightHangarDoor Properties" Url="html/e4219454-ce78-f82c-fbf3-c84daedc2214.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d5d33a56-35b8-46a5-b3e8-87e93ce46e05" Title="IMyAirtightSlideDoor Interface" Url="html/31fc0795-e403-bf08-9cc9-8ecd4a6eb02d.htm">
+      <HelpTOCNode Title="IMyAirtightSlideDoor Methods" Url="html/7ae9f213-7887-4f22-9ab5-2a7f3ed1f85f.htm" />
+      <HelpTOCNode Title="IMyAirtightSlideDoor Properties" Url="html/eb7a96a2-3f76-66ca-b63f-83eb8da1d627.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eb9b8bd8-7ab4-473a-9db1-d9ebdf78a35a" Title="IMyAssembler Interface" Url="html/24f0af44-715b-819a-c0c6-aff0eed93af8.htm">
+      <HelpTOCNode Title="IMyAssembler Methods" Url="html/c54b7b3e-430c-b0ce-2c33-a2affdbd41e7.htm" />
+      <HelpTOCNode Id="e4df3991-c559-4aac-8a87-d1bc16104827" Title="IMyAssembler Properties" Url="html/e10a5878-9006-b9bf-64a5-179f5db2585f.htm">
+        <HelpTOCNode Title="CooperativeMode Property " Url="html/c4dbf03b-6993-b688-e95c-6c9e50cbaca7.htm" />
+        <HelpTOCNode Title="CurrentProgress Property " Url="html/d7f2d9f5-388c-8fb8-3e77-770415a86dd1.htm" />
+        <HelpTOCNode Title="DisassembleEnabled Property " Url="html/263cc13e-a109-a825-f896-32c1c4d3c4a8.htm" />
+        <HelpTOCNode Title="Mode Property " Url="html/c4231496-2585-9baa-6338-6cf311b736d6.htm" />
+        <HelpTOCNode Title="Repeating Property " Url="html/c7a985da-21c4-008d-0824-77f286d507c4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f6c7f99d-f29a-44b7-b414-e1462118673b" Title="IMyAttachableTopBlock Interface" Url="html/bc199764-a55c-4929-671e-de60dc4a79ff.htm">
+      <HelpTOCNode Title="IMyAttachableTopBlock Methods" Url="html/9271bfdf-17a4-3615-a6c8-a03027daddaf.htm" />
+      <HelpTOCNode Id="ac20b340-b295-4ac6-a07b-6116ba392228" Title="IMyAttachableTopBlock Properties" Url="html/9db0910b-5045-74ae-1825-fd6316af6516.htm">
+        <HelpTOCNode Title="Base Property " Url="html/2d519ff8-03c7-7e53-a666-76cc6f1cd3b4.htm" />
+        <HelpTOCNode Title="IsAttached Property " Url="html/c03b5fab-5c2b-3e19-d57b-bd577784c1f8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="51790fa9-af9e-4cd2-ba0d-057898d42601" Title="IMyBatteryBlock Interface" Url="html/e87a6a96-5cce-e871-563c-3e4bb9b7c213.htm">
+      <HelpTOCNode Title="IMyBatteryBlock Methods" Url="html/d41cc1d1-504c-0889-b411-69dc94d4eeb2.htm" />
+      <HelpTOCNode Id="02e6638f-78c7-4d27-9b18-caa2effce2f6" Title="IMyBatteryBlock Properties" Url="html/c1454254-3e29-68d0-9047-843e429eff94.htm">
+        <HelpTOCNode Title="CurrentInput Property " Url="html/98196339-fa6a-5551-090c-d85d0b6c4e5e.htm" />
+        <HelpTOCNode Title="CurrentOutput Property " Url="html/562613df-9b4f-693c-c974-85ec35cdb342.htm" />
+        <HelpTOCNode Title="CurrentStoredPower Property " Url="html/0be82f23-ac3b-1346-cef3-e5fdfa563a26.htm" />
+        <HelpTOCNode Title="HasCapacityRemaining Property " Url="html/83e5b00a-7cdf-2e05-2e9d-5194b4414e02.htm" />
+        <HelpTOCNode Title="IsCharging Property " Url="html/6975eb62-2d1b-686b-3855-dc009e042e25.htm" />
+        <HelpTOCNode Title="MaxStoredPower Property " Url="html/8d4aabbc-3378-7c3b-321f-3a7978b8e6d1.htm" />
+        <HelpTOCNode Title="OnlyDischarge Property " Url="html/929ae396-a927-7aa0-c94b-209560912c42.htm" />
+        <HelpTOCNode Title="OnlyRecharge Property " Url="html/57ae57df-74dd-35ea-e501-5c419b1fcba2.htm" />
+        <HelpTOCNode Title="SemiautoEnabled Property " Url="html/c1686215-0b22-0fd5-940d-6d0dc2aa978a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="52a28853-dc98-4c0c-b938-16bdf3c72a55" Title="IMyBeacon Interface" Url="html/620f5a0c-74dd-882f-cd55-bf8bfb4514cd.htm">
+      <HelpTOCNode Title="IMyBeacon Methods" Url="html/1b667e77-f12a-f71b-14f3-9970cd53c0ae.htm" />
+      <HelpTOCNode Id="eca48d44-971b-4d0c-be18-1a8d675fcfc9" Title="IMyBeacon Properties" Url="html/a3773d98-adbe-ca0a-aa8a-7474d49e7c75.htm">
+        <HelpTOCNode Title="Radius Property " Url="html/905b0e35-6607-ef2a-f2ca-8185d80e3dcf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d4198ab-6acb-449d-a218-f64ba3e8c081" Title="IMyBlockGroup Interface" Url="html/40bde11b-a387-72f5-ef8c-184f39e482ad.htm">
+      <HelpTOCNode Id="e0f4c366-287f-4025-91a1-3ecfc2ad983f" Title="IMyBlockGroup Methods" Url="html/02a9fcd9-4920-ac69-7c62-849326510f88.htm">
+        <HelpTOCNode Title="GetBlocks Method " Url="html/ac4a98a3-0bb4-4deb-df9e-e545ed2fa684.htm" />
+        <HelpTOCNode Id="2375b0b6-263c-4bb2-bb75-cc5590ee4795" Title="GetBlocksOfType Method " Url="html/2541ae63-14b4-0b5e-ab73-5a9c8f515db0.htm">
+          <HelpTOCNode Title="GetBlocksOfType(T) Method (List(T), Func)" Url="html/1b0b63a3-98dd-2ee7-3fb1-3fa8c52d82ef.htm" />
+          <HelpTOCNode Title="GetBlocksOfType(T) Method (List(IMyTerminalBlock), Func)" Url="html/b51d7bc2-dfb1-93e3-fdf3-cb80d7a13248.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8faeb18f-c474-4f01-b7b8-f871904fb57b" Title="IMyBlockGroup Properties" Url="html/f5b79c75-54b2-0430-b5c5-e5d4d6251013.htm">
+        <HelpTOCNode Title="Name Property " Url="html/991627d9-e1ca-ef6d-63b7-9f947cd075bf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="de5df23c-6b13-460c-8a37-4e4432b59529" Title="IMyCameraBlock Interface" Url="html/b1a7bc99-bfe1-bf26-ce26-172c6786a8b1.htm">
+      <HelpTOCNode Id="97b2a3fa-d5a4-4c0f-aa63-75aae24d2b36" Title="IMyCameraBlock Methods" Url="html/a379fea9-9cca-11a5-6a5a-20ed55376eb7.htm">
+        <HelpTOCNode Id="84231ed2-dbaf-4aa4-b390-3ce1f82becc4" Title="CanScan Method " Url="html/23a06053-86a0-6b09-b69c-5bf83801047e.htm">
+          <HelpTOCNode Title="CanScan Method (Double)" Url="html/434b0e09-8c28-d542-2453-5cc48c3f5c2b.htm" />
+          <HelpTOCNode Title="CanScan Method (Vector3D)" Url="html/3c580a0b-0b46-a05a-753e-d0ead5c8b9a9.htm" />
+          <HelpTOCNode Title="CanScan Method (Double, Vector3D)" Url="html/5f7ba1c2-3f55-4bd7-43f5-8fe704a8d81b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fdced091-2e80-4b8c-b69a-f9fb08bfb34e" Title="Raycast Method " Url="html/f34072ef-2146-4373-165b-6aaf818b7939.htm">
+          <HelpTOCNode Title="Raycast Method (Vector3D)" Url="html/2966850d-d027-74ba-23a6-56935de62592.htm" />
+          <HelpTOCNode Title="Raycast Method (Double, Vector3D)" Url="html/bbe0a808-81f7-b204-1966-8a99c3db80e2.htm" />
+          <HelpTOCNode Title="Raycast Method (Double, Single, Single)" Url="html/27f51177-1042-4e73-0583-4caa57da8ebf.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TimeUntilScan Method " Url="html/1ca7bd65-e9d3-f40d-309d-3f26f7010b5c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="326d3060-cfa2-4a8b-8316-a9daf047c1f7" Title="IMyCameraBlock Properties" Url="html/898f2617-58f9-3310-ab10-606e3c934927.htm">
+        <HelpTOCNode Title="AvailableScanRange Property " Url="html/167ce1db-7d45-c0ea-9b4b-85733f5f3f79.htm" />
+        <HelpTOCNode Title="EnableRaycast Property " Url="html/98b59168-80e2-4116-2f29-69d7b7546d00.htm" />
+        <HelpTOCNode Title="IsActive Property " Url="html/bb5ea3f6-b6ca-acae-6aa9-c25ca13c288c.htm" />
+        <HelpTOCNode Title="RaycastConeLimit Property " Url="html/c61b2802-371c-774d-12f1-ee1153f54dee.htm" />
+        <HelpTOCNode Title="RaycastDistanceLimit Property " Url="html/2b3f834f-a197-d9cc-0eb6-c30d6e859182.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e1bd131e-f0ad-4b8b-9d9d-df56edeb9991" Title="IMyCargoContainer Interface" Url="html/b517aac1-e4f3-41be-332c-157c33af6940.htm">
+      <HelpTOCNode Title="IMyCargoContainer Methods" Url="html/28fb19ba-8cd1-05ab-64b3-d5f75fd98880.htm" />
+      <HelpTOCNode Title="IMyCargoContainer Properties" Url="html/df4452f8-4a03-94a2-a2db-0da29c42f20b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4da45113-62b5-4fc1-a766-be72420297eb" Title="IMyCockpit Interface" Url="html/0f865d51-de15-f924-ccce-4f85d0806ebe.htm">
+      <HelpTOCNode Title="IMyCockpit Methods" Url="html/50081356-7942-2576-7e86-6f334fcc76e1.htm" />
+      <HelpTOCNode Id="e17a45e5-2966-440b-afa6-b8132d8b64c6" Title="IMyCockpit Properties" Url="html/2d93fd7f-f47d-fc18-be35-48e7b8050963.htm">
+        <HelpTOCNode Title="IsMainCockpit Property " Url="html/4f5a0f47-763a-9cb5-8322-d760dfb5f5fe.htm" />
+        <HelpTOCNode Title="OxygenCapacity Property " Url="html/835f4c7a-5301-2090-0f01-3ad2d2ce26c9.htm" />
+        <HelpTOCNode Title="OxygenFilledRatio Property " Url="html/0d002afa-6ec6-23b4-c99c-eb5db546f581.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8f9decc1-3653-4d1b-99ee-b94305d85bcf" Title="IMyCollector Interface" Url="html/db7c9afb-f5b9-9b1b-d6e6-2eaf2a21be7d.htm">
+      <HelpTOCNode Title="IMyCollector Methods" Url="html/143fac1d-a26f-206a-e8f2-c54c8a9e0f54.htm" />
+      <HelpTOCNode Id="f756b9f4-1579-4bcf-b8ab-366b6f248bcc" Title="IMyCollector Properties" Url="html/058db7c1-5755-b9fb-61e4-2e0900c30661.htm">
+        <HelpTOCNode Title="UseConveyorSystem Property " Url="html/7da278b4-3cd3-0a8e-56e9-9df45ee09f2b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d625d2a1-df49-4e65-b203-67f103b5e81a" Title="IMyConveyor Interface" Url="html/713e2d9e-a1d3-3c2f-bee8-223e2c4ea648.htm">
+      <HelpTOCNode Title="IMyConveyor Methods" Url="html/a2f328bd-a5b1-557f-572f-1200f071ebb1.htm" />
+      <HelpTOCNode Title="IMyConveyor Properties" Url="html/7381a66c-0aec-aa2b-403e-2a52fbfef53f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="33b0d7ad-1c1d-487e-9f81-6038b99869ee" Title="IMyConveyorSorter Interface" Url="html/c61ed3fb-e681-4ff0-64d2-bbcb766b7076.htm">
+      <HelpTOCNode Id="b90c3da3-6a43-45aa-9918-92b82f4b4e06" Title="IMyConveyorSorter Methods" Url="html/fc9aab8e-fc92-6991-1bf1-e33f316e932a.htm">
+        <HelpTOCNode Title="AddItem Method " Url="html/e18ef4be-1655-32bd-6e73-85af4151d2ce.htm" />
+        <HelpTOCNode Title="GetFilterList Method " Url="html/d0f3100f-af5c-a3b2-45e1-3f3a76928532.htm" />
+        <HelpTOCNode Title="IsAllowed Method " Url="html/9e06af99-0db8-5c35-5fc6-a1b402918d90.htm" />
+        <HelpTOCNode Title="RemoveItem Method " Url="html/51dc7587-a286-2179-c270-91f63549214c.htm" />
+        <HelpTOCNode Title="SetFilter Method " Url="html/e7eb0028-5cad-af67-d1ea-af9f44326f8b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7bcde481-c3c0-4d6e-ab7a-df9dc2be4362" Title="IMyConveyorSorter Properties" Url="html/d1161342-1197-faf5-1d2b-5d5a7e2d8083.htm">
+        <HelpTOCNode Title="DrainAll Property " Url="html/4de2f68d-db2b-3f74-2f80-67e9677308c6.htm" />
+        <HelpTOCNode Title="Mode Property " Url="html/832d5eb6-8de1-7e8a-4588-fc62201fa2cd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ddb412ab-4833-4e44-a6e8-3e43ba122e6a" Title="IMyConveyorTube Interface" Url="html/f5299adf-911f-d2f7-8e61-5e46f379eb1c.htm">
+      <HelpTOCNode Title="IMyConveyorTube Methods" Url="html/addbda35-4d7c-a174-27dc-741775bd7906.htm" />
+      <HelpTOCNode Title="IMyConveyorTube Properties" Url="html/5b28c1f7-a66c-e179-5180-06c26ce9227d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b569edac-fa6b-43c8-97d5-17b7afec413f" Title="IMyCryoChamber Interface" Url="html/aaff601d-8ad8-dbbb-137e-7cf4aa2d9bf3.htm">
+      <HelpTOCNode Title="IMyCryoChamber Methods" Url="html/50fe1427-361e-2801-c040-b9170a9f5c90.htm" />
+      <HelpTOCNode Title="IMyCryoChamber Properties" Url="html/a6b2e894-1f06-e518-48e2-49d5b1f4c272.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e763cc58-e151-4fb1-bb2b-9e5a8cb691ce" Title="IMyDecoy Interface" Url="html/30198974-cd30-289a-6b99-6b98e9a7d439.htm">
+      <HelpTOCNode Title="IMyDecoy Methods" Url="html/c8a8c359-c405-b469-fe15-9f1728dc6776.htm" />
+      <HelpTOCNode Title="IMyDecoy Properties" Url="html/b54b3fc6-3e8c-21f0-026b-c344af58bbba.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a7171c11-bf6d-4cd4-b861-f48b4f7f3284" Title="IMyDoor Interface" Url="html/c6908c08-016f-7ae5-4fe1-a3826ad54731.htm">
+      <HelpTOCNode Id="81fee861-196a-4e05-8316-7b51a7ce3e2c" Title="IMyDoor Methods" Url="html/8ee34bd5-8144-07b5-6950-d9a960f9fa26.htm">
+        <HelpTOCNode Title="CloseDoor Method " Url="html/1dad688d-bfeb-51b3-4f21-e6b1028c6ac3.htm" />
+        <HelpTOCNode Title="OpenDoor Method " Url="html/c4f15ecc-919e-1cf6-5745-e3360d210e7a.htm" />
+        <HelpTOCNode Title="ToggleDoor Method " Url="html/a0c92262-76ab-ffda-bfb4-ccfbfa11d7a5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="875f2e23-59ff-462b-a75a-8ccda7015d80" Title="IMyDoor Properties" Url="html/5e3c270d-816e-9e76-84d7-1e9ceaa34195.htm">
+        <HelpTOCNode Title="Open Property " Url="html/ef7c4317-a3fe-d365-9f1d-47e90662f2f8.htm" />
+        <HelpTOCNode Title="OpenRatio Property " Url="html/1d48032d-cb99-b240-789a-f61acc7796b7.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/363e90a0-34f5-58e3-3165-16c0cef47964.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8360d099-3dc5-4c3f-acec-f898a3e8c797" Title="IMyExtendedPistonBase Interface" Url="html/c451c426-8f03-1227-5e88-ee1b3fd50743.htm">
+      <HelpTOCNode Title="IMyExtendedPistonBase Methods" Url="html/e40c4dc8-c72c-b518-4e6a-313eff4049a9.htm" />
+      <HelpTOCNode Title="IMyExtendedPistonBase Properties" Url="html/7e5b2917-5414-d7c6-6d4a-823120c268a6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="424e9f9e-3736-4fe6-b9b1-29641e48d1f4" Title="IMyFunctionalBlock Interface" Url="html/8fcbd568-8be9-c0d3-1381-71f4076f2b0c.htm">
+      <HelpTOCNode Id="94695d21-f67a-4020-b7ee-ab826da8d010" Title="IMyFunctionalBlock Methods" Url="html/fb3f4b7f-4709-c1d3-5d48-b5995eaa0717.htm">
+        <HelpTOCNode Title="RequestEnable Method " Url="html/36a01312-a8fa-2a0f-1e95-d2d89ed38a44.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d184e6cf-0ef8-4b98-8304-92b1bcb88bba" Title="IMyFunctionalBlock Properties" Url="html/77b6a43d-4f94-1991-4e57-a536871490e3.htm">
+        <HelpTOCNode Title="Enabled Property " Url="html/913f507f-f110-226a-a009-b281920b6d01.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1f5c4632-8d4c-4a2d-b1c7-56a0d21d8f52" Title="IMyGasGenerator Interface" Url="html/fe7212cd-ed1f-0341-100d-da5784483f15.htm">
+      <HelpTOCNode Title="IMyGasGenerator Methods" Url="html/95309cf0-8ae7-0f86-d9e2-b2b2b4ac7499.htm" />
+      <HelpTOCNode Id="4fed2101-4535-4fdd-9094-734b451b5a0e" Title="IMyGasGenerator Properties" Url="html/379a9758-17cd-a3e3-bcdb-d4a69c033b50.htm">
+        <HelpTOCNode Title="AutoRefill Property " Url="html/3b2733e4-e674-1c55-cab5-8337dd11e1a8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1ab92390-6953-4a72-8c0e-ec47149acd75" Title="IMyGasTank Interface" Url="html/5cd65a72-c019-d17c-9125-548ed1b7add8.htm">
+      <HelpTOCNode Id="5e2f48a0-f9ff-4ad7-9407-fbdf52bac038" Title="IMyGasTank Methods" Url="html/8114f761-82c3-8959-5e4c-9e9baa16b851.htm">
+        <HelpTOCNode Title="RefillBottles Method " Url="html/bf0b1b24-fc45-4b53-e0d1-07de6f050beb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7247e7f5-3e48-4d08-948e-34fc29102a30" Title="IMyGasTank Properties" Url="html/4fa74661-2ce8-ed39-6829-448cb342680a.htm">
+        <HelpTOCNode Title="AutoRefillBottles Property " Url="html/1ffbe0fa-0136-dc25-49d4-59aa655a5761.htm" />
+        <HelpTOCNode Title="Capacity Property " Url="html/7d2b3b5c-5b5a-e301-d77f-26f885bdfbb7.htm" />
+        <HelpTOCNode Title="FilledRatio Property " Url="html/cfcbfe5b-9ad1-5444-0f91-942677e5f093.htm" />
+        <HelpTOCNode Title="Stockpile Property " Url="html/be986937-797a-e1eb-52ad-ca7cb222e818.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c8cb8c24-93a9-4943-b654-6997bab79bde" Title="IMyGridProgramRuntimeInfo Interface" Url="html/7432fbd9-e64d-7e17-6ede-3fad14ca6390.htm">
+      <HelpTOCNode Id="2248ecb3-69e9-4d8b-8941-af66febc725e" Title="IMyGridProgramRuntimeInfo Properties" Url="html/964c5e9c-5e9e-f7e3-7feb-50683d291002.htm">
+        <HelpTOCNode Title="CurrentInstructionCount Property " Url="html/822f50f5-4d74-a9e6-88c0-8207cdb128c4.htm" />
+        <HelpTOCNode Title="CurrentMethodCallCount Property " Url="html/67b2e352-4f95-1921-4354-3dabd59a77ff.htm" />
+        <HelpTOCNode Title="LastRunTimeMs Property " Url="html/b504b39d-b44a-42d4-0df1-0dc8b239852e.htm" />
+        <HelpTOCNode Title="MaxInstructionCount Property " Url="html/083e930a-9c91-b3b8-1433-bc8401021873.htm" />
+        <HelpTOCNode Title="MaxMethodCallCount Property " Url="html/214e07b7-c2c8-f687-2412-fe21bdd7fb0e.htm" />
+        <HelpTOCNode Title="TimeSinceLastRun Property " Url="html/fcbc273e-e6dc-6166-9d74-3b4da98cd8c0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a305cabc-7da8-44dd-bd1a-7bf054fa9771" Title="IMyGridTerminalSystem Interface" Url="html/8d35202b-4207-3a2a-797b-a14677ee3aac.htm">
+      <HelpTOCNode Id="1a7e7d7b-9502-48fb-b55a-93d4402604f4" Title="IMyGridTerminalSystem Methods" Url="html/847607e3-1339-adad-7593-729d722901d7.htm">
+        <HelpTOCNode Title="GetBlockGroups Method " Url="html/d963bb68-31f7-6e2b-968e-d28d7e4a35ab.htm" />
+        <HelpTOCNode Title="GetBlockGroupWithName Method " Url="html/ce2dcd92-8e43-78e9-b215-7ab38df4b950.htm" />
+        <HelpTOCNode Title="GetBlocks Method " Url="html/1dba5687-af0a-3c07-3f5b-ddf7feb6c775.htm" />
+        <HelpTOCNode Id="c869761f-cfc9-4708-aa7f-337422aa3a9d" Title="GetBlocksOfType Method " Url="html/531c215a-1026-ad88-5a6f-3e5bdbd0be1d.htm">
+          <HelpTOCNode Title="GetBlocksOfType(T) Method (List(T), Func)" Url="html/5f44af1b-04aa-c49f-1cf3-24e22f570fee.htm" />
+          <HelpTOCNode Title="GetBlocksOfType(T) Method (List(IMyTerminalBlock), Func)" Url="html/f1cabd20-0e2b-9346-0b5e-ced2b5077da9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetBlockWithId Method " Url="html/d3a7c733-80dd-c191-967b-8d5a3db3fb9c.htm" />
+        <HelpTOCNode Title="GetBlockWithName Method " Url="html/a34187bd-686a-4f9a-584c-4ff7ba203fdd.htm" />
+        <HelpTOCNode Title="SearchBlocksOfName Method " Url="html/d8becf73-f3ad-3b06-3b7d-99e651521b5f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d66a7a11-d7fe-430e-b9ba-58e8af4a0272" Title="IMyGyro Interface" Url="html/16399d25-0713-061f-7e4c-43af75666a0f.htm">
+      <HelpTOCNode Title="IMyGyro Methods" Url="html/76e2cb5e-8ee1-ef23-14d6-cbd661938e7d.htm" />
+      <HelpTOCNode Id="be431240-fdef-46c3-8291-d5569a1cac30" Title="IMyGyro Properties" Url="html/636e417b-89aa-0b1c-84bf-ab0b13b870bc.htm">
+        <HelpTOCNode Title="GyroOverride Property " Url="html/007590a4-ccf7-c845-7599-b517591f58e3.htm" />
+        <HelpTOCNode Title="GyroPower Property " Url="html/b83e8c76-2aca-88ac-a48d-96ce17bbde53.htm" />
+        <HelpTOCNode Title="Pitch Property " Url="html/6e5ffd25-dcdf-a8bb-569a-e49a905767a2.htm" />
+        <HelpTOCNode Title="Roll Property " Url="html/c160fb8e-9dce-9c48-9c2a-be679f116998.htm" />
+        <HelpTOCNode Title="Yaw Property " Url="html/397834c9-c928-a515-1884-bedee0c78ebb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4166da9d-2d11-4af3-ae88-b73a75999365" Title="IMyJumpDrive Interface" Url="html/2c16519d-0c4e-4e96-3dde-a5fe4f17d2e7.htm">
+      <HelpTOCNode Title="IMyJumpDrive Methods" Url="html/792234e2-d0c5-dfde-7a2c-17f788381942.htm" />
+      <HelpTOCNode Id="5737ffe8-cfc9-42e7-8027-f52e07ebfab4" Title="IMyJumpDrive Properties" Url="html/59860738-7f2d-41f1-bbc6-fbde0aa0090e.htm">
+        <HelpTOCNode Title="CurrentStoredPower Property " Url="html/9774901b-1603-39a2-b2de-ddfc3b3c501b.htm" />
+        <HelpTOCNode Title="MaxStoredPower Property " Url="html/59de2573-164a-1a7d-742b-1de1a1894efc.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/aff2d7ec-f54a-b6ef-8a50-fce99757b88a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="305f5c62-02aa-49bf-a4d2-d6c73a4abda7" Title="IMyLargeTurretBase Interface" Url="html/b9d8b9b3-ab5a-1304-1f41-238b97cda88a.htm">
+      <HelpTOCNode Id="32cba969-af6a-4b53-8518-bad278879fcc" Title="IMyLargeTurretBase Methods" Url="html/18eb0f8f-d122-b581-1703-41f0ced61961.htm">
+        <HelpTOCNode Title="ResetTargetingToDefault Method " Url="html/3f841636-36e2-2ada-ffa2-01070e01545b.htm" />
+        <HelpTOCNode Id="6a6bdd64-1414-43a5-ab22-ef79c5f3a36a" Title="SetTarget Method " Url="html/db6a80ff-ce3d-e449-ced6-f3eedc9b84dd.htm">
+          <HelpTOCNode Title="SetTarget Method (IMyEntity)" Url="html/981bfe51-057c-0c02-27e8-de717c6998cc.htm" />
+          <HelpTOCNode Title="SetTarget Method (Vector3D)" Url="html/36e638d8-c76e-c579-aed4-57bd39d958d6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SyncAzimuth Method " Url="html/99342c9d-e17b-5a3c-5291-7a3fa62e2397.htm" />
+        <HelpTOCNode Title="SyncElevation Method " Url="html/ebf579c6-2ce3-75d9-1d49-0cf339c36b42.htm" />
+        <HelpTOCNode Title="SyncEnableIdleRotation Method " Url="html/936eb753-e376-baab-3c40-59c2c3152b6e.htm" />
+        <HelpTOCNode Id="b73ddda0-c0bb-42c9-9172-3952a1bab7b8" Title="TrackTarget Method " Url="html/8ce4cfcb-88ba-0453-7873-2fef8c95b323.htm">
+          <HelpTOCNode Title="TrackTarget Method (IMyEntity)" Url="html/85f0e10a-0a9e-ff73-7c24-5c7cbb82688f.htm" />
+          <HelpTOCNode Title="TrackTarget Method (Vector3D, Vector3)" Url="html/68e28822-a7b4-0f80-d6b6-024adafec345.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0cce84e0-3291-49d6-be28-f38372d53b9b" Title="IMyLargeTurretBase Properties" Url="html/f3168722-e201-d2f1-a27e-a85cf659cf85.htm">
+        <HelpTOCNode Title="AIEnabled Property " Url="html/f16c837b-faeb-06ad-3f66-e4c0e09ea075.htm" />
+        <HelpTOCNode Title="Azimuth Property " Url="html/73de8769-83ee-cfd6-2bcb-74be9acc6f72.htm" />
+        <HelpTOCNode Title="CanControl Property " Url="html/50a7ac42-fc0d-e69c-71e2-cb5c5b2605e5.htm" />
+        <HelpTOCNode Title="Elevation Property " Url="html/99dc5099-97b2-d88d-aaf4-1b6399fbb3d0.htm" />
+        <HelpTOCNode Title="EnableIdleRotation Property " Url="html/cd99c93c-7a3e-97b4-3964-2a5bbb1a5c66.htm" />
+        <HelpTOCNode Title="HasTarget Property " Url="html/e80b4c23-e196-973b-9c08-13a39b74abb6.htm" />
+        <HelpTOCNode Title="IsUnderControl Property " Url="html/c261552c-a68a-663b-0324-e8640de3c2ec.htm" />
+        <HelpTOCNode Title="Range Property " Url="html/bb00deba-4cc9-0e92-424b-793d880eeb3f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dc7c0c9d-77b2-4afa-b2fe-044581495198" Title="IMyLaserAntenna Interface" Url="html/2da88d8b-5e55-712e-ff5c-8324e79e0ce8.htm">
+      <HelpTOCNode Id="8fb6d167-d0a0-4ab1-8eb4-93f4ceea26b7" Title="IMyLaserAntenna Methods" Url="html/f8844958-7351-bd95-85a1-3cfbbde5af5d.htm">
+        <HelpTOCNode Title="Connect Method " Url="html/dc520e07-31e6-b4e5-73ff-b0927bc0c72d.htm" />
+        <HelpTOCNode Title="SetTargetCoords Method " Url="html/e0d9fddd-cc12-4c1d-65da-7838bff36c8d.htm" />
+        <HelpTOCNode Title="TransmitMessage Method " Url="html/ced59e6b-7e1f-9a6d-067f-be5347a5eca3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0ea1e347-0278-4836-811f-4b160a5c29bd" Title="IMyLaserAntenna Properties" Url="html/7b46f2ed-dd28-cdf6-0fd7-ea77816d4bb3.htm">
+        <HelpTOCNode Title="IsOutsideLimits Property " Url="html/fe696e3e-fb0e-f0aa-57fa-ac4eb9676ed6.htm" />
+        <HelpTOCNode Title="IsPermanent Property " Url="html/b1c6bf84-1134-5640-74ad-bc014bb5cbba.htm" />
+        <HelpTOCNode Title="RequireLoS Property " Url="html/17f5f814-aa2f-fdb0-20c3-1d2a34cfa9e9.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/49b3e8ce-e584-087c-c1cf-83d57376de4e.htm" />
+        <HelpTOCNode Title="TargetCoords Property " Url="html/3b2d8f9b-6b7b-ebff-be5b-8c8592d64d37.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="38001f6e-4a6c-43d8-8d63-c642dee6781a" Title="IMyLightingBlock Interface" Url="html/db7f9b6d-9056-6620-67d5-d095ba284e0b.htm">
+      <HelpTOCNode Title="IMyLightingBlock Methods" Url="html/9f127b98-f71f-818c-d49a-9746e71c64aa.htm" />
+      <HelpTOCNode Id="b68c2195-5cde-4210-abfd-21705d4627ec" Title="IMyLightingBlock Properties" Url="html/767ffb6c-b110-ef00-a74e-8210fe0b776c.htm">
+        <HelpTOCNode Title="BlinkIntervalSeconds Property " Url="html/09fbe3e5-a002-51b9-d0db-a5c5de6884a0.htm" />
+        <HelpTOCNode Title="BlinkLenght Property " Url="html/2c68bd2b-74c8-4338-81e5-18e3d4923b27.htm" />
+        <HelpTOCNode Title="BlinkLength Property " Url="html/9f08dfa0-ac81-d12b-529d-929a5d064ca6.htm" />
+        <HelpTOCNode Title="BlinkOffset Property " Url="html/5654ee96-57f0-bc49-dcd2-5cb0afc7bd92.htm" />
+        <HelpTOCNode Title="Color Property " Url="html/3747234e-a1be-fc65-cee7-e29287cfa255.htm" />
+        <HelpTOCNode Title="Falloff Property " Url="html/63faaf12-7fcf-de39-3d87-43c683f1fa49.htm" />
+        <HelpTOCNode Title="Intensity Property " Url="html/36ce9638-7e88-af8f-42b5-85f9b9aedaf2.htm" />
+        <HelpTOCNode Title="Radius Property " Url="html/b9f667f9-8592-75b1-1389-df135cfebcfd.htm" />
+        <HelpTOCNode Title="ReflectorRadius Property " Url="html/171f3747-01a1-dd95-d61e-6ddc3c2c3ee3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="47eb6434-b8bb-412b-bf9a-be965b2e87e4" Title="IMyMechanicalConnectionBlock Interface" Url="html/a04688c3-5e25-c705-2f46-b4c4b8cd6029.htm">
+      <HelpTOCNode Id="5eb27cdf-5a5b-4462-bae8-5e5f749d7c27" Title="IMyMechanicalConnectionBlock Methods" Url="html/6003f270-ed1c-f43d-5d9e-b2d027acde8d.htm">
+        <HelpTOCNode Title="Attach Method " Url="html/15022c68-c45e-0e1c-bfc0-d0b22dc1d432.htm" />
+        <HelpTOCNode Title="Detach Method " Url="html/a6d0ab61-b72d-6ffd-9b20-cd584dc0160d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9ea095d8-7b9b-47f3-95bc-1e43343ced66" Title="IMyMechanicalConnectionBlock Properties" Url="html/fd057182-3bf3-b5c3-6fad-4e518945cf8c.htm">
+        <HelpTOCNode Title="IsAttached Property " Url="html/72c02eaa-1d38-5c01-851b-fab6e222ca24.htm" />
+        <HelpTOCNode Title="IsLocked Property " Url="html/9c42ce28-5957-082a-8af1-e6c02f7bdd46.htm" />
+        <HelpTOCNode Title="PendingAttachment Property " Url="html/62d67ef5-bd30-a1a8-cb19-2fa461df9c19.htm" />
+        <HelpTOCNode Title="SafetyLock Property " Url="html/3dba6316-9205-f4a9-c7f8-96a676733932.htm" />
+        <HelpTOCNode Title="SafetyLockSpeed Property " Url="html/2c380fc6-e140-5686-c089-43128108e3bd.htm" />
+        <HelpTOCNode Title="Top Property " Url="html/2ad33246-6124-d3a5-bbc1-a06b3f05e1ff.htm" />
+        <HelpTOCNode Title="TopGrid Property " Url="html/8e365e83-06b8-5e9e-8f42-2613797fc459.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1a67b8b4-229d-4a9a-b42a-ad1d65f015fb" Title="IMyMotorAdvancedRotor Interface" Url="html/8df94c34-c2c4-41cf-de1c-7cdc8c9e1057.htm">
+      <HelpTOCNode Title="IMyMotorAdvancedRotor Methods" Url="html/53cd972c-1742-88ca-b1de-10e021406d4c.htm" />
+      <HelpTOCNode Title="IMyMotorAdvancedRotor Properties" Url="html/489b729f-55c7-2392-2ca9-baca8e20b136.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b1e3c3b9-ffdf-4021-9fac-9b0303b59a24" Title="IMyMotorAdvancedStator Interface" Url="html/fed5bc71-f2d0-8e62-1c31-6162fb2d7fe8.htm">
+      <HelpTOCNode Title="IMyMotorAdvancedStator Methods" Url="html/124d7d4c-cd4a-6eb8-c761-ff225e259f2c.htm" />
+      <HelpTOCNode Title="IMyMotorAdvancedStator Properties" Url="html/b6d5b3a1-126e-61fe-dfa5-3ae0a6bf53a5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ddcb9360-a513-44d9-be46-4bd1da515fbc" Title="IMyMotorBase Interface" Url="html/521f79ac-8c08-450e-9d71-de48b38f92a8.htm">
+      <HelpTOCNode Title="IMyMotorBase Methods" Url="html/b5198d26-b705-d17d-0af7-9733f31f3d52.htm" />
+      <HelpTOCNode Title="IMyMotorBase Properties" Url="html/fb370bfd-3af5-8306-2acb-d18012d57366.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3d6cd3c1-ba16-49b5-a56e-1b161b0da813" Title="IMyMotorRotor Interface" Url="html/efbdeb03-ec1b-a8b1-ef13-8788e56a46f3.htm">
+      <HelpTOCNode Title="IMyMotorRotor Methods" Url="html/e76c6869-51f4-2bb9-90a7-d3a07b94661e.htm" />
+      <HelpTOCNode Title="IMyMotorRotor Properties" Url="html/98fac379-4316-5814-3875-db02b8462fb0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2aa5634a-ddd8-405d-bda6-c25f79968469" Title="IMyMotorStator Interface" Url="html/039b6747-6e26-a2cc-e1dc-3d07b8881b5a.htm">
+      <HelpTOCNode Title="IMyMotorStator Methods" Url="html/af41e1f2-328c-fbfa-72b9-5f12af7d2ee4.htm" />
+      <HelpTOCNode Id="eb82de65-f1b4-45b2-bd05-0ce93fb44043" Title="IMyMotorStator Properties" Url="html/06dc75d3-c4bc-5201-83c8-14629f81321d.htm">
+        <HelpTOCNode Title="Angle Property " Url="html/3ff256ac-5b97-9c75-1cb9-caac4f4e6bb0.htm" />
+        <HelpTOCNode Title="BrakingTorque Property " Url="html/597458de-8e10-60af-da86-066dd7912e9c.htm" />
+        <HelpTOCNode Title="Displacement Property " Url="html/a30a1cc4-2655-f7d6-a5d1-a0fdb0fad388.htm" />
+        <HelpTOCNode Title="LowerLimit Property " Url="html/2a3bdaf3-59cc-c2a7-6c31-84d123804058.htm" />
+        <HelpTOCNode Title="TargetVelocity Property " Url="html/e29f57cf-a151-54b2-0a65-ac69659517ba.htm" />
+        <HelpTOCNode Title="Torque Property " Url="html/5e62319a-6a9e-7eff-e6b6-4a8d80bea52b.htm" />
+        <HelpTOCNode Title="UpperLimit Property " Url="html/e43b8bc4-5cd3-c9f9-98c3-febebeded3d8.htm" />
+        <HelpTOCNode Title="Velocity Property " Url="html/ddefaf25-b400-fbaa-a970-9bd4bdadb18c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="89b54f00-d497-4840-9cb8-0f7e8ae52ba7" Title="IMyMotorSuspension Interface" Url="html/85f48a11-cd85-4514-c61c-fe8e8bf662d5.htm">
+      <HelpTOCNode Title="IMyMotorSuspension Methods" Url="html/938eb09e-f906-d5f9-0f19-ac812ed7f57a.htm" />
+      <HelpTOCNode Id="53bca64d-64f3-4e5b-8987-c043cf855c61" Title="IMyMotorSuspension Properties" Url="html/091bd3f9-5b10-c795-0fcf-247f426d0bd2.htm">
+        <HelpTOCNode Title="Brake Property " Url="html/b9f86ef0-eb1a-edd9-e4bd-d3c97d6b95e8.htm" />
+        <HelpTOCNode Title="Damping Property " Url="html/944c9943-3b7f-1c45-3b9d-e1aad4da9c76.htm" />
+        <HelpTOCNode Title="Friction Property " Url="html/cea59603-322c-5dc7-6698-da411bb260d6.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/a72f7414-933c-4298-ec4e-6dd7f7f68409.htm" />
+        <HelpTOCNode Title="InvertPropulsion Property " Url="html/56a92023-637b-aa34-d613-db9d6ed0dad5.htm" />
+        <HelpTOCNode Title="InvertSteer Property " Url="html/bd94eb58-f595-2edf-1875-4a9cfc517823.htm" />
+        <HelpTOCNode Title="MaxSteerAngle Property " Url="html/ef91c981-f2e0-2eeb-05eb-c9dd2f8f5ab3.htm" />
+        <HelpTOCNode Title="Power Property " Url="html/5d61912c-9dee-681d-f4a2-9b83d66ab45b.htm" />
+        <HelpTOCNode Title="Propulsion Property " Url="html/6a92e978-18e2-a64d-54b9-4464c3884f96.htm" />
+        <HelpTOCNode Title="SteerAngle Property " Url="html/4d21367e-a725-6c70-3be0-fda7fc6b6ca5.htm" />
+        <HelpTOCNode Title="Steering Property " Url="html/a97b963f-0189-fb8e-cf01-a25ae5aef383.htm" />
+        <HelpTOCNode Title="SteerReturnSpeed Property " Url="html/9f244994-9b27-6378-10c8-3347437577ae.htm" />
+        <HelpTOCNode Title="SteerSpeed Property " Url="html/8465e116-2924-9d7a-6816-0dbcd31c7366.htm" />
+        <HelpTOCNode Title="Strength Property " Url="html/d427848a-5704-b521-f926-8b3339869722.htm" />
+        <HelpTOCNode Title="SuspensionTravel Property " Url="html/52425834-99ab-5db9-d8fc-7bdf261557c2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="831bd897-1770-4944-8c9a-30318316f66a" Title="IMyOreDetector Interface" Url="html/7ab88770-248d-f522-04c1-5d50773f087e.htm">
+      <HelpTOCNode Title="IMyOreDetector Methods" Url="html/19137e3e-f832-0765-ebcb-d2e9c30a0c90.htm" />
+      <HelpTOCNode Id="43718a23-ded8-4c01-a943-64afcf556d85" Title="IMyOreDetector Properties" Url="html/95b4e4cd-5257-54ae-0a3e-fca656ba7b7d.htm">
+        <HelpTOCNode Title="BroadcastUsingAntennas Property " Url="html/203039ad-a25a-b33f-6541-bd7ca6dda204.htm" />
+        <HelpTOCNode Title="Range Property " Url="html/893e70b9-be62-69b6-d1a6-7cf2d242bb71.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="abe228a3-1f15-4672-98cd-e74f03f41d6b" Title="IMyOxygenGenerator Interface" Url="html/9b1a9914-d5a1-ff4d-3ee4-c0a92e0ec30e.htm">
+      <HelpTOCNode Title="IMyOxygenGenerator Methods" Url="html/97488ffe-470d-d2a5-0e78-a8e16eaa16b5.htm" />
+      <HelpTOCNode Title="IMyOxygenGenerator Properties" Url="html/72517019-e517-743b-29e6-f559457ebfb5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a514e3f7-b5b6-42d7-860b-45134fd23459" Title="IMyOxygenTank Interface" Url="html/8afde188-bd0a-eb19-1c27-baf4621ad28b.htm">
+      <HelpTOCNode Id="fd9f30fc-20ba-4a7b-aa6f-4463d449918f" Title="IMyOxygenTank Methods" Url="html/8fb2991b-14dc-3dcb-3a5a-14f7e09a2c1c.htm">
+        <HelpTOCNode Title="GetOxygenLevel Method " Url="html/b5a6cb5f-dc70-38ba-0f11-9d97c6f2b211.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMyOxygenTank Properties" Url="html/a1ede54e-9fee-112c-55c3-07a93b730b7c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c3631b6a-3a2e-4e86-be4b-8adf0cba01a0" Title="IMyPassage Interface" Url="html/bd1ed686-acd6-8d52-c525-f29534378a6b.htm">
+      <HelpTOCNode Title="IMyPassage Methods" Url="html/3f5b9ada-22e2-4775-33b1-5af731f1860d.htm" />
+      <HelpTOCNode Title="IMyPassage Properties" Url="html/7b4c6b21-d4d9-c042-031c-0f1236ceadd1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="36ac821c-d1f6-4361-944c-8f085286c07a" Title="IMyPistonBase Interface" Url="html/dd1edc4f-65f6-516d-6a62-af4378c5c21d.htm">
+      <HelpTOCNode Id="cf34edc5-e75a-497d-a6d7-0d5d5b014f7f" Title="IMyPistonBase Methods" Url="html/2c08a1b2-d722-58f6-e509-56a19951f1dd.htm">
+        <HelpTOCNode Title="Extend Method " Url="html/6e28968a-ac19-fb94-5de7-de877eecbaf7.htm" />
+        <HelpTOCNode Title="Retract Method " Url="html/0f351f7f-af8d-f032-c763-ac7cfca8978f.htm" />
+        <HelpTOCNode Title="Reverse Method " Url="html/6d8a3785-36fa-64f3-6bee-b6f74d5164c4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="80d46d84-cf18-4329-9ab6-8a2f17a8a811" Title="IMyPistonBase Properties" Url="html/0eddc917-2f01-8ad6-70f9-ff1ae27227ae.htm">
+        <HelpTOCNode Title="CurrentPosition Property " Url="html/edac226e-e662-1294-6fe6-6f3ba5fe106c.htm" />
+        <HelpTOCNode Title="HighestPosition Property " Url="html/9722dc5b-338f-b524-bc38-264c16f5b766.htm" />
+        <HelpTOCNode Title="LowestPosition Property " Url="html/56ca51ed-c05d-2ada-a303-60ff936d8eeb.htm" />
+        <HelpTOCNode Title="MaxLimit Property " Url="html/e991339c-543e-9c61-3402-0ae0d1bf5750.htm" />
+        <HelpTOCNode Title="MaxVelocity Property " Url="html/3aae25a1-92b4-8b20-0ade-ff15e60a51c7.htm" />
+        <HelpTOCNode Title="MinLimit Property " Url="html/173ac247-60c3-016b-a844-aad663f83b9c.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/52589a5a-be3c-cd3a-e85a-9941aeb7d2a8.htm" />
+        <HelpTOCNode Title="Velocity Property " Url="html/013fc937-3ea2-0760-9c62-09cb7c3c77a6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4bab9ba3-c376-4311-b16a-01fec2704f3f" Title="IMyPistonTop Interface" Url="html/916881de-be6f-a198-a4f0-ec965a42a51b.htm">
+      <HelpTOCNode Title="IMyPistonTop Methods" Url="html/44b92f12-23c7-9ffd-6d9e-fa775200dc61.htm" />
+      <HelpTOCNode Title="IMyPistonTop Properties" Url="html/21f511fb-1382-08db-dc64-dd97563c3476.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2d78ada4-5e64-4d89-a32e-3d99bbbaf125" Title="IMyProductionBlock Interface" Url="html/560ad746-543e-acae-7fd2-2bd7247ed03a.htm">
+      <HelpTOCNode Id="45c911c8-c8d9-43dd-9fdf-8ba1c81a700f" Title="IMyProductionBlock Methods" Url="html/3a126522-7ccb-2924-dc05-c20a3d346197.htm">
+        <HelpTOCNode Id="0e868e72-64c7-4b17-9f64-946521f42018" Title="AddQueueItem Method " Url="html/f3fd4540-7966-7781-f729-9e828c5559f7.htm">
+          <HelpTOCNode Title="AddQueueItem Method (MyDefinitionId, Decimal)" Url="html/154ab158-ae26-9d0b-8554-46504f8ae4d4.htm" />
+          <HelpTOCNode Title="AddQueueItem Method (MyDefinitionId, Double)" Url="html/8c7b77c3-a11a-3e4d-0843-c299f1bf30b9.htm" />
+          <HelpTOCNode Title="AddQueueItem Method (MyDefinitionId, MyFixedPoint)" Url="html/84b68eba-101b-dfad-9340-95014d3a62b5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CanUseBlueprint Method " Url="html/0cec5302-a1e8-5e0f-6253-e8d14f60d8bd.htm" />
+        <HelpTOCNode Title="ClearQueue Method " Url="html/a7ddc943-393c-238a-4833-9a523407a8a2.htm" />
+        <HelpTOCNode Title="GetQueue Method " Url="html/fa908a30-3530-29c8-65de-c79082724e19.htm" />
+        <HelpTOCNode Id="be311dd0-f23f-47b7-bad9-2fadedc75121" Title="InsertQueueItem Method " Url="html/4c5e7726-7711-afcc-3d90-8f594ad82390.htm">
+          <HelpTOCNode Title="InsertQueueItem Method (Int32, MyDefinitionId, Decimal)" Url="html/dafbbbf4-31e9-4047-66e3-3d01520a15ab.htm" />
+          <HelpTOCNode Title="InsertQueueItem Method (Int32, MyDefinitionId, Double)" Url="html/c59cb78e-5802-147a-e4bc-fd1ec66da601.htm" />
+          <HelpTOCNode Title="InsertQueueItem Method (Int32, MyDefinitionId, MyFixedPoint)" Url="html/df897bb3-08bb-40cd-3fed-9b34ae2b6c10.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MoveQueueItemRequest Method " Url="html/486bbaf7-812d-e869-41dc-dad37c1c5da0.htm" />
+        <HelpTOCNode Id="b7aac151-b3ea-4c10-b393-359153733aa7" Title="RemoveQueueItem Method " Url="html/6ffa34b5-efef-3115-d5f9-a26e03b69131.htm">
+          <HelpTOCNode Title="RemoveQueueItem Method (Int32, Decimal)" Url="html/819f56fd-25f8-e76e-1d35-8c13a389e807.htm" />
+          <HelpTOCNode Title="RemoveQueueItem Method (Int32, Double)" Url="html/89537c12-9a35-c256-aa5d-c960ced38099.htm" />
+          <HelpTOCNode Title="RemoveQueueItem Method (Int32, MyFixedPoint)" Url="html/cd36f874-2552-da84-35a3-eb95332dd692.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="055943de-cbfd-40f3-a43c-405dc8007d18" Title="IMyProductionBlock Properties" Url="html/d507c3fd-7890-427a-8cbf-61cacb094154.htm">
+        <HelpTOCNode Title="InputInventory Property " Url="html/67dd8984-d778-7bab-e2e4-07fee8e0b55d.htm" />
+        <HelpTOCNode Title="IsProducing Property " Url="html/81463453-4639-8fcc-1b06-9ae7c0baae3b.htm" />
+        <HelpTOCNode Title="IsQueueEmpty Property " Url="html/9e1eeb67-d74c-f9b6-d793-31fb7b682e61.htm" />
+        <HelpTOCNode Title="NextItemId Property " Url="html/0b814d3b-f729-4420-ba70-08e21c6975d2.htm" />
+        <HelpTOCNode Title="OutputInventory Property " Url="html/212250ed-b2be-2e76-2a16-2e539c0395a0.htm" />
+        <HelpTOCNode Title="UseConveyorSystem Property " Url="html/919df007-3da6-4255-4164-b1cc19fb32f5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a00e1dc5-620e-4ac7-8be2-b0cfb2d2d14e" Title="IMyProgrammableBlock Interface" Url="html/7442182a-55ca-7b0e-9037-a48fc574dd41.htm">
+      <HelpTOCNode Id="8dee5f68-883e-487c-a293-be43812118a7" Title="IMyProgrammableBlock Methods" Url="html/ba59d877-2c20-e466-9702-7462172b57ea.htm">
+        <HelpTOCNode Title="TryRun Method " Url="html/94fb30d8-256b-617a-25ef-a5b178fe8371.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b17637c7-5e16-4c83-8638-d6a21e5228bd" Title="IMyProgrammableBlock Properties" Url="html/a9779104-8d40-bdc5-4ab2-46e83fe3a298.htm">
+        <HelpTOCNode Title="IsRunning Property " Url="html/4ca2fbae-fbe1-a844-9a55-ea05bd8e559c.htm" />
+        <HelpTOCNode Title="TerminalRunArgument Property " Url="html/d5437cd7-9747-8c0f-a675-809ee1de8db6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4a502c18-6b45-4234-bf2c-2941876c9db0" Title="IMyProjector Interface" Url="html/a98605ee-93c2-5033-bb24-066e4dc65a7f.htm">
+      <HelpTOCNode Id="aacce197-4803-4e65-93bf-98f49c0cfe1e" Title="IMyProjector Methods" Url="html/eeae10a8-2399-d8c0-bd68-956fcb535ccb.htm">
+        <HelpTOCNode Title="LoadBlueprint Method " Url="html/57ea561b-1c03-546c-e4bb-e229edc0b0a6.htm" />
+        <HelpTOCNode Title="LoadRandomBlueprint Method " Url="html/ec577b09-c528-c4ac-d0a7-ae5fd11540bf.htm" />
+        <HelpTOCNode Title="UpdateOffsetAndRotation Method " Url="html/ba624060-b07c-d3e8-0561-ca8edfc37347.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9bbfe760-ddc9-4832-b5be-a102f3b20bfc" Title="IMyProjector Properties" Url="html/afafd65e-5de1-87c0-071c-99c7e2c4a4c5.htm">
+        <HelpTOCNode Title="BuildableBlocksCount Property " Url="html/93fd029f-193c-4f94-3c60-2c00ddec24e5.htm" />
+        <HelpTOCNode Title="IsProjecting Property " Url="html/62911f45-8fd1-61ae-42eb-6f508eece13a.htm" />
+        <HelpTOCNode Title="ProjectionOffset Property " Url="html/2f7a22bc-7156-e1c1-9b77-579180b39a06.htm" />
+        <HelpTOCNode Title="ProjectionOffsetX Property " Url="html/f2708605-fa45-1210-08c0-a643c27ce6c7.htm" />
+        <HelpTOCNode Title="ProjectionOffsetY Property " Url="html/da398d54-3ae0-4694-27d9-60206098ea98.htm" />
+        <HelpTOCNode Title="ProjectionOffsetZ Property " Url="html/32f6ab3e-aef1-ab6c-766c-34fd90e80dfc.htm" />
+        <HelpTOCNode Title="ProjectionRotation Property " Url="html/4ac8a4e0-ff30-4b84-5e8f-c431233eee48.htm" />
+        <HelpTOCNode Title="ProjectionRotX Property " Url="html/75d13f1c-62f1-f445-cd44-b47d92c69d5c.htm" />
+        <HelpTOCNode Title="ProjectionRotY Property " Url="html/c369adfe-7c92-1f77-f522-f15c5933ef6c.htm" />
+        <HelpTOCNode Title="ProjectionRotZ Property " Url="html/75f14f8b-fdbb-f36c-7e35-9ee7f694e2f4.htm" />
+        <HelpTOCNode Title="RemainingArmorBlocks Property " Url="html/a3fefa31-d9f3-104d-8a66-fd6cdb7854ae.htm" />
+        <HelpTOCNode Title="RemainingBlocks Property " Url="html/b2dd803a-9be0-2397-2252-86bbb34309d6.htm" />
+        <HelpTOCNode Title="RemainingBlocksPerType Property " Url="html/2d808c64-c027-ba0a-7f26-11d1258bf936.htm" />
+        <HelpTOCNode Title="TotalBlocks Property " Url="html/c1e415a6-73ff-e23e-3c40-bf634f9c665d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="50cf79c1-3a8c-4003-8752-39ed21c510d5" Title="IMyRadioAntenna Interface" Url="html/4e6ee6b1-8bac-d916-0b4c-950467c2313f.htm">
+      <HelpTOCNode Id="196b0c68-ce6a-49ee-a832-508f9f551f3b" Title="IMyRadioAntenna Methods" Url="html/ebfa8579-5d03-7ff5-b62d-b85b835d8d82.htm">
+        <HelpTOCNode Title="TransmitMessage Method " Url="html/0621cdf6-22be-62e2-e7eb-b95855286c4a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1e3e126b-2b99-4093-a13e-12a42fc6e1b6" Title="IMyRadioAntenna Properties" Url="html/68fbd38d-bbcb-560c-4ff8-7de15c8c8522.htm">
+        <HelpTOCNode Title="IgnoreAlliedBroadcast Property " Url="html/6fc83816-974a-6876-63c4-61c5431d7496.htm" />
+        <HelpTOCNode Title="IgnoreOtherBroadcast Property " Url="html/c0a610bf-e817-c619-f213-1597be6e3e6c.htm" />
+        <HelpTOCNode Title="IsBroadcasting Property " Url="html/47276ce1-4b8d-4976-ecfe-c8b711321c9c.htm" />
+        <HelpTOCNode Title="Radius Property " Url="html/15b3c950-f016-1689-30d8-ed486cc59956.htm" />
+        <HelpTOCNode Title="ShowShipName Property " Url="html/e89fc321-5b07-0794-09d4-3cbde82aedd2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c8b139f1-f35a-431c-b1ec-2c07a31f229f" Title="IMyReactor Interface" Url="html/2e9c7f54-9332-8b95-9874-48db460b287d.htm">
+      <HelpTOCNode Title="IMyReactor Methods" Url="html/a4584328-1414-c2e8-5240-8ff1b11674d1.htm" />
+      <HelpTOCNode Id="7bc37d7f-dc70-417a-8d6d-2524d63cebfc" Title="IMyReactor Properties" Url="html/397046d4-4e1b-f0e0-529a-da7061b500f0.htm">
+        <HelpTOCNode Title="CurrentOutput Property " Url="html/c9da3b9c-9f8f-6937-7ae6-e3362f61e177.htm" />
+        <HelpTOCNode Title="MaxOutput Property " Url="html/a7850df3-e29c-a52b-dcf9-8ed7f5c5a3ae.htm" />
+        <HelpTOCNode Title="UseConveyorSystem Property " Url="html/dbb3ece0-2df2-d31f-a5d8-4d03a8e9fb96.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="98704c69-52d0-4a0f-858b-f6ef5ae9db80" Title="IMyRefinery Interface" Url="html/1a2efd83-2a8f-8487-ecb0-54b09eeaa30b.htm">
+      <HelpTOCNode Title="IMyRefinery Methods" Url="html/2437d251-b300-29b3-4175-79af6036c3cd.htm" />
+      <HelpTOCNode Title="IMyRefinery Properties" Url="html/969713b9-6d40-cf2f-b15e-3e33ae8619f6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="04af580a-2646-4301-9f25-0b6034e55c53" Title="IMyReflectorLight Interface" Url="html/9c00b757-9270-fb3f-11f7-eed8b36e06e2.htm">
+      <HelpTOCNode Title="IMyReflectorLight Methods" Url="html/c51e8949-baeb-6d6f-d7fc-f4ff60bffb26.htm" />
+      <HelpTOCNode Title="IMyReflectorLight Properties" Url="html/5ffa0c09-58d1-b6d0-95a3-93e7ce9757c3.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eab62a7b-5f44-43d0-acf9-d55be8d728ac" Title="IMyRemoteControl Interface" Url="html/6baae9cb-e767-7476-892f-187867b4194f.htm">
+      <HelpTOCNode Id="6ab4b6db-5334-4934-878d-bdeb8e66afe9" Title="IMyRemoteControl Methods" Url="html/75a9a7be-1a9b-d508-1af0-c7c5567075b2.htm">
+        <HelpTOCNode Title="AddWaypoint Method " Url="html/3099a20f-5f5e-f1ea-1f5a-8d8691001efe.htm" />
+        <HelpTOCNode Title="ClearWaypoints Method " Url="html/3ab40c89-e1a8-7496-d42c-8829f2848646.htm" />
+        <HelpTOCNode Title="GetNearestPlayer Method " Url="html/9dde2bf5-ddbf-fa84-3d0e-3843772a08ed.htm" />
+        <HelpTOCNode Title="GetWaypointInfo Method " Url="html/41077632-be03-8c7e-4648-ffa59cfaa35c.htm" />
+        <HelpTOCNode Title="SetAutoPilotEnabled Method " Url="html/603631a7-c3c9-4b1d-e4b0-5bd6759452da.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="85632667-d3d0-45c6-bb6b-98b01ea24924" Title="IMyRemoteControl Properties" Url="html/985bb938-c3d4-c4db-0c55-89d0b831238a.htm">
+        <HelpTOCNode Title="IsAutoPilotEnabled Property " Url="html/05f83b0b-1e01-840c-df93-6b36b93781c5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f9be1846-81f8-4d9a-af0c-0315b23e94e6" Title="IMySensorBlock Interface" Url="html/252413a2-5afc-429b-c606-6084b99c5058.htm">
+      <HelpTOCNode Id="41cb89ac-ad63-4168-bd3f-2a8441b0fbdf" Title="IMySensorBlock Methods" Url="html/563a645b-78b6-c109-d652-f230be826f73.htm">
+        <HelpTOCNode Title="DetectedEntities Method " Url="html/3e52fa5f-25f9-e19e-5f86-7a7ecc0e962d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9283b192-c334-4159-9701-a977eb277854" Title="IMySensorBlock Properties" Url="html/114ea4d0-3ac1-7eed-b2db-a7837579c46b.htm">
+        <HelpTOCNode Title="BackExtend Property " Url="html/cc48e112-7627-1ebc-63bb-35ac99520be7.htm" />
+        <HelpTOCNode Title="BottomExtend Property " Url="html/cbc65309-3727-a8ef-0cd4-bc46e5037e50.htm" />
+        <HelpTOCNode Title="DetectAsteroids Property " Url="html/8236810f-ccef-bf28-b824-b964f22f72fc.htm" />
+        <HelpTOCNode Title="DetectEnemy Property " Url="html/ea3f4160-e6ff-6540-51fc-1ba4d09c92aa.htm" />
+        <HelpTOCNode Title="DetectFloatingObjects Property " Url="html/50cf96c4-87e2-3741-bcd4-52efb2e291d4.htm" />
+        <HelpTOCNode Title="DetectFriendly Property " Url="html/199d400a-1a09-802e-1166-e36377958f2f.htm" />
+        <HelpTOCNode Title="DetectLargeShips Property " Url="html/c377f9a0-ba98-f130-ed63-4b3dc2782993.htm" />
+        <HelpTOCNode Title="DetectNeutral Property " Url="html/17777627-9517-510c-18ee-0415b001440d.htm" />
+        <HelpTOCNode Title="DetectOwner Property " Url="html/09cf24c7-36e4-63d7-c195-884b4aed708b.htm" />
+        <HelpTOCNode Title="DetectPlayers Property " Url="html/26d756f1-9062-f83f-e7e1-a8ba72917517.htm" />
+        <HelpTOCNode Title="DetectSmallShips Property " Url="html/f39d82cb-5be6-1800-7485-e1cd898f75c3.htm" />
+        <HelpTOCNode Title="DetectStations Property " Url="html/87b28264-c1b7-7330-929f-da559c256e11.htm" />
+        <HelpTOCNode Title="DetectSubgrids Property " Url="html/1516c5fb-e107-b29e-ca1d-686066b57c12.htm" />
+        <HelpTOCNode Title="FrontExtend Property " Url="html/51888bf9-c043-93eb-a8ac-2aaf9794233e.htm" />
+        <HelpTOCNode Title="IsActive Property " Url="html/7e5cfebe-7d25-ae8b-5667-8519b2a91ac5.htm" />
+        <HelpTOCNode Title="LastDetectedEntity Property " Url="html/af506414-ed6e-1fa8-c02f-e4bf04fd80be.htm" />
+        <HelpTOCNode Title="LeftExtend Property " Url="html/48a294eb-4737-ef27-da11-3cc0cfc03179.htm" />
+        <HelpTOCNode Title="MaxRange Property " Url="html/c26e57e2-e384-753c-dd93-dee241dafd49.htm" />
+        <HelpTOCNode Title="PlayProximitySound Property " Url="html/80a354ce-d32f-edbb-78d6-2d186289cb00.htm" />
+        <HelpTOCNode Title="RightExtend Property " Url="html/6b4b5715-9b38-aff1-5962-6452ae3a7e5e.htm" />
+        <HelpTOCNode Title="TopExtend Property " Url="html/b6fecf89-26f2-0faf-d13a-11d430eec64a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9e60e10c-91de-45cf-b9ff-4cedbc0160e9" Title="IMyShipConnector Interface" Url="html/8e85bfc7-a172-3609-39ce-7a0df4ebea96.htm">
+      <HelpTOCNode Id="738ccdba-038e-42b9-a7b2-828fbcfad17b" Title="IMyShipConnector Methods" Url="html/5a89094d-ad24-0d96-20c0-dd7b98017586.htm">
+        <HelpTOCNode Title="Connect Method " Url="html/01b511f1-368f-2eed-5a42-9b2503f63d1f.htm" />
+        <HelpTOCNode Title="Disconnect Method " Url="html/99d9d6aa-b206-ea92-8857-c860d8b4d678.htm" />
+        <HelpTOCNode Title="ToggleConnect Method " Url="html/2677ff71-6ed5-8913-a166-6cc46060ce81.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d808b5bd-a2ee-47f6-9fe3-79021150cdee" Title="IMyShipConnector Properties" Url="html/811bceeb-e405-b88e-94ee-c4d5d27ce8f7.htm">
+        <HelpTOCNode Title="CollectAll Property " Url="html/4f52efed-145b-3b6e-098d-3338fe662b3d.htm" />
+        <HelpTOCNode Title="IsConnected Property " Url="html/5698cd81-6287-1c41-e231-335201b77c61.htm" />
+        <HelpTOCNode Title="IsLocked Property " Url="html/ab3d5a3d-514a-c7ee-b415-7252696214fe.htm" />
+        <HelpTOCNode Title="OtherConnector Property " Url="html/7f003d94-8844-138e-4025-0b4a3e5fc23f.htm" />
+        <HelpTOCNode Title="PullStrength Property " Url="html/c84fefec-8970-fb63-c67b-ce30de9d20ac.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/ccec3976-c88e-83c2-e1c2-350021fd3f3d.htm" />
+        <HelpTOCNode Title="ThrowOut Property " Url="html/76e7b1f1-45fd-86a8-a3d4-6be636a8d99c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3c54203c-c96d-4efb-b918-aba66bcc27da" Title="IMyShipController Interface" Url="html/6be0c5ca-88a0-bae9-2f17-c4bf031cbf63.htm">
+      <HelpTOCNode Id="98afff83-3ef6-435c-af9f-80291c72cf22" Title="IMyShipController Methods" Url="html/a92fe2dc-8a65-e388-d90f-bac0f2b48cbd.htm">
+        <HelpTOCNode Title="CalculateShipMass Method " Url="html/42db739b-3c53-b1f2-6adc-9bf5b82652e9.htm" />
+        <HelpTOCNode Title="GetArtificialGravity Method " Url="html/b69d1ac2-b48e-0467-85dd-13de9ea68ed0.htm" />
+        <HelpTOCNode Title="GetNaturalGravity Method " Url="html/b652b43e-2add-fbdf-8fd6-22662073fcef.htm" />
+        <HelpTOCNode Title="GetShipSpeed Method " Url="html/2e650bab-57ff-b986-3e0f-ea374c2cb307.htm" />
+        <HelpTOCNode Title="GetShipVelocities Method " Url="html/4fda63b3-7fb7-7d25-ef7f-158e4ddd19e6.htm" />
+        <HelpTOCNode Title="GetTotalGravity Method " Url="html/315f2ace-aa16-a773-1704-b9366339a677.htm" />
+        <HelpTOCNode Title="TryGetPlanetElevation Method " Url="html/604feb56-69ed-e028-fefc-10718eb9e11c.htm" />
+        <HelpTOCNode Title="TryGetPlanetPosition Method " Url="html/8faf813b-b8b5-db8e-c294-372c4f838851.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f9dfb4c8-1d24-457c-88b9-7e9cc27a8f73" Title="IMyShipController Properties" Url="html/f045072e-7896-a011-f78f-ebf1d1fd74a4.htm">
+        <HelpTOCNode Title="CanControlShip Property " Url="html/dced1190-97fe-e800-9b13-03bff8e0f68f.htm" />
+        <HelpTOCNode Title="CenterOfMass Property " Url="html/af6b9b1b-01b5-885e-8a69-9d4b92504591.htm" />
+        <HelpTOCNode Title="ControlThrusters Property " Url="html/a7bc7e76-1fc2-e489-e28b-d64479506eac.htm" />
+        <HelpTOCNode Title="ControlWheels Property " Url="html/9495053f-e91a-3fab-34b3-273116ddbb28.htm" />
+        <HelpTOCNode Title="DampenersOverride Property " Url="html/6b18a6dc-3a1f-b1ab-021d-8f699fd97146.htm" />
+        <HelpTOCNode Title="HandBrake Property " Url="html/ce2bc1ee-d213-3d65-4d4b-162bed23009b.htm" />
+        <HelpTOCNode Title="HasWheels Property " Url="html/7c2c79d7-aaee-a2c5-cb48-d21873d07618.htm" />
+        <HelpTOCNode Title="IsUnderControl Property " Url="html/ed3a20c7-fc36-4590-5911-33af08bbf65a.htm" />
+        <HelpTOCNode Title="MoveIndicator Property " Url="html/a3262d47-42f2-d7b1-e581-14403f84f0c1.htm" />
+        <HelpTOCNode Title="RollIndicator Property " Url="html/125635ee-fc24-06d9-6da7-7fe9e7858d90.htm" />
+        <HelpTOCNode Title="RotationIndicator Property " Url="html/6521eda7-2053-a03d-a294-ce55289ae37e.htm" />
+        <HelpTOCNode Title="ShowHorizonIndicator Property " Url="html/0484cb08-bff7-3e90-3930-a9d4fc2f80b2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7ade966a-c2d8-4bdd-81dc-db16d681ccd4" Title="IMyShipDrill Interface" Url="html/961db206-6e52-3cff-4f58-ed19fec1ccb4.htm">
+      <HelpTOCNode Title="IMyShipDrill Methods" Url="html/77c2e3e5-650a-7518-3076-ce0b07113ce2.htm" />
+      <HelpTOCNode Id="e76a589b-0c33-41b0-b99e-3cb649018a13" Title="IMyShipDrill Properties" Url="html/26394978-11ec-4b93-3352-f5ff35d771fb.htm">
+        <HelpTOCNode Title="UseConveyorSystem Property " Url="html/0012e311-9ca9-ab37-185f-7ec18065bdc5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e7921d7f-2d8f-4075-985c-54bed8b9fc20" Title="IMyShipGrinder Interface" Url="html/71f59a43-68bc-c014-9081-1e2bc7d1a037.htm">
+      <HelpTOCNode Title="IMyShipGrinder Methods" Url="html/1de391bf-b495-7035-43dd-b96fa724b712.htm" />
+      <HelpTOCNode Title="IMyShipGrinder Properties" Url="html/4a1c7b5d-aa44-5b3a-b02f-c5ca8b6e162f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="adf62deb-5019-4ac6-af38-c043b70b6231" Title="IMyShipToolBase Interface" Url="html/55c93789-659c-dc56-2361-9e22090676e7.htm">
+      <HelpTOCNode Title="IMyShipToolBase Methods" Url="html/6f6c9d8e-9e84-4ce2-f6e8-428118c72e96.htm" />
+      <HelpTOCNode Id="0be3400a-3931-4e1b-ac60-dd0fe4a4e282" Title="IMyShipToolBase Properties" Url="html/154fb27e-9382-5e2d-e881-402ebae6b6fc.htm">
+        <HelpTOCNode Title="UseConveyorSystem Property " Url="html/a1728223-cbcf-3d8e-3209-ff0c671bc423.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9197f89e-ae0c-46be-933a-3407f08da5cb" Title="IMyShipWelder Interface" Url="html/da44097d-1ffc-ead8-ae3b-77b2ff68c064.htm">
+      <HelpTOCNode Title="IMyShipWelder Methods" Url="html/0d44bbe5-16b7-9c6f-2ecb-8b3986770ff6.htm" />
+      <HelpTOCNode Id="ff372e30-986c-44a2-9933-bfd97877a8d0" Title="IMyShipWelder Properties" Url="html/f3d087ff-fec2-6903-7174-bfad1d650ecd.htm">
+        <HelpTOCNode Title="HelpOthers Property " Url="html/6b9e1d9e-3b71-c34b-d66d-5066f1e12879.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cef1a39a-90eb-49bf-8904-f7558f27325c" Title="IMySmallGatlingGun Interface" Url="html/587fe8f2-ecaa-e485-8581-90bd08b78a40.htm">
+      <HelpTOCNode Title="IMySmallGatlingGun Methods" Url="html/979aba9b-e7ce-24b9-5198-52334518546a.htm" />
+      <HelpTOCNode Id="c28f14f7-036f-4d0f-8986-82348a9f6232" Title="IMySmallGatlingGun Properties" Url="html/ed879596-2374-c445-92dc-82e76fedbc84.htm">
+        <HelpTOCNode Title="UseConveyorSystem Property " Url="html/64dda1e2-158c-581c-5a6b-9469009debc9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6bb41aa-d984-44c6-8e73-2ad3a347eb0d" Title="IMySmallMissileLauncher Interface" Url="html/2ce98a57-a3d8-2116-e329-0912d1b32fd6.htm">
+      <HelpTOCNode Title="IMySmallMissileLauncher Methods" Url="html/01486b8a-0e4a-edcb-3e75-75cb01451e74.htm" />
+      <HelpTOCNode Id="ca1ac58b-dea7-4a16-a3ee-e7530b172773" Title="IMySmallMissileLauncher Properties" Url="html/845551b4-14a4-f85c-15b7-2b44bc9d6edc.htm">
+        <HelpTOCNode Title="UseConveyorSystem Property " Url="html/541ab3a4-23f7-6cd5-89b4-021efdce1614.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="79aa1104-8d89-4e49-8644-9c61499c50b1" Title="IMySmallMissileLauncherReload Interface" Url="html/5265bc55-63d5-cf09-fb68-27b1910dc571.htm">
+      <HelpTOCNode Title="IMySmallMissileLauncherReload Methods" Url="html/ea5a45cf-3966-2253-210f-8d6a41d4df82.htm" />
+      <HelpTOCNode Title="IMySmallMissileLauncherReload Properties" Url="html/eec70025-2950-debb-bb7d-a6907ff0c003.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c08d8dbc-8eb3-469e-88f3-9b1775cb73af" Title="IMyTerminalBlock Interface" Url="html/8de8609a-06e8-580a-5406-9e9cef6a83e3.htm">
+      <HelpTOCNode Id="d606fdba-775f-41cf-a3c7-3ac18209eaa3" Title="IMyTerminalBlock Methods" Url="html/e7d2050c-1b2e-4dbf-cefe-88949dbf74f7.htm">
+        <HelpTOCNode Title="GetActions Method " Url="html/a5597f1e-a904-d983-1b02-a5ccf15c171f.htm" />
+        <HelpTOCNode Title="GetActionWithName Method " Url="html/e2be4340-20c7-2b91-96e9-4a396ac8876e.htm" />
+        <HelpTOCNode Title="GetProperties Method " Url="html/9b66e617-9be8-0f86-6fd3-3c184e5daac2.htm" />
+        <HelpTOCNode Title="GetProperty Method " Url="html/06c1ba53-5396-a747-d963-647cc93511f8.htm" />
+        <HelpTOCNode Title="HasLocalPlayerAccess Method " Url="html/14d21be1-a0a6-27e6-096c-8da1c8120642.htm" />
+        <HelpTOCNode Title="HasPlayerAccess Method " Url="html/b1d74162-fc68-89a9-f699-3b08a62f9461.htm" />
+        <HelpTOCNode Title="SearchActionsOfName Method " Url="html/1f8be8d3-c70b-8e3d-6eb3-eb1a19e570d0.htm" />
+        <HelpTOCNode Id="94b739b0-bfd7-4dec-80a3-e5ea1225b7ca" Title="SetCustomName Method " Url="html/eeabd31d-9f93-b715-36bb-5ee0e1ef69fc.htm">
+          <HelpTOCNode Title="SetCustomName Method (String)" Url="html/3d304ebd-1e7d-65ae-1fee-c2582c2395d7.htm" />
+          <HelpTOCNode Title="SetCustomName Method (StringBuilder)" Url="html/42284482-2a9c-32c9-280f-6da0e5d43745.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="886a4bc6-1b8b-4b71-8fb8-c47874f6d278" Title="IMyTerminalBlock Properties" Url="html/ccd713c3-1af6-23d1-0bd7-bca2edd55723.htm">
+        <HelpTOCNode Title="CustomData Property " Url="html/0100998c-14ea-d3dd-1b2e-fee28036fdb6.htm" />
+        <HelpTOCNode Title="CustomInfo Property " Url="html/a143dbba-7db1-0ecf-ecb1-3e6c8bf58ea2.htm" />
+        <HelpTOCNode Title="CustomName Property " Url="html/6211e654-ce1b-b4cb-2b1e-686fee246cb8.htm" />
+        <HelpTOCNode Title="CustomNameWithFaction Property " Url="html/24d15434-7cf6-dde0-2dd8-58d29c66b004.htm" />
+        <HelpTOCNode Title="DetailedInfo Property " Url="html/f8848417-335c-5c0e-0d4a-ba5af7e36ba7.htm" />
+        <HelpTOCNode Title="ShowInTerminal Property " Url="html/d2d5a442-0fc9-8b2b-c327-5bcc21c07bd1.htm" />
+        <HelpTOCNode Title="ShowInToolbarConfig Property " Url="html/b6063e3a-b4d5-705c-a617-428bb63ffa83.htm" />
+        <HelpTOCNode Title="ShowOnHUD Property " Url="html/a5ef6165-f4cc-628e-b12e-550ec7e268b2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="63c4ed7d-4c14-4105-9d8a-44b3958f4772" Title="IMyTextPanel Interface" Url="html/3f52af7d-7b0b-598d-344f-76083de5617b.htm">
+      <HelpTOCNode Id="fb62a65c-6c31-42eb-84cf-31c08531bc0f" Title="IMyTextPanel Methods" Url="html/c5ab394b-0cbe-b8a7-7fba-88c2ceb924e1.htm">
+        <HelpTOCNode Title="AddImagesToSelection Method " Url="html/acc615a0-f6f1-2088-460c-37edf2fbb1e3.htm" />
+        <HelpTOCNode Title="AddImageToSelection Method " Url="html/4012985e-f803-2867-4129-d2a5b27360bf.htm" />
+        <HelpTOCNode Title="ClearImagesFromSelection Method " Url="html/4038681a-9160-6d29-bc99-f471d2fece69.htm" />
+        <HelpTOCNode Title="GetPrivateText Method " Url="html/42065f76-fb9c-3320-be1c-3db3f5eda4e1.htm" />
+        <HelpTOCNode Title="GetPrivateTitle Method " Url="html/df7ca178-c0c3-0c44-30e7-708ee67f16f1.htm" />
+        <HelpTOCNode Title="GetPublicText Method " Url="html/76247eaf-59f1-28ce-d834-f04f9188c3c0.htm" />
+        <HelpTOCNode Title="GetPublicTitle Method " Url="html/4c7ec40c-ced8-bbcf-d2c1-c367c939f252.htm" />
+        <HelpTOCNode Title="GetSelectedImages Method " Url="html/ce238172-b999-4e7f-8de4-655d7dbb7701.htm" />
+        <HelpTOCNode Title="ReadPublicText Method " Url="html/c543b99e-5714-8aa9-2110-97ab202c15a5.htm" />
+        <HelpTOCNode Title="RemoveImageFromSelection Method " Url="html/9c7447e1-7296-95ed-99a5-824081086d70.htm" />
+        <HelpTOCNode Title="RemoveImagesFromSelection Method " Url="html/05016afd-bf66-0dfd-0aa8-0692ae32b942.htm" />
+        <HelpTOCNode Title="SetShowOnScreen Method " Url="html/64cb85fc-1cc7-c34d-4c7d-67624af59df4.htm" />
+        <HelpTOCNode Title="ShowPrivateTextOnScreen Method " Url="html/0e074098-463d-a5ab-dba0-2991cf2a3e5c.htm" />
+        <HelpTOCNode Title="ShowPublicTextOnScreen Method " Url="html/7ef8b317-7e10-8981-ef25-2678d43e7bf1.htm" />
+        <HelpTOCNode Title="ShowTextureOnScreen Method " Url="html/e5d4f8fe-89b8-814b-b13a-e2a9647e0ca9.htm" />
+        <HelpTOCNode Title="WritePrivateText Method " Url="html/4690b1a5-08cb-04b4-e186-804a1a9f2f70.htm" />
+        <HelpTOCNode Title="WritePrivateTitle Method " Url="html/5c5b44f6-680f-96f7-e928-97c27d4cec24.htm" />
+        <HelpTOCNode Id="1b36b60e-64df-4aa2-897f-2c566ef810e6" Title="WritePublicText Method " Url="html/36ac751e-adb5-7f36-aeef-32e068fd2105.htm">
+          <HelpTOCNode Title="WritePublicText Method (String, Boolean)" Url="html/a517fba0-b9cd-d13b-1f8e-8463d55b87bc.htm" />
+          <HelpTOCNode Title="WritePublicText Method (StringBuilder, Boolean)" Url="html/4a3c4ff8-fbbf-06f5-f8cd-9c93739d3378.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="WritePublicTitle Method " Url="html/f92e91bd-49cd-e217-af91-ae663c093aa3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="82196463-51b8-43e8-ae12-7be07284bf53" Title="IMyTextPanel Properties" Url="html/c2020a09-573f-81c0-6085-2452af3680d8.htm">
+        <HelpTOCNode Title="CurrentlyShownImage Property " Url="html/cd8d08b0-dc75-018f-4641-607dd239a81f.htm" />
+        <HelpTOCNode Title="ShowOnScreen Property " Url="html/651b125f-842c-3f4d-94d3-95a1e8bb053b.htm" />
+        <HelpTOCNode Title="ShowText Property " Url="html/dc87c6bf-4bc8-921b-7bb9-9cc0f1d7444a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="20b28a21-9ca9-459d-a7fb-d86826dda920" Title="IMyThrust Interface" Url="html/f664a5b8-7b70-ba4c-d8da-c4218d6dae9d.htm">
+      <HelpTOCNode Title="IMyThrust Methods" Url="html/8034c311-000f-9448-1963-c046a0872c9f.htm" />
+      <HelpTOCNode Id="d683989e-6b20-4281-a7bc-5c3576531605" Title="IMyThrust Properties" Url="html/390efeca-6f99-3b79-9a14-f27d2b7259e0.htm">
+        <HelpTOCNode Title="CurrentThrust Property " Url="html/2f5e1c80-34f6-e19f-8aa2-016df88bc79c.htm" />
+        <HelpTOCNode Title="GridThrustDirection Property " Url="html/72446433-a18a-a864-95be-7500a7abd320.htm" />
+        <HelpTOCNode Title="MaxEffectiveThrust Property " Url="html/1db926e6-1cf5-86e3-350e-a139bc5e174b.htm" />
+        <HelpTOCNode Title="MaxThrust Property " Url="html/1d02e155-df49-e6c1-66c0-0f5765e4469f.htm" />
+        <HelpTOCNode Title="ThrustOverride Property " Url="html/2930dc7d-6651-5eae-e520-3bdc776b9407.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e79d45ff-e122-4590-bfb4-03c0ea64ac11" Title="IMyUpgradableBlock Interface" Url="html/12a3f837-3f4d-6bdb-3c08-ce3c0fc7676a.htm">
+      <HelpTOCNode Id="5241b897-0631-42f0-9f24-dc3f55f8a630" Title="IMyUpgradableBlock Methods" Url="html/48883e25-59e2-567a-c997-9cf1f51d8abc.htm">
+        <HelpTOCNode Title="GetUpgrades Method " Url="html/5542942d-15ad-55ce-c7ea-1a3f4b67fb52.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2339ff25-4568-4a8b-9b25-afed7c509a6c" Title="IMyUpgradableBlock Properties" Url="html/12629ddb-c63d-22aa-91b3-2690bff6c79e.htm">
+        <HelpTOCNode Title="UpgradeCount Property " Url="html/7f4dc34e-3221-2063-ca44-8fa10d1579bd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a2dd6465-5ddd-47da-8f3c-fd86f6fe2832" Title="IMyUpgradeModule Interface" Url="html/247bde23-753e-dd63-97ba-6c5c77d86881.htm">
+      <HelpTOCNode Id="fc7354f3-a9dc-479d-b68a-9f46d2cf8e91" Title="IMyUpgradeModule Methods" Url="html/08862377-236f-1c6b-b8d9-f313ddd51d09.htm">
+        <HelpTOCNode Title="GetUpgradeList Method " Url="html/e0722417-b2f8-0f20-518b-7fc7809f1927.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59769a14-6b6a-4762-b8d3-5ac2db2b675b" Title="IMyUpgradeModule Properties" Url="html/2abb4728-ee34-1d7f-7460-4148cd1440a0.htm">
+        <HelpTOCNode Title="Connections Property " Url="html/74ba2589-66ae-c322-2741-64a0cbb998dd.htm" />
+        <HelpTOCNode Title="UpgradeCount Property " Url="html/80220b44-513f-74ed-228a-86ad7da98be5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4ffe5dad-f0b8-4d85-9559-69fd2c116502" Title="IMyUserControllableGun Interface" Url="html/0743410d-2884-a536-3c1b-188eac8fe93d.htm">
+      <HelpTOCNode Title="IMyUserControllableGun Methods" Url="html/0a5d9bff-0e02-dd40-161a-453c70f0dc53.htm" />
+      <HelpTOCNode Id="9e2b5388-a683-4ca3-a6ab-534ce04d7876" Title="IMyUserControllableGun Properties" Url="html/f5fd5d4e-a53d-1962-96a1-3d7ed4b4eb52.htm">
+        <HelpTOCNode Title="IsShooting Property " Url="html/863d1028-8166-0939-f92a-71313802bd39.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2cee2aef-5247-4a5e-9ef1-6ee5f7e37ad3" Title="IMyWarhead Interface" Url="html/12bd3a30-6766-b898-3780-3d7fb8e1c48d.htm">
+      <HelpTOCNode Title="IMyWarhead Methods" Url="html/6e9c2251-d6f3-fcdd-457e-ed1b4485fa5d.htm" />
+      <HelpTOCNode Id="1982a44f-fe4d-47d0-a132-c4c25e83b48a" Title="IMyWarhead Properties" Url="html/e08cf8b3-0d76-a3f5-9e6f-9cc0b9a73593.htm">
+        <HelpTOCNode Title="DetonationTime Property " Url="html/93c3eee7-13a2-081d-d2b4-1ab271e3987f.htm" />
+        <HelpTOCNode Title="IsCountingDown Property " Url="html/5ec9c079-0901-bc9e-4e3d-5a5ba2ea75aa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="95ff8db5-44d7-4440-9048-82133edde0fc" Title="IMyWheel Interface" Url="html/a029dc5b-ed29-1c98-4b90-8ba0f0332a4e.htm">
+      <HelpTOCNode Title="IMyWheel Methods" Url="html/adceba43-1e85-8aad-687f-91c1084d0caf.htm" />
+      <HelpTOCNode Title="IMyWheel Properties" Url="html/7fafb586-be36-2ca2-3f3c-88a2d144ac7d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="MyAssemblerMode Enumeration" Url="html/d847b18d-d709-e22f-461e-db46e554cc2e.htm" />
+    <HelpTOCNode Title="MyConveyorSorterMode Enumeration" Url="html/1dfbe746-b87f-3e97-0a36-fa2887a1058f.htm" />
+    <HelpTOCNode Id="4f646611-f6de-4f16-8664-53680e9549bd" Title="MyDetectedEntityInfo Structure" Url="html/56eb2bc8-bcbc-1f9f-b34b-b883b77d8815.htm">
+      <HelpTOCNode Title="MyDetectedEntityInfo Constructor " Url="html/0ba302c4-bfa7-e88e-7b77-fc13bd3bdc06.htm" />
+      <HelpTOCNode Id="890b63a8-1746-4b09-9932-f0cef580600a" Title="MyDetectedEntityInfo Fields" Url="html/4569eeb5-cc37-9488-8415-4f7803995125.htm">
+        <HelpTOCNode Title="BoundingBox Field" Url="html/38ea9a89-440b-cd49-fbf9-51bc0a2f15fb.htm" />
+        <HelpTOCNode Title="EntityId Field" Url="html/e6fd4402-2084-f179-4d40-118374165ae6.htm" />
+        <HelpTOCNode Title="HitPosition Field" Url="html/c0b20907-49a6-0ec8-bfa9-7d4c266b5762.htm" />
+        <HelpTOCNode Title="Name Field" Url="html/55d3f0ef-cb94-3657-28de-93a583ebb3ab.htm" />
+        <HelpTOCNode Title="Orientation Field" Url="html/7dc4b2d2-ecba-7484-fd08-d9c188457f87.htm" />
+        <HelpTOCNode Title="Relationship Field" Url="html/df050ed5-1f14-6a94-b3ca-9e17baaa829a.htm" />
+        <HelpTOCNode Title="TimeStamp Field" Url="html/c3ddea12-c213-6302-401d-821ed3f31fbb.htm" />
+        <HelpTOCNode Title="Type Field" Url="html/c46afa53-8b75-0d1a-79d5-c5115d1409f6.htm" />
+        <HelpTOCNode Title="Velocity Field" Url="html/6b4ec2e3-f8d5-a086-a713-6f22e80b9f2d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0f664582-99e9-4814-b6dc-322824a4c17c" Title="MyDetectedEntityInfo Methods" Url="html/3f1690e0-25b5-2cb2-bfac-1e774cb30cba.htm">
+        <HelpTOCNode Title="IsEmpty Method " Url="html/c9271da7-03be-0d6d-830a-1bdd99936f90.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="981994af-6c2f-4d9b-a6f0-b32cf1dd56c4" Title="MyDetectedEntityInfo Properties" Url="html/439d468d-75c2-7088-2410-bdc433da3a33.htm">
+        <HelpTOCNode Title="Position Property " Url="html/5351dcd8-5f25-09b5-5cc9-2b33b410b8a4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="MyDetectedEntityType Enumeration" Url="html/cac095c3-cfc2-4bb8-4486-032244065ca5.htm" />
+    <HelpTOCNode Id="121db7b4-bdac-4338-a13d-e6eb667a9c77" Title="MyGridProgram Class" Url="html/1e3bfa24-ef71-0222-2bc4-75bc44092a68.htm">
+      <HelpTOCNode Title="MyGridProgram Constructor " Url="html/a7383ee6-ecfe-58bb-9771-70bc82b0819c.htm" />
+      <HelpTOCNode Title="MyGridProgram Methods" Url="html/2bb5dab7-09f5-c4fc-508f-bb5e26575733.htm" />
+      <HelpTOCNode Id="86c26c4b-2ae5-4514-902d-d6f117c59f74" Title="MyGridProgram Properties" Url="html/58ed1c77-94eb-479a-debd-06dddd717a38.htm">
+        <HelpTOCNode Title="Echo Property " Url="html/15985e6a-bfd9-dd74-67f0-7dc5f6f7f803.htm" />
+        <HelpTOCNode Title="ElapsedTime Property " Url="html/082bd7a9-db97-e668-4db7-941aec4c6975.htm" />
+        <HelpTOCNode Title="GridTerminalSystem Property " Url="html/4eaa54ae-34dd-78a3-697a-f8e767c779c4.htm" />
+        <HelpTOCNode Title="Me Property " Url="html/b0c54283-f61d-88fe-cde8-b62c7cf6c75b.htm" />
+        <HelpTOCNode Title="Runtime Property " Url="html/9dafcf8d-0e82-5e13-8d32-b336916adb35.htm" />
+        <HelpTOCNode Title="Storage Property " Url="html/843ce03f-eb4d-000a-c97d-3a0d933e2101.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7b12e9aa-6618-469e-8cab-2f7737ffe9e3" Title="MyInventoryItemFilter Structure" Url="html/35377304-ac10-6ab8-78e2-a83c63d15e3f.htm">
+      <HelpTOCNode Id="76df6f52-1995-4e72-85b6-619c29bf866a" Title="MyInventoryItemFilter Constructor " Url="html/c8fe57f5-3155-2a19-2569-453c387fed54.htm">
+        <HelpTOCNode Title="MyInventoryItemFilter Constructor (String, Boolean)" Url="html/48d26b80-1289-3f86-2887-aa0f591f4f5a.htm" />
+        <HelpTOCNode Title="MyInventoryItemFilter Constructor (MyDefinitionId, Boolean)" Url="html/7ea6ad94-6439-3c1e-b111-8922a10fdac4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c66f491f-5f97-4851-8c0f-31c5fc3778e3" Title="MyInventoryItemFilter Fields" Url="html/ce5c06ce-62c5-42cc-e4e9-604bf446669f.htm">
+        <HelpTOCNode Title="AllSubTypes Field" Url="html/a5d13c1e-06a8-4e10-e371-6a9cf3c86842.htm" />
+        <HelpTOCNode Title="ItemId Field" Url="html/62583753-4e40-2e65-c081-cca948fd90f6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MyInventoryItemFilter Methods" Url="html/473f9391-3341-01f7-ff54-ac68e7b26131.htm" />
+      <HelpTOCNode Id="bcf38e31-8c84-4fde-b5ae-09ee9575c92b" Title="MyInventoryItemFilter Type Conversions" Url="html/4de4d902-c10e-d344-fc3d-be9bea7b6f8e.htm">
+        <HelpTOCNode Title="Implicit Conversion (MyDefinitionId to MyInventoryItemFilter)" Url="html/12673378-a4f3-01a0-0405-a5fc24231c28.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="MyJumpDriveStatus Enumeration" Url="html/32c08ea1-fe21-5baa-142b-9b399cc6476b.htm" />
+    <HelpTOCNode Title="MyLaserAntennaStatus Enumeration" Url="html/1fbfccd7-c9b1-564f-9a91-f1c1e7f8c048.htm" />
+    <HelpTOCNode Title="MyPlanetElevation Enumeration" Url="html/b452d862-8125-e4b8-de0b-fad8cbd6f29b.htm" />
+    <HelpTOCNode Id="35ae14da-75cc-4a08-9d03-9821ff9565fa" Title="MyProductionItem Structure" Url="html/c0523e6b-521b-1888-d8b4-b63913b79b76.htm">
+      <HelpTOCNode Title="MyProductionItem Constructor " Url="html/bcbae3fe-01ac-170a-4127-211124d25690.htm" />
+      <HelpTOCNode Id="738f67c6-97fa-4f35-88a8-aef9842d05d3" Title="MyProductionItem Fields" Url="html/85a85462-a616-1ff6-23b1-5b6f36ce2242.htm">
+        <HelpTOCNode Title="Amount Field" Url="html/fed3b166-d68a-c4bd-1d30-d26e23ede646.htm" />
+        <HelpTOCNode Title="BlueprintId Field" Url="html/7723c08a-5baf-0c11-4c53-0902c7b71724.htm" />
+        <HelpTOCNode Title="ItemId Field" Url="html/8d74c587-dbc9-57f6-7b52-92f81a68adcf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MyProductionItem Methods" Url="html/899e8154-aae2-74de-bac3-8fe071e0a98a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="MyShipConnectorStatus Enumeration" Url="html/131a418b-51d4-560d-8b7f-f6436ca4d7eb.htm" />
+    <HelpTOCNode Id="1b45f5f9-d46e-49a2-8688-4523f8ebd3fe" Title="MyShipMass Structure" Url="html/cf85bc9d-1abb-b0f9-6c43-239cc3dbe9be.htm">
+      <HelpTOCNode Title="MyShipMass Constructor " Url="html/c1335cf0-94e8-878c-dd98-c0b2b695da65.htm" />
+      <HelpTOCNode Id="57fea970-538d-486c-aa8a-5174efdabbf9" Title="MyShipMass Fields" Url="html/8f52a13c-df5b-b4b9-b103-541aab49e9b2.htm">
+        <HelpTOCNode Title="BaseMass Field" Url="html/0a565f26-43ba-df92-0343-36fa5eec2f67.htm" />
+        <HelpTOCNode Title="PhysicalMass Field" Url="html/c55d1cb6-22be-05df-7f90-84885980c6f7.htm" />
+        <HelpTOCNode Title="TotalMass Field" Url="html/8d198307-05ae-f410-3bba-a6afe15c2f7f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MyShipMass Methods" Url="html/16f93842-d6c2-20fb-e8e5-827f9be238c7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="178f0e2c-bce0-43b0-9bbb-da37aa9a35ca" Title="MyShipVelocities Structure" Url="html/6bd8ecff-df7a-4d11-dc62-809fe0e63f62.htm">
+      <HelpTOCNode Title="MyShipVelocities Constructor " Url="html/380fcdca-3a06-a2d1-449a-141736336abf.htm" />
+      <HelpTOCNode Id="b7ba2efe-4bd9-44ad-a945-8ad764987772" Title="MyShipVelocities Fields" Url="html/4c6e0c2c-5be3-19ba-a355-2d841b591fb4.htm">
+        <HelpTOCNode Title="AngularVelocity Field" Url="html/67f89d05-e956-265d-d75e-fb41d4dbbb05.htm" />
+        <HelpTOCNode Title="LinearVelocity Field" Url="html/fb593d18-52a4-89a9-1310-9ce2e0b7b263.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MyShipVelocities Methods" Url="html/ee16ac3a-3204-0331-8651-4ddc770ae413.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="MyTransmitTarget Enumeration" Url="html/738e6523-3a8f-09f8-4176-5625d2834868.htm" />
+    <HelpTOCNode Id="4c174860-8b7e-45fc-817a-12e61d97d0d7" Title="MyWaypointInfo Structure" Url="html/41a5e932-95e4-e50a-db7f-94e3653a9576.htm">
+      <HelpTOCNode Title="MyWaypointInfo Constructor " Url="html/96f7809b-01d3-d931-9179-d6cd11dda209.htm" />
+      <HelpTOCNode Id="a5f9a186-1c9f-43e4-815e-3a375c753169" Title="MyWaypointInfo Fields" Url="html/d31f2fd5-b56e-fac8-85dd-847e07452e83.htm">
+        <HelpTOCNode Title="Coords Field" Url="html/6125aa7d-d7b2-6674-31ab-c9240b6075d7.htm" />
+        <HelpTOCNode Title="Name Field" Url="html/e5f8b258-d27c-88f9-ae77-747180ceb099.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MyWaypointInfo Methods" Url="html/2cf038e9-ac41-8fe9-c49e-ede6dda8b981.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="PistonStatus Enumeration" Url="html/96486d3e-d781-bd1d-a0e0-b2ff57c2b5b5.htm" />
+    <HelpTOCNode Id="732c21f8-aded-4e85-8202-680de098063b" Title="TerminalActionParameter Structure" Url="html/eacc7ca7-8a02-3864-a507-02d87814697c.htm">
+      <HelpTOCNode Id="63a01c29-cd66-4305-abc3-449de3c0c746" Title="TerminalActionParameter Fields" Url="html/262ce582-b6bf-904d-bfe2-e116cc61f6f2.htm">
+        <HelpTOCNode Title="Empty Field" Url="html/7f78d339-c1a3-1495-8a33-83654b4d507f.htm" />
+        <HelpTOCNode Title="TypeCode Field" Url="html/b8022432-84df-5007-36f0-4d3d36b54d3b.htm" />
+        <HelpTOCNode Title="Value Field" Url="html/a536b48f-1cd6-12f6-8faa-35ca2f34a0c0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="93f9e944-1c3e-4123-8125-ab22accb65ed" Title="TerminalActionParameter Methods" Url="html/a668924b-457f-0e3e-dae8-44d6a22b0622.htm">
+        <HelpTOCNode Title="Deserialize Method " Url="html/49598777-e6d4-eb9d-9c0c-55ccf088fe49.htm" />
+        <HelpTOCNode Title="Get Method " Url="html/b247f2b5-8283-7c01-643c-526be84fcec8.htm" />
+        <HelpTOCNode Title="GetObjectBuilder Method " Url="html/1be9f6cf-30d9-2570-8a8a-ebbe6652a950.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ccf83df7-4026-4145-975b-118cee912ddb" Title="TerminalActionParameter Properties" Url="html/171cbd1f-b599-89f6-e095-97872446cdff.htm">
+        <HelpTOCNode Title="IsEmpty Property " Url="html/5c3a883f-12f2-84ca-5e33-2171bd39a46f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c44f490c-b64f-4d16-80f4-4dea6754f564" Title="TerminalBlockExtentions Class" Url="html/4251beb6-ccc1-9c8c-e606-7d94d79832ea.htm">
+      <HelpTOCNode Id="1faf6233-c5a2-4961-bc35-3377e4c5e0df" Title="TerminalBlockExtentions Methods" Url="html/03d2a082-4252-063e-84ab-a7659d7234a6.htm">
+        <HelpTOCNode Id="be691582-1bc8-4aeb-a419-4616bc4f27f1" Title="ApplyAction Method " Url="html/20017741-61eb-d4f9-4979-37feaf1d6a8f.htm">
+          <HelpTOCNode Title="ApplyAction Method (IMyTerminalBlock, String)" Url="html/764ba7d7-c599-07cc-fe5c-953153fdc599.htm" />
+          <HelpTOCNode Title="ApplyAction Method (IMyTerminalBlock, String, List(TerminalActionParameter))" Url="html/aed3cb86-583d-9a14-67b7-f6ca844ba04c.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetId Method " Url="html/dfcdf24b-20c9-227d-0384-8e96efb73de8.htm" />
+        <HelpTOCNode Title="GetInventory Method " Url="html/3f68c7df-f992-8c6e-945c-83ce757441e1.htm" />
+        <HelpTOCNode Title="GetInventoryCount Method " Url="html/489983a9-8738-0527-edca-52431105b809.htm" />
+        <HelpTOCNode Title="GetUseConveyorSystem Method " Url="html/466913da-6a61-c761-3552-7403e43f269e.htm" />
+        <HelpTOCNode Title="HasAction Method " Url="html/dc0d4897-4c18-8798-75e6-e9c043b42184.htm" />
+        <HelpTOCNode Title="HasInventory Method " Url="html/283dc97f-f201-7876-b319-dffa4d879596.htm" />
+        <HelpTOCNode Title="SetUseConveyorSystem Method " Url="html/74da7bb5-eb9a-c045-cdd1-696667679fa3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="134e7b9b-7980-49b9-bca6-fcd7ab588707" Title="Sandbox.ModAPI.Interfaces" Url="html/b818b95b-c9ad-2495-af62-7094bb96a6f2.htm">
+    <HelpTOCNode Id="d04f0388-5d80-48e0-ab7e-d739219e6204" Title="ITerminalAction Interface" Url="html/e81e7652-dd75-1b6d-1f47-e2ff54239b13.htm">
+      <HelpTOCNode Id="07edad4c-a581-4957-808d-0c628fb67a87" Title="ITerminalAction Methods" Url="html/3e6a14c3-2465-62f0-7106-146d83614fe6.htm">
+        <HelpTOCNode Id="7a30c401-0d6c-4026-a816-fdfe9249d6dd" Title="Apply Method " Url="html/17104828-f393-b5f7-c27e-2f420d106946.htm">
+          <HelpTOCNode Title="Apply Method (IMyCubeBlock)" Url="html/af6a72b8-ce75-7ccd-281f-2b5548ce56a4.htm" />
+          <HelpTOCNode Title="Apply Method (IMyCubeBlock, ListReader`1(TerminalActionParameter))" Url="html/2ded17a8-8157-f62f-aed5-d11b7f873213.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IsEnabled Method " Url="html/72e8b8c6-dfc3-b005-b27e-cc35aa6e3385.htm" />
+        <HelpTOCNode Title="WriteValue Method " Url="html/47295b8f-bac5-aab9-d37e-301ef68d6d61.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="25cc026b-340d-4bac-8049-73294a3df017" Title="ITerminalAction Properties" Url="html/c77e05fa-eaff-c71d-8b80-fec0586e16f7.htm">
+        <HelpTOCNode Title="Icon Property " Url="html/1571ae72-c56e-6e87-c32a-0ca6cd524cea.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/64c59295-6f68-bb70-0e6f-4b549e70496b.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/0d19f1d8-96a4-d4ae-a331-2bd956c57d09.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="575170b5-1f70-4256-b6dd-a51c91fb87b2" Title="ITerminalProperty Interface" Url="html/306c6c96-6a9a-4aa6-8196-d8c1b6ff6e43.htm">
+      <HelpTOCNode Title="ITerminalProperty Methods" Url="html/96cdef9c-f64e-7f57-959f-7662cc98a764.htm" />
+      <HelpTOCNode Id="c7195040-adc9-4e71-a95e-e8b4beee7d40" Title="ITerminalProperty Properties" Url="html/61f8f186-7e21-d6a3-95e2-6cd16017d88c.htm">
+        <HelpTOCNode Title="Id Property " Url="html/f80fc071-44de-f385-f2e1-7b0bd88f22d9.htm" />
+        <HelpTOCNode Title="TypeName Property " Url="html/e1a2d32a-c674-101c-35fc-7ab5de0989f8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9c7e51ca-609e-409a-b7af-b5b37d4832b8" Title="ITerminalProperty(TValue) Interface" Url="html/4a7a88da-54f4-8456-5eb8-bcb6d0b0f085.htm">
+      <HelpTOCNode Id="1254ef2e-0983-4903-a7ab-172754f0cb67" Title="ITerminalProperty(TValue) Methods" Url="html/10c94ac5-449c-d915-99a1-7bd877d2a1a1.htm">
+        <HelpTOCNode Title="GetDefaultValue Method " Url="html/1f821496-471e-0790-7a08-0e89039a6776.htm" />
+        <HelpTOCNode Title="GetMaximum Method " Url="html/58e3b86d-2728-e927-4230-cae02c6a5e6e.htm" />
+        <HelpTOCNode Title="GetMinimum Method " Url="html/5be80136-80f5-3493-6751-996f8c262914.htm" />
+        <HelpTOCNode Title="GetMininum Method " Url="html/42ed1c1e-7a8c-0dfb-1235-fc94116d555c.htm" />
+        <HelpTOCNode Title="GetValue Method " Url="html/fccb1ea7-068b-3e44-8076-4b8eaf32444d.htm" />
+        <HelpTOCNode Title="SetValue Method " Url="html/d442ccc5-2871-43d2-7442-dcfadbde81da.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ITerminalProperty(TValue) Properties" Url="html/b260dd18-fae9-567a-a22f-f2ee88defbe5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3a5928f8-872e-4fcc-9473-908bd44327a8" Title="TerminalPropertyExtensions Class" Url="html/982ff151-f77a-581b-0bc4-6941965faa6a.htm">
+      <HelpTOCNode Id="24bf899d-6d35-43e9-8e73-17d33a69e702" Title="TerminalPropertyExtensions Methods" Url="html/204fdfc8-688f-3263-6e02-46eadcce4cb4.htm">
+        <HelpTOCNode Title="As(TValue) Method " Url="html/2c65f513-01f6-a279-bd53-f2bdba282de5.htm" />
+        <HelpTOCNode Title="AsBool Method " Url="html/14b56e9a-eb25-948e-cedd-a1470c15c786.htm" />
+        <HelpTOCNode Title="AsColor Method " Url="html/20bb4638-a718-38d4-f520-bad095c8aadf.htm" />
+        <HelpTOCNode Title="AsFloat Method " Url="html/1575dace-83e8-a08e-6e50-5ba066bc1d84.htm" />
+        <HelpTOCNode Title="Cast(TValue) Method " Url="html/762534cc-fb49-2ff8-e930-23ae065509e7.htm" />
+        <HelpTOCNode Title="GetDefaultValue(T) Method " Url="html/1f63a376-7be5-3e87-2e44-697fc9360b1d.htm" />
+        <HelpTOCNode Title="GetMaximum(T) Method " Url="html/c756b02b-fb77-f63f-29c1-a4aa3fa19a28.htm" />
+        <HelpTOCNode Title="GetMinimum(T) Method " Url="html/417a7c85-295f-3737-b737-b1a62cf2a6f9.htm" />
+        <HelpTOCNode Title="GetMininum(T) Method " Url="html/984364cf-585e-4174-759d-9c9411494cae.htm" />
+        <HelpTOCNode Title="GetValue(T) Method " Url="html/78eaffcc-c1bb-7cb5-22a2-5390835935ff.htm" />
+        <HelpTOCNode Title="GetValueBool Method " Url="html/bed99a1a-b92d-a8ab-718e-d548aa7a01b9.htm" />
+        <HelpTOCNode Title="GetValueColor Method " Url="html/a4c1d1b7-ec6b-33cb-e173-eafecb8d3120.htm" />
+        <HelpTOCNode Title="GetValueFloat Method " Url="html/92e82405-a4e2-c339-882b-83d266393544.htm" />
+        <HelpTOCNode Title="Is(TValue) Method " Url="html/00e41325-6b66-b2b6-b851-fa6e8c0d9d38.htm" />
+        <HelpTOCNode Title="SetValue(T) Method " Url="html/6bbf336a-4429-b922-cd3d-7cf79dd088f0.htm" />
+        <HelpTOCNode Title="SetValueBool Method " Url="html/34cf7e0b-e8df-05c5-ca8a-54e8e81298b2.htm" />
+        <HelpTOCNode Title="SetValueColor Method " Url="html/84df9626-5a3b-d855-01d4-a9bef867ca25.htm" />
+        <HelpTOCNode Title="SetValueFloat Method " Url="html/3e945991-18a6-35a9-3c96-f3dc668ddead.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c88affc2-fe27-47f1-93be-4c30ec486706" Title="Sandbox.ModAPI.Interfaces.Terminal" Url="html/7d8d66f6-10e2-1ba7-061a-7d9585b8d446.htm">
+    <HelpTOCNode Id="fe35a6f1-6f66-4bd4-975b-860c68f2a832" Title="IMyTerminalAction Interface" Url="html/1dc2b8c1-c76e-26bd-c9e3-b656913a643d.htm">
+      <HelpTOCNode Title="IMyTerminalAction Methods" Url="html/4e989fb3-a23d-85bf-55e2-c6695909e3b9.htm" />
+      <HelpTOCNode Id="b810e0d3-24ff-402e-8249-22180e812feb" Title="IMyTerminalAction Properties" Url="html/f3f059cc-d7b4-e3af-84ee-813e2ae2d58c.htm">
+        <HelpTOCNode Title="Action Property " Url="html/9dcbee13-e677-fb33-794e-e004a4c65965.htm" />
+        <HelpTOCNode Title="Enabled Property " Url="html/75168e53-143f-0d77-fa84-50b88ae2335e.htm" />
+        <HelpTOCNode Title="Icon Property " Url="html/d186c463-1130-e9b4-265d-4825bfea968c.htm" />
+        <HelpTOCNode Title="InvalidToolbarTypes Property " Url="html/a7f882a9-7e60-8630-5cb3-1e85b11a860c.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/9a2fc89a-2936-3501-1148-d8a19a3b36ca.htm" />
+        <HelpTOCNode Title="ValidForGroups Property " Url="html/be9f0932-1ec7-ba17-1aa4-49f5c6813cd1.htm" />
+        <HelpTOCNode Title="Writer Property " Url="html/da521fed-fd7d-58f4-5e37-c90b497c3a46.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd206141-40d9-423e-8e6d-8293558526cf" Title="IMyTerminalControl Interface" Url="html/276215d8-2576-4026-19d5-1af46eb68c3c.htm">
+      <HelpTOCNode Id="7c1961b5-7286-4ec4-9f63-0ecc84a6c5dd" Title="IMyTerminalControl Methods" Url="html/22d430a3-2d22-5a6e-9ce3-22fb4579408b.htm">
+        <HelpTOCNode Title="RedrawControl Method " Url="html/59fb04b5-c070-8aec-ee7d-1b5d8b0abed2.htm" />
+        <HelpTOCNode Title="UpdateVisual Method " Url="html/2f367521-7ae0-c15e-b840-c21b8f8cbed5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7f40e828-24eb-4ca0-ba22-60030166868b" Title="IMyTerminalControl Properties" Url="html/33c12ea1-a822-fe1c-601b-84cba7752909.htm">
+        <HelpTOCNode Title="Enabled Property " Url="html/cfb4910f-8fc0-e366-d2fc-357d9c5ba638.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/2b306cf5-887c-70db-3c69-f296310c0db0.htm" />
+        <HelpTOCNode Title="SupportsMultipleBlocks Property " Url="html/9f757e8e-476e-d2c8-8a49-dd9d5c57fc88.htm" />
+        <HelpTOCNode Title="Visible Property " Url="html/c6430088-de6a-92c4-6a08-71ae3f938672.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e32cc12f-5993-44c5-ade7-03cce4df9785" Title="IMyTerminalControlButton Interface" Url="html/fd0eee33-935e-ecde-541d-a909a0ca51cb.htm">
+      <HelpTOCNode Title="IMyTerminalControlButton Methods" Url="html/bc7f79c2-80a9-ebf9-b763-2f6676304ef9.htm" />
+      <HelpTOCNode Id="ae427ac5-a319-45d7-bd1b-2b3eaa36de35" Title="IMyTerminalControlButton Properties" Url="html/8605aa85-5afb-1b5e-96d9-0bd8e026f288.htm">
+        <HelpTOCNode Title="Action Property " Url="html/7e507cad-baa4-9848-1876-7c45693433df.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="05de8d55-ffb3-47b8-b171-f884935a6df1" Title="IMyTerminalControlCheckbox Interface" Url="html/0b539a34-2616-11c3-b2ea-e708c400db19.htm">
+      <HelpTOCNode Title="IMyTerminalControlCheckbox Methods" Url="html/8bf2efc7-90d4-19fe-3ae0-f80ae1557008.htm" />
+      <HelpTOCNode Id="80a5d4c0-646c-4d5f-bc71-1ad265c76d75" Title="IMyTerminalControlCheckbox Properties" Url="html/80ea288f-f35a-5860-4826-261818c7d232.htm">
+        <HelpTOCNode Title="OffText Property " Url="html/ec5c06bb-915e-74a0-5c2e-f5df4a11ad07.htm" />
+        <HelpTOCNode Title="OnText Property " Url="html/8ac6e3fb-2cee-eebd-5e82-f5784c869ff9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d9fc6ca1-1180-4b37-be56-f9874f330c1e" Title="IMyTerminalControlColor Interface" Url="html/4f1b7716-980a-60e0-d353-856e76f91faf.htm">
+      <HelpTOCNode Title="IMyTerminalControlColor Methods" Url="html/b88f1619-664d-c009-b280-b0a3c4e3d2ef.htm" />
+      <HelpTOCNode Title="IMyTerminalControlColor Properties" Url="html/b3a5a7ec-6429-ba03-decb-e6fed06c3a89.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b9ac600d-0765-4600-8a5d-803c5c626cb7" Title="IMyTerminalControlCombobox Interface" Url="html/d6626302-8a09-df5d-bfe1-48048e246054.htm">
+      <HelpTOCNode Title="IMyTerminalControlCombobox Methods" Url="html/1262495d-9b89-c928-3846-981face29116.htm" />
+      <HelpTOCNode Id="01a14e06-5db0-447c-bc6c-047974d9d50b" Title="IMyTerminalControlCombobox Properties" Url="html/eb71183f-c4c2-feb2-d971-8c54ab9d4e54.htm">
+        <HelpTOCNode Title="ComboBoxContent Property " Url="html/3d83f4a4-4d47-9165-404f-1f86780b20f4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d93e8522-0bf3-42b0-9057-69a2e2ebe9a3" Title="IMyTerminalControlLabel Interface" Url="html/3edf3077-0835-e102-2c1f-6dfd8dc73b5f.htm">
+      <HelpTOCNode Title="IMyTerminalControlLabel Methods" Url="html/84fdd6a6-11f0-ee3f-d295-fa2f0d45c6de.htm" />
+      <HelpTOCNode Id="4b148f22-cb7c-4f1f-b8d6-2a23d1bd661b" Title="IMyTerminalControlLabel Properties" Url="html/4a7ef4d5-0795-728e-5abf-c408cbaeb661.htm">
+        <HelpTOCNode Title="Label Property " Url="html/14c865b3-cc47-3d11-edc3-d28ad57fa337.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f6d29708-27bd-4db5-830c-c8e40e5f8a26" Title="IMyTerminalControlListbox Interface" Url="html/2a302542-a3fd-22de-713e-73a7c7e8ce15.htm">
+      <HelpTOCNode Title="IMyTerminalControlListbox Methods" Url="html/7272e857-8ef7-6534-7105-b659a9b29460.htm" />
+      <HelpTOCNode Id="b615f585-a073-4512-8d2a-3a3cec898499" Title="IMyTerminalControlListbox Properties" Url="html/f420c3c0-2ad7-5b58-eb01-1d47b04af5f1.htm">
+        <HelpTOCNode Title="ItemSelected Property " Url="html/9bf4f2e3-c096-6a68-400c-1984a1c639ca.htm" />
+        <HelpTOCNode Title="ListContent Property " Url="html/d9f04cbc-b2aa-8cec-1592-857f95f67353.htm" />
+        <HelpTOCNode Title="Multiselect Property " Url="html/368c8186-005d-bf69-d646-898c1f325aed.htm" />
+        <HelpTOCNode Title="VisibleRowsCount Property " Url="html/1d94e4a5-9e65-cbc7-6714-acd40ae54681.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5587af50-1960-4055-bb9b-d27700d7990a" Title="IMyTerminalControlOnOffSwitch Interface" Url="html/63806e4a-ed03-c7a4-d745-c823fbe99f89.htm">
+      <HelpTOCNode Title="IMyTerminalControlOnOffSwitch Methods" Url="html/927073e8-1c6d-fa5e-10e5-294f3c2c576b.htm" />
+      <HelpTOCNode Id="c2d2506b-0c01-4b69-b386-a15a3bf64e2a" Title="IMyTerminalControlOnOffSwitch Properties" Url="html/2ac32652-a111-0889-5dcc-d6d8af111683.htm">
+        <HelpTOCNode Title="OffText Property " Url="html/bf6282f6-bf55-af04-7c29-ba9696c343a2.htm" />
+        <HelpTOCNode Title="OnText Property " Url="html/9c188cb6-548c-8193-a21e-86708aa87c27.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0490b9b2-1b32-48db-8d73-1364f693241a" Title="IMyTerminalControlProperty(TValue) Interface" Url="html/c9dc8824-4e73-d504-cd07-e00e27ccc0d8.htm">
+      <HelpTOCNode Title="IMyTerminalControlProperty(TValue) Methods" Url="html/b22e6c5c-103b-6046-aa9d-86ed375a5fd5.htm" />
+      <HelpTOCNode Title="IMyTerminalControlProperty(TValue) Properties" Url="html/2f91a5d4-168e-f984-9d20-2f08998508d8.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d6159365-364e-4f9d-abd6-73c0d0d23d5c" Title="IMyTerminalControlSeparator Interface" Url="html/52796dca-71cb-fb90-e424-9fcadbd46cd2.htm">
+      <HelpTOCNode Title="IMyTerminalControlSeparator Methods" Url="html/62fce188-3762-eecd-d7f5-579504fe5edc.htm" />
+      <HelpTOCNode Title="IMyTerminalControlSeparator Properties" Url="html/7628fcae-1720-9849-363a-8207085cc4e9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d9c8bf1b-5a66-4fae-ac86-550e0ca6549b" Title="IMyTerminalControlSlider Interface" Url="html/ccc46c0c-2f67-45a3-78ad-5adbf373642e.htm">
+      <HelpTOCNode Id="b1d282a8-701c-4268-a258-fb8deb95afdd" Title="IMyTerminalControlSlider Methods" Url="html/8495d9ce-c168-cea6-df1a-498bf2950e60.htm">
+        <HelpTOCNode Id="3dfce3ed-56de-491d-ad24-e651ead5c793" Title="SetDualLogLimits Method " Url="html/19e380e0-c8a5-8a29-1b41-2a2d9f9ad6d1.htm">
+          <HelpTOCNode Title="SetDualLogLimits Method (Func, Boolean, IMyTerminalBlock)" Url="html/764c5fe7-8c4b-7299-fab1-4e4b0d76ec3c.htm" />
+          <HelpTOCNode Title="SetDualLogLimits Method (Single, Single, Single)" Url="html/c3ae71c3-b5ed-71fc-58b3-f554f8470bde.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a2cb5d7a-91d5-447b-88bf-ebbd3ad4683b" Title="SetLimits Method " Url="html/a02ef0d1-3764-9f61-410b-b9e164a68ad4.htm">
+          <HelpTOCNode Title="SetLimits Method (Func, Boolean)" Url="html/511e4c76-6afb-42b7-48bd-def15739be8e.htm" />
+          <HelpTOCNode Title="SetLimits Method (Single, Single)" Url="html/3d39e47c-e9c0-b817-542c-00644e3bde77.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="203dc463-c61c-4a82-b188-e7016d2f0ee7" Title="SetLogLimits Method " Url="html/d2fa00ba-f748-5e43-a91e-cd53014972ac.htm">
+          <HelpTOCNode Title="SetLogLimits Method (Func, Boolean)" Url="html/97282fdf-3af5-d623-ba0d-95c6310eebc6.htm" />
+          <HelpTOCNode Title="SetLogLimits Method (Single, Single)" Url="html/a2adff2f-b09e-3e43-ad49-bb9eec86692c.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fec9d32c-8674-4571-b665-93f43de345f6" Title="IMyTerminalControlSlider Properties" Url="html/cf2e4600-4009-6836-7c94-2c4840524289.htm">
+        <HelpTOCNode Title="Writer Property " Url="html/bc37e7a3-6667-957b-5593-4156741ac0e0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1f9302f7-65a0-41c2-a12f-190d9ec8e8b1" Title="IMyTerminalControlTextbox Interface" Url="html/cb28bcec-ae62-d71f-344c-e5c8f90fd951.htm">
+      <HelpTOCNode Title="IMyTerminalControlTextbox Methods" Url="html/619e3bbb-0839-d7f0-dea2-127e19deded5.htm" />
+      <HelpTOCNode Title="IMyTerminalControlTextbox Properties" Url="html/e4c07532-8c6e-d5ae-7486-ff0e2c667d08.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3d1b4794-18a6-46a5-9e1f-04ec9fe3e006" Title="IMyTerminalControlTitleTooltip Interface" Url="html/dc9bd6f4-882b-5179-3b79-3df95552f993.htm">
+      <HelpTOCNode Id="c6098832-458e-4589-a59e-5e6b619200e3" Title="IMyTerminalControlTitleTooltip Properties" Url="html/f3d04d7a-2cb4-a9bc-e3b0-9c3d0dc7875f.htm">
+        <HelpTOCNode Title="Title Property " Url="html/e2150783-ba1b-b974-4aea-10aa3d2d7239.htm" />
+        <HelpTOCNode Title="Tooltip Property " Url="html/16aa16e2-c680-e5a6-326c-71275f02164a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3eb99f17-15c7-4cfa-92e3-d6c7cfa7f420" Title="IMyTerminalValueControl(TValue) Interface" Url="html/ad5ce843-2b66-93f1-ce13-2b2a705eba3b.htm">
+      <HelpTOCNode Title="IMyTerminalValueControl(TValue) Methods" Url="html/f06a7c40-7fe6-18ba-dcc5-fbb2025cfad4.htm" />
+      <HelpTOCNode Id="a5d46044-574a-41e0-baba-64f86218d76a" Title="IMyTerminalValueControl(TValue) Properties" Url="html/dcb379fd-6daa-f1b1-d060-c9c216729f8e.htm">
+        <HelpTOCNode Title="Getter Property " Url="html/099ef0c1-0b5b-92dd-fea4-c597cc91fdd3.htm" />
+        <HelpTOCNode Title="Setter Property " Url="html/5591c175-a73f-8a1a-633a-77a1d3e317d1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
