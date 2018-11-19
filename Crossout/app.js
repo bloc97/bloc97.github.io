@@ -5,18 +5,52 @@ angular.module('Crossout', ['ui.bootstrap'])
 	$scope.copperPerToken = 200/300
 	$scope.wiresPerToken = 500/500
 	$scope.plasticPerToken = 250/500
-	$scope.wandererPerToken = 1/600
 	$scope.electronicsPerToken = 200/800
 	$scope.batteriesPerToken = 200/800
+	$scope.wandererPerToken = 1/600
 	$scope.pathfinderPerToken = 1/3000
 	
-	beginTime = Math.floor((Date.now()/1000) - 6000)
+	$scope.currentTime = Math.floor(Date.now()/1000)
+	
+	beginTime = $scope.currentTime - 7200
 	
 	$scope.afterTax = function(price, amount) {
 		return Math.floor(price*0.9)/amount
 	}
 	$scope.perToken = function(price, amount, multiplier) {
-		return Math.floor($scope.afterTax(price, amount) * multiplier * 10000) / 10000
+		price = Math.floor($scope.afterTax(price, amount) * multiplier * 10000) / 10000
+		if (isNaN(price)) {
+			return "Fetching..."
+		}
+		return price;
+	}
+	$scope.timeSince = function(date) {
+		var seconds = Math.floor(Date.now()/1000) - (date + 3600);
+		if (isNaN(seconds)) {
+			return ""
+		}
+		var interval = Math.floor(seconds / 31536000);
+
+		if (interval > 1) {
+		return interval + " years";
+		}
+		interval = Math.floor(seconds / 2592000);
+		if (interval > 1) {
+		return interval + " months";
+		}
+		interval = Math.floor(seconds / 86400);
+		if (interval > 1) {
+		return interval + " days";
+		}
+		interval = Math.floor(seconds / 3600);
+		if (interval > 1) {
+		return interval + " hours";
+		}
+		interval = Math.floor(seconds / 60);
+		if (interval > 1) {
+		return interval + " minutes";
+		}
+		return Math.floor(seconds) + " seconds";
 	}
 	
     $http.get('https://crossoutdb.com/api/v1/market-all/53?startTimestamp=' + beginTime).
