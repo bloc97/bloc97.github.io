@@ -4,7 +4,6 @@
     <!-- Load TensorFlow.js -->
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"> </script>
 
-    <!-- Place your code in the script tag below. You can also use an external .js file -->
     <script>
 	
 	function getUrlParams(search) {
@@ -23,7 +22,8 @@
 	}
 	function show(num) {
 		getModel().then(model => {
-			var body = document.getElementsByTagName("body")[0];
+			//var body = document.getElementsByTagName("body")[0];
+			var body = document.getElementById("canvases");
 			for (var i=0; i<num; i++) {
 				
 				var canvas = document.createElement('canvas');
@@ -41,26 +41,35 @@
 				const image = tf.add(tf.div(tf.reshape(model.predictOnBatch(latent), [48, 48, 3]), 2), 0.5);
 				tf.toPixels(image, canvas)
 			}
+			document.getElementById("placeholder").remove();
+			document.getElementById("placeholder2").remove();
 		});
 	}
 	
 	var currenthref = window.location.href;
-	console.log(currenthref)
+	//console.log(currenthref)
 	const params = getUrlParams(currenthref);
 	
 	const num = params.num || 32
 	
 	show(num);
-      // Notice there is no 'import' statement. 'tf' is available on the index-page
-      // because of the script tag above.
-
-      // Define a model for linear regression.
-
-      // Generate some synthetic data for training.
 	  
     </script>
   </head>
 
   <body>
+	<div id='placeholder'>
+		<h2>Generating images, please wait...</h2>
+	</div>
+	<div id='canvases'>
+	</div>
+	<br/>
+	Note: This is powered by TensorFlow.js and runs locally in your computer.<br/><br/><br/>
+	
+	<div id='placeholder2'>
+	If you do not have a graphics card it may take a few minutes.<br/>
+	Consider reducing the amount of images generated using the "num" parameter.<br/>
+	Eg. https://bloc97.github.io/azurlane/?num=4
+	</div>
   </body>
 </html>
