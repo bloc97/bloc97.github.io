@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">>
+  <head>
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"> </script>
+
+    <!-- Place your code in the script tag below. You can also use an external .js file -->
+    <script>
+	
+	function getUrlParams(search) {
+		let hashes = search.slice(search.indexOf('?') + 1).split('&')
+		let params = {}
+		hashes.map(hash => {
+			let [key, val] = hash.split('=')
+			params[key] = decodeURIComponent(val)
+		})
+
+		return params
+	}
+	async function getModel(){
+		const model = await tf.loadModel('https://raw.githubusercontent.com/bloc97/bloc97.github.io/master/azurlane/model.json');
+		return model;
+	}
+	function show(num) {
+		getModel().then(model => {
+			var body = document.getElementsByTagName("body")[0];
+			for (var i=0; i<num; i++) {
+				
+				var canvas = document.createElement('canvas');
+
+				canvas.id = "output"+i;
+				canvas.width = 48;
+				canvas.height = 48;
+				canvas.style.zIndex = 8;
+				//canvas.style.position = "absolute";
+				canvas.style.border = "4px solid white";
+
+				body.appendChild(canvas);
+				
+				const latent = tf.randomNormal([1, 1, 1, 32]);
+				const image = tf.add(tf.div(tf.reshape(model.predictOnBatch(latent), [48, 48, 3]), 2), 0.5);
+				tf.toPixels(image, canvas)
+			}
+		});
+	}
+	
+	var currenthref = window.location.href;
+	console.log(currenthref)
+	const params = getUrlParams(currenthref);
+	
+	const num = params.num || 32
+	
+	show(num);
+      // Notice there is no 'import' statement. 'tf' is available on the index-page
+      // because of the script tag above.
+
+      // Define a model for linear regression.
+
+      // Generate some synthetic data for training.
+	  
+    </script>
+  </head>
+
+  <body>
+  </body>
+</html>
