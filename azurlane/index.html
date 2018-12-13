@@ -37,7 +37,7 @@
 
 				body.appendChild(canvas);
 				
-				const latent = tf.randomNormal([1, 1, 1, 32]);
+				const latent = tf.randomNormal([1, 1, 1, 64]);
 				const image = tf.add(tf.div(tf.reshape(model.predictOnBatch(latent), [48, 48, 3]), 2), 0.5);
 				tf.toPixels(image, canvas)
 			}
