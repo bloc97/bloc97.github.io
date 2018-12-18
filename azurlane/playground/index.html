@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"> </script>
+
+    <script>
+	
+	function getUrlParams(search) {
+		let hashes = search.slice(search.indexOf('?') + 1).split('&')
+		let params = {}
+		hashes.map(hash => {
+			let [key, val] = hash.split('=')
+			params[key] = decodeURIComponent(val)
+		})
+
+		return params
+	}
+	async function getModel(){
+		const model = await tf.loadModel('https://raw.githubusercontent.com/bloc97/bloc97.github.io/master/azurlane/model.json');
+		return model;
+	}
+	
+	var loadedModel = false
+	
+	function render(latent, canvas) {
+		var image = tf.add(tf.div(tf.reshape(loadedModel.predictOnBatch(tf.reshape(latent, [1, 1, 1, 64])), [48, 48, 3]), 2), 0.5);
+		image = tf.image.resizeNearestNeighbor(image, [384, 384])
+		
+		tf.toPixels(image, canvas)
+	}
+	
+	function show(latent, canvas) {
+		if (!loadedModel) {
+			getModel().then(model => {
+				loadedModel = model
+				render(latent, canvas)
+			});
+		} else {
+			render(latent, canvas)
+		}
+	
+	}
+	
+	function refresh_sliders() {
+		var latent_buffer = latent.buffer();
+		for (var i=0; i<latent_size; i++) {
+			sliders[i].value = latent_buffer.get(i);
+			sliders_value[i].innerHTML = sliders[i].value;
+		}
+	}
+	
+	function randomize() {
+		latent = tf.randomNormal([latent_size,]);
+		refresh_sliders();
+		show(latent, canvas);
+	}
+	
+	var canvas = document.getElementById("image");
+	var latent_size = 64;
+	var latent = tf.randomNormal([latent_size,]);
+	
+	const sliders = [];
+	const sliders_value = [];
+	
+		
+	var currenthref = window.location.href;
+	const params = getUrlParams(currenthref);
+	const num = params.num || 32;
+	
+	window.onload = function(){
+	
+		canvas = document.getElementById("image");
+		var latent_buffer = latent.buffer();
+		
+		
+		for (var i=0; i<latent_size; i++) {
+			var slider = document.createElement('input');
+			slider.type = 'range';
+			slider.min = '-10';
+			slider.max = '10';
+			slider.step = '0.1';
+			//slider.value = latent_buffer.get(i);
+			slider.class = 'slider';
+			slider.id = 'rang';
+			
+			var slider_value = document.createElement('span');
+			
+			const slider_i = i;
+			slider.oninput = function() {
+				//slider_value.innerHTML = this.value;
+				var latent_buffer = latent.buffer();
+				latent_buffer.set(this.value, slider_i);
+				latent = latent_buffer.toTensor();
+				show(latent, canvas);
+			}
+			
+			sliders.push(slider);
+			sliders_value.push(slider_value);
+			
+			sliders_dom = document.getElementById("sliders");
+			
+			slider.appendChild(slider_value);
+			sliders_dom.appendChild(slider);
+			
+			var br = document.createElement('br');
+			sliders_dom.appendChild(br);
+			
+		}
+		
+		
+		refresh_sliders();
+		
+	
+	
+		
+		show(latent, canvas);
+	};
+	
+	  
+    </script>
+	<style>
+		
+		.slider {
+		  -webkit-appearance: none;
+		  width: 50%;
+		  height: 25px;
+		  background: #d3d3d3;
+		  outline: none;
+		  opacity: 0.7;
+		  -webkit-transition: .2s;
+		  transition: opacity .2s;
+		}
+
+		.slider:hover {
+		  opacity: 1;
+		}
+
+		.slider::-webkit-slider-thumb {
+		  -webkit-appearance: none;
+		  appearance: none;
+		  width: 25px;
+		  height: 25px;
+		  background: #4CAF50;
+		  cursor: pointer;
+		}
+
+		.slider::-moz-range-thumb {
+		  width: 25px;
+		  height: 25px;
+		  background: #4CAF50;
+		  cursor: pointer;
+		}
+	</style>
+  </head>
+
+  <body>
+	<button type="button" onclick='randomize()'>Randomize!</button>
+	<div id='canvases'>
+		<canvas id='image'></canvas>
+	</div>
+	<div id='sliders'>
+	</div>
+	<br/>
+  </body>
+</html>
