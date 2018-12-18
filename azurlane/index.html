@@ -41,7 +41,7 @@
 
 				body.appendChild(canvas);
 				
-				const latent = tf.clipByValue(tf.randomNormal([1, 1, 1, 64]), -2, 2);
+				const latent = tf.clipByValue(tf.randomNormal([1, 1, 1, 64]), -0.7, 0.7);
 				var image = tf.add(tf.div(tf.reshape(model.predictOnBatch(latent), [48, 48, 3]), 2), 0.5);
 				image = tf.image.resizeNearestNeighbor(image, [48 * Math.floor(scale), 48 * Math.floor(scale)])
 				tf.toPixels(image, canvas)
