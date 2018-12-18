@@ -48,6 +48,10 @@
 			}
 			document.getElementById("placeholder").remove();
 			document.getElementById("placeholder2").remove();
+			
+			var paramdesc = document.createElement('div');
+			paramdesc.innerHTML = 'Query parameters: azurlane/?num=' + num + '&scale=' + scale;
+			body.appendChild(paramdesc);
 		});
 	}
 	
@@ -58,11 +62,6 @@
 	const num = params.num || 27
 	const scale = params.scale || 4
 	
-	window.onload = function(){
-		var paramdesc = document.createElement('div');
-		paramdesc.innerHTML = 'Query parameters: azurlane/?num=' + num + '&scale=' + scale;
-		document.body.appendChild(paramdesc);
-	}
 	
 	show(num, scale);
 	  
