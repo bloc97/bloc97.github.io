@@ -20,8 +20,12 @@
 		const model = await tf.loadModel('https://raw.githubusercontent.com/bloc97/bloc97.github.io/master/azurlane/model.json');
 		return model;
 	}
-	function show(num) {
+	function show(num, scale) {
 		getModel().then(model => {
+			if (scale < 1) {
+				scale = 1;
+			}
+			
 			//var body = document.getElementsByTagName("body")[0];
 			var body = document.getElementById("canvases");
 			for (var i=0; i<num; i++) {
@@ -37,8 +41,9 @@
 
 				body.appendChild(canvas);
 				
-				const latent = tf.randomNormal([1, 1, 1, 64]);
-				const image = tf.add(tf.div(tf.reshape(model.predictOnBatch(latent), [48, 48, 3]), 2), 0.5);
+				const latent = tf.clipByValue(tf.randomNormal([1, 1, 1, 64]), -2, 2);
+				var image = tf.add(tf.div(tf.reshape(model.predictOnBatch(latent), [48, 48, 3]), 2), 0.5);
+				image = tf.image.resizeNearestNeighbor(image, [48 * Math.floor(scale), 48 * Math.floor(scale)])
 				tf.toPixels(image, canvas)
 			}
 			document.getElementById("placeholder").remove();
@@ -50,9 +55,16 @@
 	//console.log(currenthref)
 	const params = getUrlParams(currenthref);
 	
-	const num = params.num || 32
+	const num = params.num || 27
+	const scale = params.scale || 4
 	
-	show(num);
+	window.onload = function(){
+		var paramdesc = document.createElement('div');
+		paramdesc.innerHTML = 'Query parameters: azurlane/?num=' + num + '&scale=' + scale;
+		document.body.appendChild(paramdesc);
+	}
+	
+	show(num, scale);
 	  
     </script>
   </head>
