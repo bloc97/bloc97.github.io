@@ -55,6 +55,7 @@ function render(latent, canvas, scale) {
 
 var loadedModel = false
 var paramrange = 1.5;
+const latentSize = 64;
 
 function toBase64(tensor) {
 	const data = Array.from(tensor.dataSync());

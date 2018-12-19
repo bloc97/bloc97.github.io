@@ -16,6 +16,7 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
+
 </style>
 
 <!-- Load TensorFlow.js -->
@@ -41,17 +42,26 @@ function show(num, scale) {
 			canvas.style.zIndex = 8;
 			//canvas.style.position = "absolute";
 			canvas.style.border = "4px solid white";
+			canvas.style.cursor = "pointer";
+			
 
 			body.appendChild(canvas);
 			
 			var latent = [];
 			
-			for (var k=0; k<64; k++) {
+			for (var k=0; k<latentSize; k++) {
 				latent[k] = rand() * 2 - 1;
 			}
+			latent = tf.clipByValue(tf.reshape(latent, [latentSize,]), -1, 1);
 			
-			latent = tf.clipByValue(tf.reshape(latent, [1, 1, 1, 64]), -1, 1);
-			var image = tf.add(tf.div(tf.reshape(model.predictOnBatch(latent), [48, 48, 3]), 2), 0.5);
+			const latentexport = toBase64(latent);
+			
+			canvas.onclick = function() {
+				exportparams.innerHTML = latentexport;
+				exportparams.value = latentexport;
+			}
+			
+			var image = tf.add(tf.div(tf.reshape(model.predictOnBatch(tf.reshape(latent, [1, 1, 1, latentSize])), [48, 48, 3]), 2), 0.5);
 			image = tf.image.resizeNearestNeighbor(image, [48 * Math.floor(scale), 48 * Math.floor(scale)])
 			tf.toPixels(image, canvas)
 		}
@@ -74,6 +84,7 @@ window.history.replaceState("", "", link);
 
 window.onload = function(){
 	save = document.getElementById("save");
+	exportparams = document.getElementById("export");
 	
 	save.innerHTML = link + "?seed=" + seed;
 	save.value = link + "?seed=" + seed;
@@ -123,7 +134,10 @@ window.onload = function(){
 	</div>
 	<br/>
 	
-	<span class="slidertext">Share:</span>
+	<span class="slidertext">Click on any image to export its parameters, can be imported in the other demos.</span>
+	<textarea name="message" rows="2" style="width:30%" id='export'></textarea>
+	<br/>
+	<span class="slidertext">Share Link:</span>
 	<textarea name="message" rows="2" style="width:30%" id='save'></textarea>
   </div>
 </div>
