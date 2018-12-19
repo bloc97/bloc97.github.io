@@ -70,7 +70,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <script>
 
+
+
 function show() {
+	exportLatent();
 	if (!loadedModel) {
 		getModel().then(model => {
 			loadedModel = model
@@ -83,16 +86,27 @@ function show() {
 }
 
 var canvas = document.getElementById("image");
+var save = document.getElementById("save");
 var latent_size = 64;
 var latent = tf.randomUniform([latent_size,], -1, 1);
 
 function refresh_sliders() {
-	latent = tf.clipByValue(latent, -1, 1);
 	var latent_buffer = latent.buffer();
 	for (var i=0; i<latent_size; i++) {
 		sliders[i].value = latent_buffer.get(i);
 		sliders_value[i].innerHTML = sliders[i].value;
 	}
+}
+
+function exportLatent() {
+	const newBase = toBase64(latent);
+	save.innerHTML = newBase;
+	save.value = newBase;
+}
+function importLatent() {
+	latent = fromBase64(save.value);
+	refresh_sliders();
+	show();
 }
 
 function randomize() {
@@ -103,6 +117,7 @@ function randomize() {
 
 function nudge() {
 	latent = tf.add(latent, tf.mul(tf.randomNormal([latent_size,]), nudge_strength));
+	latent = tf.clipByValue(latent, -1, 1);
 	refresh_sliders();
 	show();
 }
@@ -122,6 +137,7 @@ const scale = params.scale || 8;
 window.onload = function(){
 
 	canvas = document.getElementById("image");
+	save = document.getElementById("save");
 	var latent_buffer = latent.buffer();
 	
 	sliders_dom = document.getElementById("sliders");
@@ -134,6 +150,7 @@ window.onload = function(){
 		nudge_strength = parseFloat(this.value);
 		show();
 	}
+	
 	
 	for (var i=0; i<latent_size; i++) {
 		var slider = document.createElement('input');
@@ -169,7 +186,7 @@ window.onload = function(){
 	
 	
 	refresh_sliders();
-	
+	exportLatent();
 
 
 	
@@ -220,8 +237,11 @@ window.onload = function(){
 			<span class="slidertext">Nudge Strength:</span>
 			<input type="range" min="0.1" max="0.5" value="0.2" step="0.01" class="slider" id="nudgestrength"></input>
 			<span class="slidertext">Parameters:</span>
-			
 		</div>
+		
+		<span class="slidertext">Import/Export:</span>
+		<textarea name="message" rows="5" style="width:78%" oninput='importLatent()' id='save'></textarea>
+		
     </div>
   </div>
 

@@ -26,3 +26,14 @@ function render(latent, canvas, scale) {
 }
 
 var loadedModel = false
+
+
+function toBase64(tensor) {
+	const data = Array.from(tensor.dataSync());
+	return btoa(JSON.stringify(data));
+}
+
+function fromBase64(base) {
+	const data = JSON.parse(atob(base));
+	return tf.tensor1d(data);
+}
