@@ -23,7 +23,7 @@
 	
 	var loadedModel = false
 	
-	function render(latent, canvas) {
+	function render(latent, variance, canvas) {
 		if (scale < 1) {
 			scale = 1;
 		}
@@ -38,18 +38,20 @@
 		if (!loadedModel) {
 			getModel().then(model => {
 				loadedModel = model
-				render(latent, canvas)
+				render(latent, variance, canvas)
 			});
 		} else {
-			render(latent, canvas)
+			render(latent, variance, canvas)
 		}
 	
 	}
 	
 	function refresh_sliders() {
-		latent = tf.clipByValue(latent, -1.5, 1.5);
+		latent = tf.clipByValue(latent, -clipvalue, clipvalue);
 		var latent_buffer = latent.buffer();
 		for (var i=0; i<latent_size; i++) {
+			sliders[i].min = -clipvalue;
+			sliders[i].max = clipvalue;
 			sliders[i].value = latent_buffer.get(i);
 			sliders_value[i].innerHTML = sliders[i].value;
 		}
@@ -57,59 +59,78 @@
 	
 	function randomize() {
 		latent = tf.randomUniform([latent_size,], -1, 1);
+		latent = tf.mul(latent, variance);
 		refresh_sliders();
-		show();
+		show(latent, variance, canvas);
 	}
 	
 	function nudge() {
-		latent = tf.add(latent, tf.mul(tf.randomNormal([latent_size,]), nudge_strength));
+		latent = tf.add(latent, tf.mul(tf.randomNormal([latent_size,]), 0.1 * variance));
 		refresh_sliders();
-		show();
+		show(latent, variance, canvas);
 	}
 	
 	var canvas = document.getElementById("image");
 	var latent_size = 64;
-	var latent = tf.randomUniform([latent_size,], -1, 1);
+	var latent = tf.randomNormal([latent_size,]);
 	
 	
 	const sliders = [];
 	const sliders_value = [];
 	
-	var nudge_strength = 0.2;
 		
 	var currenthref = window.location.href;
 	const params = getUrlParams(currenthref);
 	const num = params.num || 32;
 	const scale = params.scale || 8;
+	var variance = params.variance || 1;
+	var clipvalue = params.clipvalue || 2;
 	
 	window.onload = function(){
 	
 		canvas = document.getElementById("image");
 		var latent_buffer = latent.buffer();
 		
-		sliders_dom = document.getElementById("sliders");
-		
-		
 		var var_slider = document.createElement('input');
 		var_slider.type = 'range';
-		var_slider.min = '0.1';
-		var_slider.max = '0.5';
+		var_slider.min = '0.3';
+		var_slider.max = '2';
 		var_slider.step = '0.01';
-		var_slider.value = nudge_strength;
+		var_slider.value = variance;
 		var_slider.class = 'slider';
 		
 		var_slider.oninput = function() {
-			nudge_strength = parseFloat(this.value);
+			variance = parseFloat(this.value);
 			show();
 		}
+		sliders_dom = document.getElementById("sliders");
 		sliders_dom.appendChild(var_slider);
+		sliders_dom.appendChild(document.createElement('br'));
+		
+		
+		var clip_slider = document.createElement('input');
+		clip_slider.type = 'range';
+		clip_slider.min = '0.3';
+		clip_slider.max = '10';
+		clip_slider.step = '0.01';
+		clip_slider.value = clipvalue;
+		clip_slider.class = 'slider';
+		
+		clip_slider.oninput = function() {
+			clipvalue = parseFloat(this.value);
+			refresh_sliders();
+			show();
+		}
+		
+		sliders_dom = document.getElementById("sliders");
+		sliders_dom.appendChild(clip_slider);
 		sliders_dom.appendChild(document.createElement('br'));
 		
 		for (var i=0; i<latent_size; i++) {
 			var slider = document.createElement('input');
 			slider.type = 'range';
-			slider.min = '-1.5';
-			slider.max = '1.5';
+			slider.min = '-10';
+			slider.max = '10';
 			slider.step = '0.01';
 			//slider.value = latent_buffer.get(i);
 			slider.class = 'slider';

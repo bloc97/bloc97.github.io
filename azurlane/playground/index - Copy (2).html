@@ -2,49 +2,14 @@
 <html lang="en">
   <head>
     <!-- Load TensorFlow.js -->
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"></script>
+	<script src="../data/utils.js" type="text/javascript"></script>
 
     <script>
 	
-	function getUrlParams(search) {
-		let hashes = search.slice(search.indexOf('?') + 1).split('&')
-		let params = {}
-		hashes.map(hash => {
-			let [key, val] = hash.split('=')
-			params[key] = decodeURIComponent(val)
-		})
-
-		return params
-	}
-	async function getModel(){
-		const model = await tf.loadModel('https://raw.githubusercontent.com/bloc97/bloc97.github.io/master/azurlane/model.json');
-		return model;
-	}
-	
-	var loadedModel = false
-	
-	function render(latent, canvas) {
-		if (scale < 1) {
-			scale = 1;
-		}
-		
-		var image = tf.add(tf.div(tf.reshape(loadedModel.predictOnBatch(tf.reshape(latent, [1, 1, 1, latent_size])), [48, 48, 3]), 2), 0.5);
-		image = tf.image.resizeNearestNeighbor(image, [48 * Math.floor(scale), 48 * Math.floor(scale)])
-		
-		tf.toPixels(image, canvas)
-	}
-	
-	function show() {
-		if (!loadedModel) {
-			getModel().then(model => {
-				loadedModel = model
-				render(latent, canvas)
-			});
-		} else {
-			render(latent, canvas)
-		}
-	
-	}
+	var canvas = document.getElementById("image");
+	var latent_size = 64;
+	var latent = tf.randomUniform([latent_size,], -1, 1);
 	
 	function refresh_sliders() {
 		latent = tf.clipByValue(latent, -1.5, 1.5);
@@ -67,9 +32,6 @@
 		show();
 	}
 	
-	var canvas = document.getElementById("image");
-	var latent_size = 64;
-	var latent = tf.randomUniform([latent_size,], -1, 1);
 	
 	
 	const sliders = [];
