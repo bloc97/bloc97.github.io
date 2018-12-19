@@ -11,12 +11,163 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../data/style.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
+
 </style>
 
+
+<!-- Load TensorFlow.js -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"></script>
+<script src="../data/utils.js" type="text/javascript"></script>
+
+<script>
+
+
+
+function show(latent, canvas) {
+	try{
+		exportLatent();
+	} catch(err) {
+		console.log(err);
+	}
+	if (!loadedModel) {
+		getModel().then(model => {
+			loadedModel = model
+			render(latent, canvas, scale)
+		});
+	} else {
+		render(latent, canvas, scale)
+	}
+
+}
+
+function computeInterp() {
+	if (useslerp) {
+		latent3 = slerp(latent, latent2, interpolation);
+	} else {
+		latent3 = lerp(latent, latent2, interpolation);
+	}
+	show(latent3, canvas3);
+}
+
+function exportLatent() {
+	var newBase = toBase64(latent);
+	save.innerHTML = newBase;
+	save.value = newBase;
+	newBase = toBase64(latent2);
+	save2.innerHTML = newBase;
+	save2.value = newBase;
+	newBase = toBase64(latent3);
+	save3.innerHTML = newBase;
+	save3.value = newBase;
+}
+
+function importLatent() {
+	latent = fromBase64(save.value);
+	show(latent, canvas);
+	computeInterp();
+}
+function importLatent2() {
+	latent2 = fromBase64(save2.value);
+	show(latent2, canvas2);
+	computeInterp();
+}
+function randomize() {
+	latent = tf.randomUniform([latent_size,], -1, 1);
+	show(latent, canvas);
+	computeInterp();
+}
+function randomize2() {
+	latent2 = tf.randomUniform([latent_size,], -1, 1);
+	show(latent2, canvas2);
+	computeInterp();
+}
+function nudge() {
+	latent = tf.add(latent, tf.mul(tf.randomNormal([latent_size,]), nudge_strength));
+	latent = tf.clipByValue(latent, -1, 1);
+	show(latent, canvas);
+	computeInterp();
+}
+function nudge2() {
+	latent2 = tf.add(latent2, tf.mul(tf.randomNormal([latent_size,]), nudge_strength2));
+	latent2 = tf.clipByValue(latent2, -1, 1);
+	show(latent2, canvas2);
+	computeInterp();
+}
+function reset() {
+	interpolation = params.interp || 0.5;
+	var var_slider3 = document.getElementById("interp");
+	var_slider3.value = interpolation;
+	var checkbox = document.getElementById("interptype");
+	checkbox.checked = params.useslerp || true;
+	computeInterp();
+}
+
+const params = getUrlParams(window.location.href);
+const scale = params.scale || 8;
+
+var nudge_strength = params.strength || 0.2;
+var nudge_strength2 = params.strength || 0.2;
+var interpolation = params.interp || 0.5;
+var useslerp = params.useslerp || true;
+
+var latent_size = 64;
+var latent = tf.randomUniform([latent_size,], -1, 1);
+var latent2 = tf.randomUniform([latent_size,], -1, 1);
+var latent3 = tf.randomUniform([latent_size,], -1, 1);
+
+
+window.onload = function(){
+
+	canvas = document.getElementById("image");
+	save = document.getElementById("save");
+	canvas2 = document.getElementById("image2");
+	save2 = document.getElementById("save2");
+	canvas3 = document.getElementById("image3");
+	save3 = document.getElementById("save3");
+	
+	sliders_dom = document.getElementById("sliders");
+	
+	var var_slider = document.getElementById("nudgestrength");
+	var_slider.value = nudge_strength;
+	var_slider.oninput = function() {
+		nudge_strength = parseFloat(this.value);
+	}
+	
+	var var_slider2 = document.getElementById("nudgestrength2");
+	var_slider2.value = nudge_strength2;
+	var_slider2.oninput = function() {
+		nudge_strength2 = parseFloat(this.value);
+	}
+	
+	var var_slider3 = document.getElementById("interp");
+	var_slider3.value = interpolation;
+	var_slider3.oninput = function() {
+		interpolation = parseFloat(this.value);
+		computeInterp();
+	}
+	
+	var checkbox = document.getElementById("interptype");
+	checkbox.checked = useslerp;
+	checkbox.oninput = function() {
+		useslerp = this.checked;
+		computeInterp();
+	}
+	
+	exportLatent();
+	computeInterp();
+	
+	show(latent, canvas);
+	show(latent2, canvas2);
+	show(latent3, canvas3);
+
+};
+  
+</script>
 
 </head>
 <body>
@@ -44,9 +195,78 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </div>
 
 
-<header class="w3-container w3-center w3-metro-dark-blue" style="padding:128px 16px" id='placeholder'>
-  <h1 class="w3-margin w3-jumbo" id='placeholder' style="height:70vh">Work In Progress. Come back later.</h1>
-</header>
+<div class="w3-row-padding w3-padding-32 " style="margin-left:10%;margin-right:10%;margin-top:80px;">
+<!-- First Grid -->
+
+  <div class="w3-third w3-row-padding w3-padding-16">
+    <div class="w3-card w3-center">
+      <canvas class="w3-padding-64" id="image"></canvas>
+    </div>
+  </div>
+  <div class="w3-third w3-row-padding w3-padding-16">
+    <div class="w3-card w3-center">
+      <canvas class="w3-padding-64" id="image3"></canvas>
+    </div>
+  </div>
+  <div class="w3-third w3-row-padding w3-padding-16">
+    <div class="w3-card w3-center">
+      <canvas class="w3-padding-64" id="image2"></canvas>
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-row-padding" style="margin-left:10%;margin-right:10%;">
+<!-- Second Grid -->
+
+  <div class="w3-third w3-row-padding w3-padding-16">
+    <div class="w3-card w3-center w3-m-64 w3-padding-32">
+		
+		<div id="sliders" class="w3-padding-large">
+			<button type="button" class="button w3-button w3-metro-dark-blue" onclick='randomize()'>Randomize!</button>
+			<button type="button" class="button w3-button w3-metro-dark-blue" onclick='nudge()'>Nudge!</button>
+			<span class="slidertext">Nudge Strength:</span>
+			<input type="range" min="0.1" max="0.5" value="0.2" step="0.01" class="slider slider-wide" id="nudgestrength"></input>
+		</div>
+		
+		<span class="slidertext">Import/Export:</span>
+		<textarea name="message" rows="2" style="width:78%" oninput='importLatent()' id='save'></textarea>
+		
+    </div>
+  </div>
+  <div class="w3-third w3-row-padding w3-padding-16">
+    <div class="w3-card w3-center w3-m-64 w3-padding-32">
+		
+		<div id="sliders" class="w3-padding-large">
+			<button type="button" class="w3-button w3-metro-dark-blue" onclick='reset()'>Reset!</button>
+			<input type="checkbox" name="slerp" id="interptype" checked>Spherical Interpolation
+			<span class="slidertext">Interpolation:</span>
+			<input type="range" min="0" max="1" value="0.5" step="0.01" class="slider slider-wide" id="interp"></input>
+		</div>
+		
+		<span class="slidertext">Export:</span>
+		<textarea name="message" rows="2" style="width:78%" id='save3'></textarea>
+		
+    </div>
+  </div>
+  <div class="w3-third w3-row-padding w3-padding-16">
+    <div class="w3-card w3-center w3-m-64 w3-padding-32">
+		
+		<div id="sliders" class="w3-padding-large">
+			<button type="button" class="button w3-button w3-metro-dark-blue" onclick='randomize2()'>Randomize!</button>
+			<button type="button" class="button w3-button w3-metro-dark-blue" onclick='nudge2()'>Nudge!</button>
+			<span class="slidertext">Nudge Strength:</span>
+			<input type="range" min="0.1" max="0.5" value="0.2" step="0.01" class="slider slider-wide" id="nudgestrength2"></input>
+		</div>
+		
+		<span class="slidertext">Import/Export:</span>
+		<textarea name="message" rows="2" style="width:78%" oninput='importLatent2()' id='save2'></textarea>
+		
+    </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-container w3-quarter"></div>
+
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  

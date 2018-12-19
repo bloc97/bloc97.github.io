@@ -11,58 +11,11 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../data/style.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
-
-		.slidertext {
-		  height: 24px;
-		  margin-top: 8px;
-		  margin-bottom: 4px;
-		  margin-right: 4px;
-		  margin-left: 4px;
-		  display:block
-		}
-		
-		
-		.slider {
-		  -webkit-appearance: none;
-		  width: 20%;
-		  height: 24px;
-		  background: #d3d3d3;
-		  outline: none;
-		  opacity: 0.7;
-		  -webkit-transition: .2s;
-		  transition: opacity .2s;
-		  padding-top: 4px;
-		  padding-bottom: 4px;
-		  padding-right: 4px;
-		  padding-left: 4px;
-		  margin-right: 4px;
-		  margin-left: 4px;
-			border-radius: 5%; 
-		}
-
-		.slider:hover {
-		  opacity: 1;
-		}
-
-		.slider::-webkit-slider-thumb {
-		  -webkit-appearance: none;
-		  appearance: none;
-		  width: 40px;
-		  height: 24px;
-		  background: #2B5797;
-		  cursor: pointer;
-			border-radius: 10%; 
-		}
-
-		.slider::-moz-range-thumb {
-		  height: 24px;
-		  background: #4CAF50;
-		  cursor: pointer;
-		}
 </style>
 
 <!-- Load TensorFlow.js -->
@@ -90,10 +43,6 @@ function show() {
 
 }
 
-var canvas = document.getElementById("image");
-var save = document.getElementById("save");
-var latent_size = 64;
-var latent = tf.randomUniform([latent_size,], -1, 1);
 
 function refresh_sliders() {
 	var latent_buffer = latent.buffer();
@@ -127,17 +76,20 @@ function nudge() {
 	show();
 }
 
+const params = getUrlParams(window.location.href);
+const scale = params.scale || 8;
 
+var nudge_strength = params.strength || 0.2;
+
+var canvas = document.getElementById("image");
+var save = document.getElementById("save");
+
+var latent_size = 64;
+var latent = tf.randomUniform([latent_size,], -1, 1);
 
 const sliders = [];
 const sliders_value = [];
-
-var nudge_strength = 0.2;
 	
-var currenthref = window.location.href;
-const params = getUrlParams(currenthref);
-const num = params.num || 32;
-const scale = params.scale || 8;
 
 window.onload = function(){
 
@@ -153,15 +105,14 @@ window.onload = function(){
 	
 	var_slider.oninput = function() {
 		nudge_strength = parseFloat(this.value);
-		show();
 	}
 	
 	
 	for (var i=0; i<latent_size; i++) {
 		var slider = document.createElement('input');
 		slider.type = 'range';
-		slider.min = '-1.5';
-		slider.max = '1.5';
+		slider.min = -paramrange;
+		slider.max = paramrange;
 		slider.step = '0.01';
 		//slider.value = latent_buffer.get(i);
 		slider.className = 'slider';
@@ -188,14 +139,11 @@ window.onload = function(){
 		//sliders_dom.appendChild(br);
 		
 	}
-	
-	
 	refresh_sliders();
 	exportLatent();
-
-
 	
 	show();
+
 };
   
 </script>
@@ -224,17 +172,17 @@ window.onload = function(){
   </div>
 </div>
 
-<div class="w3-row-padding w3-padding-64 w3-container w3-section">
+<div class="w3-row-padding w3-padding-64 w3-container w3-section" style="margin-left:10%;margin-right:10%;">
 <!-- Second Grid -->
 
   <div class="w3-half">
-    <div class="w3-card w3-center">
+    <div class="w3-card w3-center w3-padding-64">
       <canvas class="w3-padding-64" id="image"></canvas>
     </div>
   </div>
 
   <div class="w3-half">
-    <div class="w3-card w3-center">
+    <div class="w3-card w3-center w3-padding-64">
 		
 		<div id="sliders" class="w3-padding-large">
 			<button type="button" class="button w3-button w3-metro-dark-blue" onclick='randomize()'>Randomize!</button>
@@ -245,7 +193,7 @@ window.onload = function(){
 		</div>
 		
 		<span class="slidertext">Import/Export:</span>
-		<textarea name="message" rows="5" style="width:78%" oninput='importLatent()' id='save'></textarea>
+		<textarea name="message" rows="2" style="width:78%" oninput='importLatent()' id='save'></textarea>
 		
     </div>
   </div>
