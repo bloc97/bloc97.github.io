@@ -26,15 +26,3 @@ function render(latent, canvas, scale) {
 }
 
 var loadedModel = false
-
-function show() {
-	if (!loadedModel) {
-		getModel().then(model => {
-			loadedModel = model
-			render(latent, canvas, scale)
-		});
-	} else {
-		render(latent, canvas, scale)
-	}
-
-}

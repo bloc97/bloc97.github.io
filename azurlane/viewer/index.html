@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Azur Lane Ship Girl Generator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+		.slidertext {
+		  height: 24px;
+		  margin-top: 8px;
+		  margin-bottom: 4px;
+		  margin-right: 4px;
+		  margin-left: 4px;
+		  display:block
+		}
+		
+		
+		.slider {
+		  -webkit-appearance: none;
+		  width: 20%;
+		  height: 24px;
+		  background: #d3d3d3;
+		  outline: none;
+		  opacity: 0.7;
+		  -webkit-transition: .2s;
+		  transition: opacity .2s;
+		  padding-top: 4px;
+		  padding-bottom: 4px;
+		  padding-right: 4px;
+		  padding-left: 4px;
+		  margin-right: 4px;
+		  margin-left: 4px;
+			border-radius: 5%; 
+		}
+
+		.slider:hover {
+		  opacity: 1;
+		}
+
+		.slider::-webkit-slider-thumb {
+		  -webkit-appearance: none;
+		  appearance: none;
+		  width: 40px;
+		  height: 24px;
+		  background: #2B5797;
+		  cursor: pointer;
+			border-radius: 10%; 
+		}
+
+		.slider::-moz-range-thumb {
+		  height: 24px;
+		  background: #4CAF50;
+		  cursor: pointer;
+		}
+</style>
+
+<!-- Load TensorFlow.js -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"></script>
+<script src="../data/utils.js" type="text/javascript"></script>
+
+<script>
+
+function show(latent, canvas, scale) {
+	if (!loadedModel) {
+		getModel().then(model => {
+			loadedModel = model
+			render(latent, canvas, scale)
+		});
+	} else {
+		render(latent, canvas, scale)
+	}
+
+}
+
+var canvas = document.getElementById("image");
+var latent_size = 64;
+var latent = tf.randomUniform([latent_size,], -1, 1);
+
+function refresh_sliders() {
+	latent = tf.clipByValue(latent, -1, 1);
+	var latent_buffer = latent.buffer();
+	for (var i=0; i<latent_size; i++) {
+		sliders[i].value = latent_buffer.get(i);
+		sliders_value[i].innerHTML = sliders[i].value;
+	}
+}
+
+function randomize() {
+	latent = tf.randomUniform([latent_size,], -1, 1);
+	refresh_sliders();
+	show();
+}
+
+function nudge() {
+	latent = tf.add(latent, tf.mul(tf.randomNormal([latent_size,]), nudge_strength));
+	refresh_sliders();
+	show();
+}
+
+
+
+const sliders = [];
+const sliders_value = [];
+
+var nudge_strength = 0.2;
+	
+var currenthref = window.location.href;
+const params = getUrlParams(currenthref);
+const num = params.num || 32;
+const scale = params.scale || 8;
+
+window.onload = function(){
+
+	canvas = document.getElementById("image");
+	var latent_buffer = latent.buffer();
+	
+	sliders_dom = document.getElementById("sliders");
+	
+	
+	var var_slider = document.getElementById("nudgestrength");
+	var_slider.value = nudge_strength;
+	
+	var_slider.oninput = function() {
+		nudge_strength = parseFloat(this.value);
+		show();
+	}
+	
+	for (var i=0; i<latent_size; i++) {
+		var slider = document.createElement('input');
+		slider.type = 'range';
+		slider.min = '-1.5';
+		slider.max = '1.5';
+		slider.step = '0.01';
+		//slider.value = latent_buffer.get(i);
+		slider.className = 'slider';
+		
+		var slider_value = document.createElement('span');
+		
+		const slider_i = i;
+		slider.oninput = function() {
+			//slider_value.innerHTML = this.value;
+			var latent_buffer = latent.buffer();
+			latent_buffer.set(this.value, slider_i);
+			latent = latent_buffer.toTensor();
+			show();
+		}
+		
+		sliders.push(slider);
+		sliders_value.push(slider_value);
+		
+		
+		slider.appendChild(slider_value);
+		sliders_dom.appendChild(slider);
+		
+		//var br = document.createElement('br');
+		//sliders_dom.appendChild(br);
+		
+	}
+	
+	
+	refresh_sliders();
+	
+
+
+	
+	show();
+};
+  
+</script>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-metro-dark-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="../" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Random Generation</a>
+    <a href="" class="w3-bar-item w3-button w3-padding-large w3-white">Viewer</a>
+    <a href="interpoler" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Interpolation Playground</a>
+    <a href="arithmetic" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Arithmetic Playground</a>
+    <a href="about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="https://github.com/bloc97/bloc97.github.io/tree/master/azurlane" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right w3-metro-darken">GitHub</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="../" class="w3-bar-item w3-button w3-padding-large">Random Generation</a>
+    <a href="interpoler" class="w3-bar-item w3-button w3-padding-large">Interpolation Playground</a>
+    <a href="arithmetic" class="w3-bar-item w3-button w3-padding-large">Arithmetic Playground</a>
+    <a href="about" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="https://github.com/bloc97/bloc97.github.io/tree/master/azurlane" class="w3-bar-item w3-button w3-padding-large">GitHub</a>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-container w3-section">
+<!-- Second Grid -->
+
+  <div class="w3-half">
+    <div class="w3-card w3-center">
+      <canvas class="w3-padding-64" id="image"></canvas>
+    </div>
+  </div>
+
+  <div class="w3-half">
+    <div class="w3-card w3-center">
+		
+		<div id="sliders" class="w3-padding-large">
+			<button type="button" class="button w3-button w3-metro-dark-blue" onclick='randomize()'>Randomize!</button>
+			<button type="button" class="button w3-button w3-metro-dark-blue" onclick='nudge()'>Nudge!</button>
+			<span class="slidertext">Nudge Strength:</span>
+			<input type="range" min="0.1" max="0.5" value="0.2" step="0.01" class="slider" id="nudgestrength"></input>
+			<span class="slidertext">Parameters:</span>
+			
+		</div>
+    </div>
+  </div>
+
+
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> and <a href="https://js.tensorflow.org/" target="_blank">TensorFlow.js</a>.<br/>
+ Runs locally on the browser using <a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm" target="_blank">ECMAScript-262</a> and <a href="https://get.webgl.org/" target="_blank">WebGL</a>.</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

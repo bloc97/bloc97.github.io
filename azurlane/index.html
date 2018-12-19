@@ -18,23 +18,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Load TensorFlow.js -->
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"> </script>
+<script src="data/utils.js" type="text/javascript"></script>
 
 <script>
-	function getUrlParams(search) {
-		let hashes = search.slice(search.indexOf('?') + 1).split('&')
-		let params = {}
-		hashes.map(hash => {
-			let [key, val] = hash.split('=')
-			params[key] = decodeURIComponent(val)
-		})
-
-		return params
-	}
-	async function getModel(){
-		const model = await tf.loadModel('https://raw.githubusercontent.com/bloc97/bloc97.github.io/master/azurlane/model.json');
-		//const model = await tf.loadModel('https://raw.githubusercontent.com/bloc97/bloc97.github.io/1a5723303fd60ce36ca5eda6a8896ab0eb5dd7fd/azurlane/model.json');
-		return model;
-	}
 	function show(num, scale) {
 		getModel().then(model => {
 			if (scale < 1) {
