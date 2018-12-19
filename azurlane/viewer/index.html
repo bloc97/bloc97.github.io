@@ -46,7 +46,7 @@ function show() {
 
 function refresh_sliders() {
 	var latent_buffer = latent.buffer();
-	for (var i=0; i<latent_size; i++) {
+	for (var i=0; i<latentSize; i++) {
 		sliders[i].value = latent_buffer.get(i);
 		sliders_value[i].innerHTML = sliders[i].value;
 	}
@@ -64,13 +64,13 @@ function importLatent() {
 }
 
 function randomize() {
-	latent = tf.randomUniform([latent_size,], -1, 1);
+	latent = tf.randomUniform([latentSize,], -1, 1);
 	refresh_sliders();
 	show();
 }
 
 function nudge() {
-	latent = tf.add(latent, tf.mul(tf.randomNormal([latent_size,]), nudge_strength));
+	latent = tf.add(latent, tf.mul(tf.randomNormal([latentSize,]), nudge_strength));
 	latent = tf.clipByValue(latent, -1, 1);
 	refresh_sliders();
 	show();
@@ -84,8 +84,7 @@ var nudge_strength = params.strength || 0.2;
 var canvas = document.getElementById("image");
 var save = document.getElementById("save");
 
-var latent_size = 64;
-var latent = tf.randomUniform([latent_size,], -1, 1);
+var latent = tf.randomUniform([latentSize,], -1, 1);
 
 const sliders = [];
 const sliders_value = [];
@@ -108,7 +107,7 @@ window.onload = function(){
 	}
 	
 	
-	for (var i=0; i<latent_size; i++) {
+	for (var i=0; i<latentSize; i++) {
 		var slider = document.createElement('input');
 		slider.type = 'range';
 		slider.min = -paramrange;

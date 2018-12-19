@@ -77,23 +77,23 @@ function importLatent2() {
 	computeInterp();
 }
 function randomize() {
-	latent = tf.randomUniform([latent_size,], -1, 1);
+	latent = tf.randomUniform([latentSize,], -1, 1);
 	show(latent, canvas);
 	computeInterp();
 }
 function randomize2() {
-	latent2 = tf.randomUniform([latent_size,], -1, 1);
+	latent2 = tf.randomUniform([latentSize,], -1, 1);
 	show(latent2, canvas2);
 	computeInterp();
 }
 function nudge() {
-	latent = tf.add(latent, tf.mul(tf.randomNormal([latent_size,]), nudge_strength));
+	latent = tf.add(latent, tf.mul(tf.randomNormal([latentSize,]), nudge_strength));
 	latent = tf.clipByValue(latent, -1, 1);
 	show(latent, canvas);
 	computeInterp();
 }
 function nudge2() {
-	latent2 = tf.add(latent2, tf.mul(tf.randomNormal([latent_size,]), nudge_strength2));
+	latent2 = tf.add(latent2, tf.mul(tf.randomNormal([latentSize,]), nudge_strength2));
 	latent2 = tf.clipByValue(latent2, -1, 1);
 	show(latent2, canvas2);
 	computeInterp();
@@ -115,10 +115,9 @@ var nudge_strength2 = params.strength || 0.2;
 var interpolation = params.interp || 0.5;
 var useslerp = params.useslerp || true;
 
-var latent_size = 64;
-var latent = tf.randomUniform([latent_size,], -1, 1);
-var latent2 = tf.randomUniform([latent_size,], -1, 1);
-var latent3 = tf.randomUniform([latent_size,], -1, 1);
+var latent = tf.randomUniform([latentSize,], -1, 1);
+var latent2 = tf.randomUniform([latentSize,], -1, 1);
+var latent3 = tf.randomUniform([latentSize,], -1, 1);
 
 
 window.onload = function(){
